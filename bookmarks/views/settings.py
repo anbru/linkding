@@ -12,6 +12,7 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render
 from django.urls import reverse
 from django.utils import timezone
+from django.utils.translation import gettext as _
 
 from bookmarks.forms import GlobalSettingsForm, UserProfileForm
 from bookmarks.models import (
@@ -106,7 +107,7 @@ def update_profile(request: HttpRequest):
     form = UserProfileForm(request.POST, instance=profile)
     if form.is_valid():
         form.save()
-        messages.success(request, "Profile updated", "settings_success_message")
+        messages.success(request, _("Profile updated"), "settings_success_message")
         # Load missing favicons if the feature was just enabled
         if profile.enable_favicons and not favicons_were_enabled:
             tasks.schedule_bookmarks_without_favicons(request.user)

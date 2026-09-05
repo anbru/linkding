@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-05 15:49+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bookmarks/admin.py:152
+#, python-format
+msgid "%d bookmark was successfully deleted."
+msgid_plural "%d bookmarks were successfully deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: bookmarks/admin.py:167
+#, python-format
+msgid "%d bookmark was successfully archived."
+msgid_plural "%d bookmarks were successfully archived."
+msgstr[0] ""
+msgstr[1] ""
+
+#: bookmarks/admin.py:182
+#, python-format
+msgid "%d bookmark was successfully unarchived."
+msgid_plural "%d bookmarks were successfully unarchived."
+msgstr[0] ""
+msgstr[1] ""
+
+#: bookmarks/admin.py:196
+#, python-format
+msgid "%d bookmark marked as read."
+msgid_plural "%d bookmarks marked as read."
+msgstr[0] ""
+msgstr[1] ""
+
+#: bookmarks/admin.py:210
+#, python-format
+msgid "%d bookmark marked as unread."
+msgid_plural "%d bookmarks marked as unread."
+msgstr[0] ""
+msgstr[1] ""
+
+#: bookmarks/admin.py:259
+#, python-format
+msgid "%d unused tag was successfully deleted."
+msgid_plural "%d unused tags were successfully deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: bookmarks/admin.py:270
+msgid "There were no unused tags in the selection"
+msgstr ""
+
+#: bookmarks/api/auth.py:24
+msgid "Invalid token header. No credentials provided."
+msgstr ""
+
+#: bookmarks/api/auth.py:27
+msgid "Invalid token header. Token string should not contain spaces."
+msgstr ""
+
+#: bookmarks/api/auth.py:34
+msgid ""
+"Invalid token header. Token string should not contain invalid characters."
+msgstr ""
+
+#: bookmarks/templates/registration/login.html:5
+msgid "Login - Linkding"
+msgstr "Anmelden - Linkding"
+
+#: bookmarks/templates/registration/login.html:10
+#: bookmarks/templates/registration/login.html:26
+msgid "Login"
+msgstr "Anmelden"
+
+#: bookmarks/templates/registration/login.html:16
+msgid "Your username and password didn't match. Please try again."
+msgstr "Benutzername und Passwort passen nicht zusammen. Bitte erneut versuchen."
+
+#: bookmarks/templates/registration/login.html:19
+msgid "Username"
+msgstr "Benutzername"
+
+#: bookmarks/templates/registration/login.html:23
+msgid "Password"
+msgstr "Passwort"
+
+#: bookmarks/templates/registration/login.html:33
+msgid "Login with OIDC"
+msgstr "Mit OIDC anmelden"
+
+#: bookmarks/views/settings.py:110
+msgid "Profile updated"
+msgstr "Profil aktualisiert"
