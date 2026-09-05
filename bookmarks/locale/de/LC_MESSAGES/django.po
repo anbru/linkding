@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linkding\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-05 16:54+0000\n"
+"POT-Creation-Date: 2026-09-05 18:50+0000\n"
 "PO-Revision-Date: 2026-09-05 17:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
@@ -225,7 +225,6 @@ msgid "Separate"
 msgstr "Getrennt"
 
 #: bookmarks/models.py:375
-#| msgid "Password"
 msgid "New page"
 msgstr "Neue Seite"
 
@@ -479,7 +478,6 @@ msgid "Description"
 msgstr "Beschreibung"
 
 #: bookmarks/templates/bookmarks/edit.html:4
-#| msgid "Login - Linkding"
 msgid "Edit bookmark - Linkding"
 msgstr "Lesezeichen bearbeiten - Linkding"
 
@@ -495,8 +493,8 @@ msgstr "Ungültige Suchanfrage"
 #, python-format
 msgid ""
 "The search query you entered is not valid. Common reasons are unclosed "
-"parentheses or a logical operator (AND, OR, NOT) without operands. The error"
-" message from the parser is: \"%(error_message)s\"."
+"parentheses or a logical operator (AND, OR, NOT) without operands. The error "
+"message from the parser is: \"%(error_message)s\"."
 msgstr ""
 "Die eingegebene Suchanfrage ist ungültig. Häufige Ursachen sind nicht "
 "geschlossene Klammern oder ein logischer Operator (AND, OR, NOT) ohne "
@@ -534,8 +532,8 @@ msgstr ""
 
 #: bookmarks/templates/bookmarks/form.html:25
 msgid ""
-"Enter any number of tags separated by space and <strong>without</strong> the"
-" hash (#). If a tag does not exist it will be automatically created."
+"Enter any number of tags separated by space and <strong>without</strong> the "
+"hash (#). If a tag does not exist it will be automatically created."
 msgstr ""
 "Beliebig viele Tags durch Leerzeichen getrennt und <strong>ohne</strong> "
 "Raute (#) eingeben. Tags, die noch nicht existieren, werden automatisch "
@@ -588,8 +586,8 @@ msgstr "Speichern"
 #: bookmarks/templates/bundles/form.html:56
 #: bookmarks/templates/settings/create_api_token_modal.html:27
 #: bookmarks/templates/shared/layout.html:7
-#: bookmarks/templates/tags/edit.html:16
-#: bookmarks/templates/tags/merge.html:47 bookmarks/templates/tags/new.html:16
+#: bookmarks/templates/tags/edit.html:16 bookmarks/templates/tags/merge.html:47
+#: bookmarks/templates/tags/new.html:16
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -598,7 +596,6 @@ msgid "Auto tags:"
 msgstr "Automatische Tags:"
 
 #: bookmarks/templates/bookmarks/new.html:4
-#| msgid "Login - Linkding"
 msgid "New bookmark - Linkding"
 msgstr "Neues Lesezeichen - Linkding"
 
@@ -658,12 +655,10 @@ msgid "Manage tags"
 msgstr "Tags verwalten"
 
 #: bookmarks/templates/bookmarks/user_section.html:4
-#| msgid "Username"
 msgid "User"
 msgstr "Benutzer"
 
 #: bookmarks/templates/bundles/edit.html:4
-#| msgid "Login - Linkding"
 msgid "Edit bundle - Linkding"
 msgstr "Bundle bearbeiten - Linkding"
 
@@ -686,8 +681,7 @@ msgstr "Alle diese Suchbegriffe müssen in einem Lesezeichen vorkommen."
 
 #: bookmarks/templates/bundles/form.html:19
 msgid "At least one of these tags must be present in a bookmark to match."
-msgstr ""
-"Mindestens einer dieser Tags muss in einem Lesezeichen vorhanden sein."
+msgstr "Mindestens einer dieser Tags muss in einem Lesezeichen vorhanden sein."
 
 #: bookmarks/templates/bundles/form.html:23
 msgid "Required tags"
@@ -722,7 +716,6 @@ msgid "Limit matches to shared or unshared bookmarks."
 msgstr "Treffer auf geteilte oder nicht geteilte Lesezeichen beschränken."
 
 #: bookmarks/templates/bundles/index.html:4
-#| msgid "Login - Linkding"
 msgid "Bundles - Linkding"
 msgstr "Bundles - Linkding"
 
@@ -745,7 +738,6 @@ msgid "Create your first bundle to get started"
 msgstr "Zum Einstieg ein erstes Bundle erstellen"
 
 #: bookmarks/templates/bundles/new.html:4
-#| msgid "Login - Linkding"
 msgid "New bundle - Linkding"
 msgstr "Neues Bundle - Linkding"
 
@@ -784,12 +776,10 @@ msgid "Login with OIDC"
 msgstr "Mit OIDC anmelden"
 
 #: bookmarks/templates/registration/password_change_done.html:4
-#| msgid "Login - Linkding"
 msgid "Password changed - Linkding"
 msgstr "Passwort geändert - Linkding"
 
 #: bookmarks/templates/registration/password_change_done.html:9
-#| msgid "Password"
 msgid "Password Changed"
 msgstr "Passwort geändert"
 
@@ -803,17 +793,14 @@ msgstr "Passwort ändern - Linkding"
 
 #: bookmarks/templates/registration/password_change_form.html:10
 #: bookmarks/templates/registration/password_change_form.html:30
-#| msgid "Password"
 msgid "Change Password"
 msgstr "Passwort ändern"
 
 #: bookmarks/templates/registration/password_change_form.html:15
-#| msgid "Password"
 msgid "Old password"
 msgstr "Altes Passwort"
 
 #: bookmarks/templates/registration/password_change_form.html:20
-#| msgid "Password"
 msgid "New password"
 msgstr "Neues Passwort"
 
@@ -846,7 +833,6 @@ msgid "Create Token"
 msgstr "Token erstellen"
 
 #: bookmarks/templates/settings/general.html:5
-#| msgid "Login - Linkding"
 msgid "Settings - Linkding"
 msgstr "Einstellungen - Linkding"
 
@@ -857,12 +843,10 @@ msgid "Settings"
 msgstr "Einstellungen"
 
 #: bookmarks/templates/settings/general.html:14
-#| msgid "Profile updated"
 msgid "Profile"
 msgstr "Profil"
 
 #: bookmarks/templates/settings/general.html:16
-#| msgid "Password"
 msgid "Change password"
 msgstr "Passwort ändern"
 
@@ -929,8 +913,8 @@ msgstr "Notizen dauerhaft anzeigen"
 #: bookmarks/templates/settings/general.html:63
 msgid ""
 "Whether to show bookmark notes permanently, without having to toggle them "
-"individually. Alternatively the keyboard shortcut <code>e</code> can be used"
-" to temporarily show all notes."
+"individually. Alternatively the keyboard shortcut <code>e</code> can be used "
+"to temporarily show all notes."
 msgstr ""
 "Notizen von Lesezeichen dauerhaft anzeigen, ohne sie einzeln einblenden zu "
 "müssen. Alternativ können mit dem Tastenkürzel <code>e</code> vorübergehend "
@@ -971,8 +955,8 @@ msgid ""
 "of the page first."
 msgstr ""
 "Wenn aktiviert, bleibt die Seitennavigation am unteren Bildschirmrand "
-"fixiert, sodass sie immer sichtbar ist, ohne erst ans Seitenende scrollen zu"
-" müssen."
+"fixiert, sodass sie immer sichtbar ist, ohne erst ans Seitenende scrollen zu "
+"müssen."
 
 #: bookmarks/templates/settings/general.html:102
 msgid "Collapse side panel"
@@ -994,8 +978,7 @@ msgstr "Bundles ausblenden"
 
 #: bookmarks/templates/settings/general.html:113
 msgid ""
-"Allows to hide the bundles in the side panel if you don't intend to use "
-"them."
+"Allows to hide the bundles in the side panel if you don't intend to use them."
 msgstr ""
 "Blendet die Bundles in der Seitenleiste aus, wenn sie nicht benötigt werden."
 
@@ -1013,8 +996,8 @@ msgid ""
 msgstr ""
 "Im strikten Modus müssen Tags mit einer Raute (#) beginnen. Im lockeren "
 "Modus können Tags auch ohne Raute gesucht werden. Tags ohne Raute sind "
-"allerdings nicht von Suchbegriffen zu unterscheiden, sodass das Suchergebnis"
-" auch Lesezeichen enthält, bei denen ein Suchbegriff anderweitig passt."
+"allerdings nicht von Suchbegriffen zu unterscheiden, sodass das Suchergebnis "
+"auch Lesezeichen enthält, bei denen ein Suchbegriff anderweitig passt."
 
 #: bookmarks/templates/settings/general.html:129
 msgid "Enable legacy search"
@@ -1022,21 +1005,21 @@ msgstr "Alte Suche aktivieren"
 
 #: bookmarks/templates/settings/general.html:131
 msgid ""
-"Since version 1.44.0, linkding has a new search engine that supports logical"
-" expressions (and, or, not). If you run into any issues with the new search,"
-" you can enable this option to temporarily switch back to the old search. "
+"Since version 1.44.0, linkding has a new search engine that supports logical "
+"expressions (and, or, not). If you run into any issues with the new search, "
+"you can enable this option to temporarily switch back to the old search. "
 "Please report any issues you encounter with the new search on <a "
 "href=\"https://github.com/sissbruecker/linkding/issues\" "
 "target=\"_blank\">GitHub</a> so they can be addressed. This option will be "
 "removed in a future version."
 msgstr ""
 "Seit Version 1.44.0 verwendet linkding eine neue Suchmaschine, die logische "
-"Ausdrücke (and, or, not) unterstützt. Bei Problemen mit der neuen Suche kann"
-" mit dieser Option vorübergehend zur alten Suche zurückgewechselt werden. "
-"Bitte Probleme mit der neuen Suche auf <a "
-"href=\"https://github.com/sissbruecker/linkding/issues\" "
-"target=\"_blank\">GitHub</a> melden, damit sie behoben werden können. Diese "
-"Option wird in einer zukünftigen Version entfernt."
+"Ausdrücke (and, or, not) unterstützt. Bei Problemen mit der neuen Suche kann "
+"mit dieser Option vorübergehend zur alten Suche zurückgewechselt werden. "
+"Bitte Probleme mit der neuen Suche auf <a href=\"https://github.com/"
+"sissbruecker/linkding/issues\" target=\"_blank\">GitHub</a> melden, damit "
+"sie behoben werden können. Diese Option wird in einer zukünftigen Version "
+"entfernt."
 
 #: bookmarks/templates/settings/general.html:141
 msgid "Tag grouping"
@@ -1044,8 +1027,8 @@ msgstr "Tag-Gruppierung"
 
 #: bookmarks/templates/settings/general.html:144
 msgid ""
-"In alphabetical mode, tags will be grouped by the first letter. If disabled,"
-" tags will not be grouped."
+"In alphabetical mode, tags will be grouped by the first letter. If disabled, "
+"tags will not be grouped."
 msgstr ""
 "Im alphabetischen Modus werden Tags nach dem Anfangsbuchstaben gruppiert. "
 "Wenn deaktiviert, werden Tags nicht gruppiert."
@@ -1057,8 +1040,8 @@ msgstr "Automatisches Tagging"
 
 #: bookmarks/templates/settings/general.html:160
 msgid ""
-"Automatically adds tags to bookmarks based on predefined rules. Each line is"
-" a single rule that maps a URL to one or more tags. For example:"
+"Automatically adds tags to bookmarks based on predefined rules. Each line is "
+"a single rule that maps a URL to one or more tags. For example:"
 msgstr ""
 "Fügt Lesezeichen anhand vordefinierter Regeln automatisch Tags hinzu. Jede "
 "Zeile ist eine Regel, die einer URL einen oder mehrere Tags zuordnet. Zum "
@@ -1073,20 +1056,19 @@ msgid ""
 "Automatically loads favicons for bookmarked websites and displays them next "
 "to each bookmark. Enabling this feature automatically downloads all missing "
 "favicons. By default, this feature uses a <b>Google service</b> to download "
-"favicons. If you don't want to use this service, check the <a "
-"href=\"https://linkding.link/options/#ld_favicon_provider\" "
-"target=\"_blank\">options documentation</a> on how to configure a custom "
-"favicon provider. Icons are downloaded in the background, and it may take a "
-"while for them to show up."
+"favicons. If you don't want to use this service, check the <a href=\"https://"
+"linkding.link/options/#ld_favicon_provider\" target=\"_blank\">options "
+"documentation</a> on how to configure a custom favicon provider. Icons are "
+"downloaded in the background, and it may take a while for them to show up."
 msgstr ""
 "Lädt automatisch Favicons für gespeicherte Websites und zeigt sie neben "
 "jedem Lesezeichen an. Beim Aktivieren dieser Funktion werden automatisch "
 "alle fehlenden Favicons heruntergeladen. Standardmäßig wird dafür ein "
 "<b>Google-Dienst</b> verwendet. Wer diesen Dienst nicht nutzen möchte, "
-"findet in der <a href=\"https://linkding.link/options/#ld_favicon_provider\""
-" target=\"_blank\">Dokumentation der Optionen</a>, wie ein eigener Favicon-"
-"Anbieter konfiguriert wird. Die Icons werden im Hintergrund heruntergeladen,"
-" es kann eine Weile dauern, bis sie erscheinen."
+"findet in der <a href=\"https://linkding.link/options/#ld_favicon_provider\" "
+"target=\"_blank\">Dokumentation der Optionen</a>, wie ein eigener Favicon-"
+"Anbieter konfiguriert wird. Die Icons werden im Hintergrund heruntergeladen, "
+"es kann eine Weile dauern, bis sie erscheinen."
 
 #: bookmarks/templates/settings/general.html:182
 msgid "Refresh Favicons"
@@ -1098,8 +1080,8 @@ msgstr "Vorschaubilder aktivieren"
 
 #: bookmarks/templates/settings/general.html:188
 msgid ""
-"Automatically loads preview images for bookmarked websites and displays them"
-" next to each bookmark. Enabling this feature automatically downloads all "
+"Automatically loads preview images for bookmarked websites and displays them "
+"next to each bookmark. Enabling this feature automatically downloads all "
 "missing preview images."
 msgstr ""
 "Lädt automatisch Vorschaubilder für gespeicherte Websites und zeigt sie "
@@ -1115,8 +1097,8 @@ msgid ""
 "Enabling this feature will automatically create snapshots of bookmarked "
 "websites on the <a href=\"https://web.archive.org/\" target=\"_blank\" "
 "rel=\"noopener\">Internet Archive Wayback Machine</a>. This allows to "
-"preserve, and later access the website as it was at the point in time it was"
-" bookmarked, in case it goes offline or its content is modified. Please "
+"preserve, and later access the website as it was at the point in time it was "
+"bookmarked, in case it goes offline or its content is modified. Please "
 "consider donating to the <a href=\"https://archive.org/donate\" "
 "target=\"_blank\" rel=\"noopener\">Internet Archive</a> if you make use of "
 "this feature."
@@ -1152,8 +1134,8 @@ msgstr "Öffentliches Teilen von Lesezeichen aktivieren"
 #, python-format
 msgid ""
 "Makes shared bookmarks publicly accessible, without requiring a login. That "
-"means that anyone with a link to this instance can view shared bookmarks via"
-" the <a href=\"%(shared_bookmarks_url)s\">shared bookmarks page</a>."
+"means that anyone with a link to this instance can view shared bookmarks via "
+"the <a href=\"%(shared_bookmarks_url)s\">shared bookmarks page</a>."
 msgstr ""
 "Macht geteilte Lesezeichen ohne Anmeldung öffentlich zugänglich. Das "
 "bedeutet, dass jeder mit einem Link zu dieser Instanz geteilte Lesezeichen "
@@ -1184,14 +1166,14 @@ msgstr "Lesezeichen standardmäßig als ungelesen erstellen"
 
 #: bookmarks/templates/settings/general.html:241
 msgid ""
-"Sets the default state for the \"Mark as unread\" option when creating a new"
-" bookmark. Setting this option will make all new bookmarks default to "
-"unread. This can be overridden when creating each new bookmark."
+"Sets the default state for the \"Mark as unread\" option when creating a new "
+"bookmark. Setting this option will make all new bookmarks default to unread. "
+"This can be overridden when creating each new bookmark."
 msgstr ""
 "Legt den Standardwert der Option \"Als ungelesen markieren\" beim Erstellen "
-"eines neuen Lesezeichens fest. Mit dieser Option sind alle neuen Lesezeichen"
-" standardmäßig ungelesen. Das kann beim Erstellen jedes Lesezeichens "
-"geändert werden."
+"eines neuen Lesezeichens fest. Mit dieser Option sind alle neuen Lesezeichen "
+"standardmäßig ungelesen. Das kann beim Erstellen jedes Lesezeichens geändert "
+"werden."
 
 #: bookmarks/templates/settings/general.html:249
 msgid "Create bookmarks as shared by default"
@@ -1200,8 +1182,8 @@ msgstr "Lesezeichen standardmäßig als geteilt erstellen"
 #: bookmarks/templates/settings/general.html:251
 msgid ""
 "Sets the default state for the \"Share\" option when creating a new "
-"bookmark. Setting this option will make all new bookmarks default to shared."
-" This can be overridden when creating each new bookmark."
+"bookmark. Setting this option will make all new bookmarks default to shared. "
+"This can be overridden when creating each new bookmark."
 msgstr ""
 "Legt den Standardwert der Option \"Teilen\" beim Erstellen eines neuen "
 "Lesezeichens fest. Mit dieser Option sind alle neuen Lesezeichen "
@@ -1242,8 +1224,8 @@ msgid ""
 "The user profile to use for users that are not logged in. This will affect "
 "how publicly shared bookmarks are displayed regarding theme, bookmark list "
 "settings, etc. You can either use your own profile or create a dedicated "
-"user for this purpose. By default, a standard profile with fixed settings is"
-" used."
+"user for this purpose. By default, a standard profile with fixed settings is "
+"used."
 msgstr ""
 "Das Benutzerprofil für nicht angemeldete Benutzer. Es bestimmt, wie "
 "öffentlich geteilte Lesezeichen in Bezug auf Design, Listeneinstellungen "
@@ -1262,8 +1244,8 @@ msgid ""
 "load on the server as well as bandwidth usage."
 msgstr ""
 "Lädt interne Links vor, wenn der Mauszeiger darüber fährt. Das kann die "
-"gefühlte Geschwindigkeit beim Navigieren in der Anwendung verbessern, erhöht"
-" aber auch die Last auf dem Server und den Datenverbrauch."
+"gefühlte Geschwindigkeit beim Navigieren in der Anwendung verbessern, erhöht "
+"aber auch die Last auf dem Server und den Datenverbrauch."
 
 #: bookmarks/templates/settings/general.html:325
 msgid "Import"
@@ -1332,7 +1314,6 @@ msgid "Changelog"
 msgstr "Änderungsprotokoll"
 
 #: bookmarks/templates/settings/integrations.html:4
-#| msgid "Login - Linkding"
 msgid "Integrations - Linkding"
 msgstr "Integrationen - Linkding"
 
@@ -1349,12 +1330,12 @@ msgstr "Browser-Erweiterung"
 #: bookmarks/templates/settings/integrations.html:12
 msgid ""
 "The browser extension allows you to quickly add new bookmarks without "
-"leaving the page that you are on. The extension is available in the official"
-" extension stores for:"
+"leaving the page that you are on. The extension is available in the official "
+"extension stores for:"
 msgstr ""
-"Mit der Browser-Erweiterung lassen sich neue Lesezeichen schnell hinzufügen,"
-" ohne die aktuelle Seite zu verlassen. Die Erweiterung ist in den "
-"offiziellen Stores verfügbar für:"
+"Mit der Browser-Erweiterung lassen sich neue Lesezeichen schnell hinzufügen, "
+"ohne die aktuelle Seite zu verlassen. Die Erweiterung ist in den offiziellen "
+"Stores verfügbar für:"
 
 #: bookmarks/templates/settings/integrations.html:28
 msgid ""
@@ -1362,10 +1343,10 @@ msgid ""
 "extension\" target=\"_blank\">open source</a> as well, which enables you to "
 "build and manually load it into any browser that supports Chrome extensions."
 msgstr ""
-"Die Erweiterung ist außerdem <a "
-"href=\"https://github.com/sissbruecker/linkding-extension\" "
-"target=\"_blank\">Open Source</a>, sodass sie selbst gebaut und manuell in "
-"jeden Browser geladen werden kann, der Chrome-Erweiterungen unterstützt."
+"Die Erweiterung ist außerdem <a href=\"https://github.com/sissbruecker/"
+"linkding-extension\" target=\"_blank\">Open Source</a>, sodass sie selbst "
+"gebaut und manuell in jeden Browser geladen werden kann, der Chrome-"
+"Erweiterungen unterstützt."
 
 #: bookmarks/templates/settings/integrations.html:34
 msgid "Bookmarklet"
@@ -1377,8 +1358,8 @@ msgid ""
 "bookmarks without opening the linkding application first. Here's how it "
 "works:"
 msgstr ""
-"Das Bookmarklet ist eine alternative, browserübergreifende Möglichkeit, neue"
-" Lesezeichen schnell hinzuzufügen, ohne zuerst linkding zu öffnen. So "
+"Das Bookmarklet ist eine alternative, browserübergreifende Möglichkeit, neue "
+"Lesezeichen schnell hinzuzufügen, ohne zuerst linkding zu öffnen. So "
 "funktioniert es:"
 
 #: bookmarks/templates/settings/integrations.html:43
@@ -1388,9 +1369,9 @@ msgid ""
 "detected-title-and-description-are-incorrect\" target=\"_blank\">Help</a>)"
 msgstr ""
 "Unten die bevorzugte Methode zur Erkennung von Titel und Beschreibung der "
-"Website wählen (<a "
-"href=\"https://linkding.link/troubleshooting/#automatically-detected-title-"
-"and-description-are-incorrect\" target=\"_blank\">Hilfe</a>)"
+"Website wählen (<a href=\"https://linkding.link/troubleshooting/"
+"#automatically-detected-title-and-description-are-incorrect\" "
+"target=\"_blank\">Hilfe</a>)"
 
 #: bookmarks/templates/settings/integrations.html:48
 msgid "Drag the bookmarklet below into your browser's bookmark bar / toolbar"
@@ -1461,14 +1442,14 @@ msgstr "Kopieren"
 #: bookmarks/templates/settings/integrations.html:132
 msgid ""
 "API tokens can be used to authenticate 3rd-party applications against the "
-"REST API. <strong>Please treat tokens as you would any other "
-"credential.</strong> Any party with access to a token can access and manage "
-"all your bookmarks."
+"REST API. <strong>Please treat tokens as you would any other credential.</"
+"strong> Any party with access to a token can access and manage all your "
+"bookmarks."
 msgstr ""
 "API-Tokens dienen zur Authentifizierung von Drittanwendungen gegenüber der "
-"REST-API. <strong>Tokens wie jede andere Anmeldeinformation "
-"behandeln.</strong> Jeder mit Zugriff auf einen Token kann auf alle "
-"Lesezeichen zugreifen und sie verwalten."
+"REST-API. <strong>Tokens wie jede andere Anmeldeinformation behandeln.</"
+"strong> Jeder mit Zugriff auf einen Token kann auf alle Lesezeichen "
+"zugreifen und sie verwalten."
 
 #: bookmarks/templates/settings/integrations.html:146
 msgid "Created"
@@ -1496,8 +1477,8 @@ msgid ""
 "shared with other people. Only shows shared bookmarks from users who have "
 "explicitly enabled public sharing."
 msgstr ""
-"Der öffentlich geteilte Feed enthält keinen Authentifizierungstoken und kann"
-" mit anderen Personen geteilt werden. Er zeigt nur geteilte Lesezeichen von "
+"Der öffentlich geteilte Feed enthält keinen Authentifizierungstoken und kann "
+"mit anderen Personen geteilt werden. Er zeigt nur geteilte Lesezeichen von "
 "Benutzern, die das öffentliche Teilen ausdrücklich aktiviert haben."
 
 #: bookmarks/templates/settings/integrations.html:218
@@ -1511,38 +1492,38 @@ msgid ""
 "bookmarks are included."
 msgstr ""
 "Ein <code>limit</code>-Parameter, der die maximale Anzahl an Lesezeichen im "
-"Feed festlegt. Standardmäßig sind nur die neuesten 100 passenden Lesezeichen"
-" enthalten."
+"Feed festlegt. Standardmäßig sind nur die neuesten 100 passenden Lesezeichen "
+"enthalten."
 
 #: bookmarks/templates/settings/integrations.html:227
 msgid ""
-"A <code>q</code> URL parameter for specifying a search query. You can get an"
-" example by doing a search in the bookmarks view and then copying the "
+"A <code>q</code> URL parameter for specifying a search query. You can get an "
+"example by doing a search in the bookmarks view and then copying the "
 "parameter from the URL."
 msgstr ""
 "Ein <code>q</code>-URL-Parameter für eine Suchanfrage. Ein Beispiel erhält "
-"man, indem man in der Lesezeichenansicht sucht und den Parameter aus der URL"
-" kopiert."
+"man, indem man in der Lesezeichenansicht sucht und den Parameter aus der URL "
+"kopiert."
 
 #: bookmarks/templates/settings/integrations.html:233
 msgid ""
-"An <code>unread</code> parameter for filtering for unread or read bookmarks."
-" Use <code>yes</code> for unread bookmarks and <code>no</code> for read "
+"An <code>unread</code> parameter for filtering for unread or read bookmarks. "
+"Use <code>yes</code> for unread bookmarks and <code>no</code> for read "
 "bookmarks."
 msgstr ""
 "Ein <code>unread</code>-Parameter zum Filtern nach ungelesenen oder "
-"gelesenen Lesezeichen. <code>yes</code> steht für ungelesene und "
-"<code>no</code> für gelesene Lesezeichen."
+"gelesenen Lesezeichen. <code>yes</code> steht für ungelesene und <code>no</"
+"code> für gelesene Lesezeichen."
 
 #: bookmarks/templates/settings/integrations.html:239
 msgid ""
 "A <code>shared</code> parameter for filtering for shared or unshared "
-"bookmarks. Use <code>yes</code> for shared bookmarks and <code>no</code> for"
-" unshared bookmarks."
+"bookmarks. Use <code>yes</code> for shared bookmarks and <code>no</code> for "
+"unshared bookmarks."
 msgstr ""
 "Ein <code>shared</code>-Parameter zum Filtern nach geteilten oder nicht "
-"geteilten Lesezeichen. <code>yes</code> steht für geteilte und "
-"<code>no</code> für nicht geteilte Lesezeichen."
+"geteilten Lesezeichen. <code>yes</code> steht für geteilte und <code>no</"
+"code> für nicht geteilte Lesezeichen."
 
 #: bookmarks/templates/settings/integrations.html:245
 msgid ""
@@ -1563,8 +1544,8 @@ msgid ""
 "deleting the feed token, new URLs will be generated when you reload this "
 "settings page."
 msgstr ""
-"<strong>Hinweis: Diese URLs enthalten einen Authentifizierungstoken, der wie"
-" jede andere Anmeldeinformation behandelt werden sollte.</strong> Jeder mit "
+"<strong>Hinweis: Diese URLs enthalten einen Authentifizierungstoken, der wie "
+"jede andere Anmeldeinformation behandelt werden sollte.</strong> Jeder mit "
 "Zugriff auf diese URLs kann alle Lesezeichen lesen. Falls eine URL "
 "kompromittiert wurde, kann der Feed-Token für den Benutzer im <a "
 "target=\"_blank\" href=\"%(feed_token_admin_url)s\">Admin-Bereich</a> "
@@ -1652,7 +1633,6 @@ msgstr ""
 "keine Leerzeichen enthalten (Leerzeichen werden durch Bindestriche ersetzt)."
 
 #: bookmarks/templates/tags/index.html:4
-#| msgid "Login - Linkding"
 msgid "Tags - Linkding"
 msgstr "Tags - Linkding"
 
@@ -1828,22 +1808,18 @@ msgstr[0] "vor %(count)d Woche"
 msgstr[1] "vor %(count)d Wochen"
 
 #: bookmarks/views/bookmarks.py:61
-#| msgid "Login - Linkding"
 msgid "Bookmarks - Linkding"
 msgstr "Lesezeichen - Linkding"
 
 #: bookmarks/views/bookmarks.py:100
-#| msgid "Login - Linkding"
 msgid "Archived bookmarks - Linkding"
 msgstr "Archivierte Lesezeichen - Linkding"
 
 #: bookmarks/views/bookmarks.py:137
-#| msgid "Login - Linkding"
 msgid "Shared bookmarks - Linkding"
 msgstr "Geteilte Lesezeichen - Linkding"
 
 #: bookmarks/views/bookmarks.py:161
-#| msgid "Login - Linkding"
 msgid "Bookmark details - Linkding"
 msgstr "Lesezeichen-Details - Linkding"
 
@@ -1918,8 +1894,8 @@ msgid ""
 "%(count)s bookmarks could not be imported. Please check the logs for more "
 "details."
 msgstr ""
-"%(count)s Lesezeichen konnten nicht importiert werden. Details stehen in den"
-" Logs."
+"%(count)s Lesezeichen konnten nicht importiert werden. Details stehen in den "
+"Logs."
 
 #: bookmarks/views/settings.py:275
 msgid "An error occurred during bookmark import."
@@ -1937,4 +1913,5 @@ msgstr "Tag \"%(name)s\" erfolgreich erstellt."
 #: bookmarks/views/tags.py:158
 #, python-format
 msgid "Successfully merged %(count)d tags (%(tags)s) into \"%(target)s\"."
-msgstr "%(count)d Tags (%(tags)s) erfolgreich in \"%(target)s\" zusammengeführt."
+msgstr ""
+"%(count)d Tags (%(tags)s) erfolgreich in \"%(target)s\" zusammengeführt."
