@@ -126,6 +126,11 @@ SESSION_COOKIE_NAME = "ld_sessionid"
 
 LANGUAGE_CODE = "en-us"
 
+LANGUAGES = [
+    ("en", "English"),
+    ("de", "Deutsch"),
+]
+
 TIME_ZONE = os.getenv("TZ", "UTC")
 
 USE_I18N = True
