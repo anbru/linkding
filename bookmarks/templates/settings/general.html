@@ -28,6 +28,13 @@
           {% endformhelp %}
         </div>
         <div class="form-group">
+          {% formlabel form.language _("Language") %}
+          {% formfield form.language has_help=True class="width-25 width-sm-100" %}
+          {% formhelp form.language %}
+            {% translate "Automatically use the language preferred by your browser, or a fixed language for all your devices. Falls back to English for texts that are not translated." %}
+          {% endformhelp %}
+        </div>
+        <div class="form-group">
           {% formlabel form.bookmark_date_display _("Bookmark date format") %}
           {% formfield form.bookmark_date_display has_help=True class="width-25 width-sm-100" %}
           {% formhelp form.bookmark_date_display %}

@@ -7,7 +7,7 @@ The linkding user interface is written in English and can be translated into oth
 
 ## Choosing the language
 
-linkding picks the language from the `Accept-Language` header that the browser sends, so the user interface follows the language settings of your browser. There is no language switcher in the application.
+linkding picks the language from the `Accept-Language` header that the browser sends, so the user interface follows the language settings of your browser. You can also choose a fixed language in *Settings > General > Language*. The default *Auto* follows the browser.
 
 linkding uses the languages bundled with the application plus any translation found in the data folder (see below). If the browser requests a language that is not available, or if a text has not been translated yet, linkding falls back to English.
 

@@ -397,6 +397,8 @@ class UserProfile(models.Model):
     theme = models.CharField(
         max_length=10, choices=THEME_CHOICES, blank=False, default=THEME_AUTO
     )
+    # Language code from the LANGUAGES setting, empty means auto-detect from the browser
+    language = models.CharField(max_length=10, blank=True, default="")
     bookmark_date_display = models.CharField(
         max_length=10,
         choices=BOOKMARK_DATE_DISPLAY_CHOICES,

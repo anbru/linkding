@@ -1,4 +1,5 @@
 from django import forms
+from django.conf import settings
 from django.contrib.auth.models import User
 from django.db import models
 from django.utils import timezone
@@ -311,10 +312,17 @@ class BookmarkSearchForm(forms.Form):
 
 
 class UserProfileForm(forms.ModelForm):
+    language = forms.ChoiceField(required=False, widget=FormSelect)
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.fields["language"].choices = [("", _("Auto"))] + list(settings.LANGUAGES)
+
     class Meta:
         model = UserProfile
         fields = [
             "theme",
+            "language",
             "bookmark_date_display",
             "bookmark_description_display",
             "bookmark_description_max_lines",
