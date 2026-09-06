@@ -15,6 +15,7 @@ Currently bundled languages:
 
 - English
 - German
+- Spanish
 
 ## Adding your own translation
 

@@ -136,6 +136,7 @@ LOCALE_PATHS = [os.path.join(BASE_DIR, "data", "locale")]
 LANGUAGES = [
     ("en", "English"),
     ("de", "Deutsch"),
+    ("es", "Español"),
 ]
 LANGUAGES += discover_extra_languages(
     LOCALE_PATHS[0], [code for code, name in LANGUAGES]
