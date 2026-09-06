@@ -14,8 +14,12 @@ linkding uses the languages bundled with the application plus any translation fo
 Currently bundled languages:
 
 - English
+- French
 - German
+- Polish
 - Spanish
+- Turkish
+- Ukrainian
 
 ## Adding your own translation
 

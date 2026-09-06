@@ -1,0 +1,2039 @@
+#  Turkish translation for linkding.
+msgid ""
+msgstr ""
+"Project-Id-Version: linkding\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-06 12:54+0000\n"
+"PO-Revision-Date: 2026-09-06 13:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: bookmarks/admin.py:78
+msgid "linkding administration"
+msgstr "linkding yönetimi"
+
+#: bookmarks/admin.py:79
+msgid "linkding Admin"
+msgstr "linkding Yönetici"
+
+#: bookmarks/admin.py:101
+msgid "Queued tasks"
+msgstr "Kuyruktaki görevler"
+
+#: bookmarks/admin.py:145
+msgid "Delete selected bookmarks"
+msgstr "Seçili yer imlerini sil"
+
+#: bookmarks/admin.py:153
+#, python-format
+msgid "%d bookmark was successfully deleted."
+msgid_plural "%d bookmarks were successfully deleted."
+msgstr[0] "%d yer imi silindi."
+msgstr[1] "%d yer imi silindi."
+
+#: bookmarks/admin.py:161
+msgid "Archive selected bookmarks"
+msgstr "Seçili yer imlerini arşivle"
+
+#: bookmarks/admin.py:169
+#, python-format
+msgid "%d bookmark was successfully archived."
+msgid_plural "%d bookmarks were successfully archived."
+msgstr[0] "%d yer imi arşivlendi."
+msgstr[1] "%d yer imi arşivlendi."
+
+#: bookmarks/admin.py:177
+msgid "Unarchive selected bookmarks"
+msgstr "Seçili yer imlerini arşivden çıkar"
+
+#: bookmarks/admin.py:185
+#, python-format
+msgid "%d bookmark was successfully unarchived."
+msgid_plural "%d bookmarks were successfully unarchived."
+msgstr[0] "%d yer imi arşivden çıkarıldı."
+msgstr[1] "%d yer imi arşivden çıkarıldı."
+
+#: bookmarks/admin.py:193 bookmarks/templates/bookmarks/bulk_edit_bar.html:18
+msgid "Mark as read"
+msgstr "Okundu olarak işaretle"
+
+#: bookmarks/admin.py:200
+#, python-format
+msgid "%d bookmark marked as read."
+msgid_plural "%d bookmarks marked as read."
+msgstr[0] "%d yer imi okundu olarak işaretlendi."
+msgstr[1] "%d yer imi okundu olarak işaretlendi."
+
+#: bookmarks/admin.py:208 bookmarks/templates/bookmarks/bulk_edit_bar.html:19
+#: bookmarks/templates/bookmarks/form.html:68
+msgid "Mark as unread"
+msgstr "Okunmadı olarak işaretle"
+
+#: bookmarks/admin.py:215
+#, python-format
+msgid "%d bookmark marked as unread."
+msgid_plural "%d bookmarks marked as unread."
+msgstr[0] "%d yer imi okunmadı olarak işaretlendi."
+msgstr[1] "%d yer imi okunmadı olarak işaretlendi."
+
+#: bookmarks/admin.py:225
+msgid "Display Name"
+msgstr "Görünen Ad"
+
+#: bookmarks/admin.py:254
+msgid "Delete unused tags"
+msgstr "Kullanılmayan etiketleri sil"
+
+#: bookmarks/admin.py:265
+#, python-format
+msgid "%d unused tag was successfully deleted."
+msgid_plural "%d unused tags were successfully deleted."
+msgstr[0] "%d kullanılmayan etiket silindi."
+msgstr[1] "%d kullanılmayan etiket silindi."
+
+#: bookmarks/admin.py:276
+msgid "There were no unused tags in the selection"
+msgstr "Seçimde kullanılmayan etiket yoktu"
+
+#: bookmarks/admin.py:302 bookmarks/templates/settings/general.html:14
+msgid "Profile"
+msgstr "Profil"
+
+#: bookmarks/api/auth.py:24
+msgid "Invalid token header. No credentials provided."
+msgstr "Geçersiz belirteç başlığı. Kimlik bilgisi sağlanmadı."
+
+#: bookmarks/api/auth.py:27
+msgid "Invalid token header. Token string should not contain spaces."
+msgstr "Geçersiz belirteç başlığı. Belirteç boşluk içermemelidir."
+
+#: bookmarks/api/auth.py:34
+msgid ""
+"Invalid token header. Token string should not contain invalid characters."
+msgstr ""
+"Geçersiz belirteç başlığı. Belirteç geçersiz karakterler içermemelidir."
+
+#: bookmarks/api/serializers.py:176 bookmarks/forms.py:116
+msgid "A bookmark with this URL already exists."
+msgstr "Bu URL'ye sahip bir yer imi zaten var."
+
+#: bookmarks/apps.py:6 bookmarks/templates/shared/nav_menu.html:8
+#: bookmarks/templates/shared/nav_menu.html:75
+#: bookmarks/templates/tags/index.html:87 bookmarks/views/contexts.py:269
+msgid "Bookmarks"
+msgstr "Yer imleri"
+
+#: bookmarks/feeds.py:80 bookmarks/feeds.py:81
+#: bookmarks/templates/settings/integrations.html:204
+msgid "All bookmarks"
+msgstr "Tüm yer imleri"
+
+#: bookmarks/feeds.py:91 bookmarks/templates/settings/integrations.html:207
+msgid "Unread bookmarks"
+msgstr "Okunmamış yer imleri"
+
+#: bookmarks/feeds.py:92
+msgid "All unread bookmarks"
+msgstr "Tüm okunmamış yer imleri"
+
+#: bookmarks/feeds.py:104 bookmarks/templates/settings/integrations.html:210
+#: bookmarks/templates/shared/nav_menu.html:82 bookmarks/views/contexts.py:285
+msgid "Shared bookmarks"
+msgstr "Paylaşılan yer imleri"
+
+#: bookmarks/feeds.py:105
+msgid "All shared bookmarks"
+msgstr "Tüm paylaşılan yer imleri"
+
+#: bookmarks/feeds.py:120 bookmarks/templates/settings/integrations.html:213
+msgid "Public shared bookmarks"
+msgstr "Herkese açık paylaşılan yer imleri"
+
+#: bookmarks/feeds.py:121
+msgid "All public shared bookmarks"
+msgstr "Tüm herkese açık paylaşılan yer imleri"
+
+#: bookmarks/forms.py:150
+#, python-format
+msgid "Tag \"%(name)s\" already exists."
+msgstr "\"%(name)s\" etiketi zaten var."
+
+#: bookmarks/forms.py:181
+msgid "Please enter only one tag name for the target tag."
+msgstr "Lütfen hedef etiket için yalnızca bir etiket adı girin."
+
+#: bookmarks/forms.py:190 bookmarks/forms.py:209
+#, python-format
+msgid "Tag \"%(name)s\" does not exist."
+msgstr "\"%(name)s\" etiketi yok."
+
+#: bookmarks/forms.py:200
+msgid "Please enter at least one tag to merge."
+msgstr "Lütfen birleştirmek için en az bir etiket girin."
+
+#: bookmarks/forms.py:215
+msgid "The target tag cannot be selected for merging."
+msgstr "Hedef etiket birleştirme için seçilemez."
+
+#: bookmarks/forms.py:256
+msgid "Added ↑"
+msgstr "Eklenme ↑"
+
+#: bookmarks/forms.py:257
+msgid "Added ↓"
+msgstr "Eklenme ↓"
+
+#: bookmarks/forms.py:258
+msgid "Modified ↑"
+msgstr "Değiştirilme ↑"
+
+#: bookmarks/forms.py:259
+msgid "Modified ↓"
+msgstr "Değiştirilme ↓"
+
+#: bookmarks/forms.py:260
+msgid "Title ↑"
+msgstr "Başlık ↑"
+
+#: bookmarks/forms.py:261
+msgid "Title ↓"
+msgstr "Başlık ↓"
+
+#: bookmarks/forms.py:264 bookmarks/forms.py:269
+msgid "Off"
+msgstr "Kapalı"
+
+#: bookmarks/forms.py:265 bookmarks/models.py:211
+#: bookmarks/templates/bookmarks/bookmark_list.html:143
+#: bookmarks/templates/bookmarks/details/form.html:84
+#: bookmarks/templates/shared/nav_menu.html:18 bookmarks/views/manifest.py:74
+msgid "Shared"
+msgstr "Paylaşılan"
+
+#: bookmarks/forms.py:266 bookmarks/models.py:212
+msgid "Unshared"
+msgstr "Paylaşılmayan"
+
+#: bookmarks/forms.py:270 bookmarks/models.py:206
+#: bookmarks/templates/bookmarks/bookmark_list.html:130
+#: bookmarks/templates/bookmarks/details/form.html:74
+#: bookmarks/templates/shared/nav_menu.html:23
+#: bookmarks/templates/shared/nav_menu.html:87 bookmarks/views/manifest.py:66
+msgid "Unread"
+msgstr "Okunmamış"
+
+#: bookmarks/forms.py:271 bookmarks/models.py:207
+msgid "Read"
+msgstr "Okunmuş"
+
+#: bookmarks/forms.py:296
+msgid "Everyone"
+msgstr "Herkes"
+
+#: bookmarks/forms.py:319 bookmarks/models.py:374
+msgid "Auto"
+msgstr "Otomatik"
+
+#: bookmarks/forms.py:398
+msgid "Standard profile"
+msgstr "Standart profil"
+
+#: bookmarks/models.py:24
+msgid "tag"
+msgstr "etiket"
+
+#: bookmarks/models.py:25
+msgid "tags"
+msgstr "etiketler"
+
+#: bookmarks/models.py:60
+msgid "bookmark"
+msgstr "yer imi"
+
+#: bookmarks/models.py:61
+msgid "bookmarks"
+msgstr "yer imleri"
+
+#: bookmarks/models.py:140
+msgid "bookmark asset"
+msgstr "yer imi dosyası"
+
+#: bookmarks/models.py:141
+msgid "bookmark assets"
+msgstr "yer imi dosyaları"
+
+#: bookmarks/models.py:198
+msgid "bundle"
+msgstr "paket"
+
+#: bookmarks/models.py:199
+msgid "bundles"
+msgstr "paketler"
+
+#: bookmarks/models.py:205 bookmarks/models.py:210
+msgid "All"
+msgstr "Tümü"
+
+#: bookmarks/models.py:367
+msgid "user profile"
+msgstr "kullanıcı profili"
+
+#: bookmarks/models.py:368
+msgid "user profiles"
+msgstr "kullanıcı profilleri"
+
+#: bookmarks/models.py:375
+msgid "Light"
+msgstr "Açık"
+
+#: bookmarks/models.py:376
+msgid "Dark"
+msgstr "Koyu"
+
+#: bookmarks/models.py:382
+msgid "Relative"
+msgstr "Göreli"
+
+#: bookmarks/models.py:383
+msgid "Absolute"
+msgstr "Mutlak"
+
+#: bookmarks/models.py:384
+msgid "Hidden"
+msgstr "Gizli"
+
+#: bookmarks/models.py:389
+msgid "Inline"
+msgstr "Aynı satırda"
+
+#: bookmarks/models.py:390
+msgid "Separate"
+msgstr "Ayrı"
+
+#: bookmarks/models.py:395
+msgid "New page"
+msgstr "Yeni sayfa"
+
+#: bookmarks/models.py:396
+msgid "Same page"
+msgstr "Aynı sayfa"
+
+#: bookmarks/models.py:401 bookmarks/models.py:414
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#: bookmarks/models.py:402
+msgid "Enabled"
+msgstr "Etkin"
+
+#: bookmarks/models.py:407
+msgid "Strict"
+msgstr "Katı"
+
+#: bookmarks/models.py:408
+msgid "Lax"
+msgstr "Esnek"
+
+#: bookmarks/models.py:413
+msgid "Alphabetical"
+msgstr "Alfabetik"
+
+#: bookmarks/models.py:510
+msgid "toast"
+msgstr "bildirim"
+
+#: bookmarks/models.py:511
+msgid "toasts"
+msgstr "bildirimler"
+
+#: bookmarks/models.py:525
+msgid "feed token"
+msgstr "akış belirteci"
+
+#: bookmarks/models.py:526
+msgid "feed tokens"
+msgstr "akış belirteçleri"
+
+#: bookmarks/models.py:551
+msgid "API token"
+msgstr "API belirteci"
+
+#: bookmarks/models.py:552
+msgid "API tokens"
+msgstr "API belirteçleri"
+
+#: bookmarks/models.py:578 bookmarks/models.py:579
+msgid "global settings"
+msgstr "genel ayarlar"
+
+#: bookmarks/models.py:584 bookmarks/templates/registration/login.html:10
+#: bookmarks/templates/registration/login.html:27
+#: bookmarks/templates/shared/layout.html:47
+msgid "Login"
+msgstr "Giriş"
+
+#: bookmarks/models.py:585
+msgid "Shared Bookmarks"
+msgstr "Paylaşılan Yer İmleri"
+
+#: bookmarks/templates/admin/background_tasks.html:7
+msgid "ID"
+msgstr "ID"
+
+#: bookmarks/templates/admin/background_tasks.html:8
+#: bookmarks/templates/bundles/form.html:3
+#: bookmarks/templates/bundles/index.html:19
+#: bookmarks/templates/settings/integrations.html:145
+#: bookmarks/templates/tags/form.html:3 bookmarks/templates/tags/index.html:86
+msgid "Name"
+msgstr "Ad"
+
+#: bookmarks/templates/admin/background_tasks.html:9
+msgid "Args"
+msgstr "Argümanlar"
+
+#: bookmarks/templates/admin/background_tasks.html:10
+msgid "Retries"
+msgstr "Yeniden denemeler"
+
+#: bookmarks/templates/admin/background_tasks.html:37
+#, python-format
+msgid "%(counter)s task"
+msgid_plural "%(counter)s tasks"
+msgstr[0] "%(counter)s görev"
+msgstr[1] "%(counter)s görev"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:5
+msgid "Bookmark list"
+msgstr "Yer imi listesi"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:81
+#: bookmarks/templates/bookmarks/details/assets.html:24
+#: bookmarks/templates/settings/general.html:78
+msgid "View"
+msgstr "Görüntüle"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:86
+#: bookmarks/templates/bookmarks/details/modal.html:17
+#: bookmarks/templates/bundles/index.html:38
+#: bookmarks/templates/settings/general.html:79
+#: bookmarks/templates/tags/index.html:107
+msgid "Edit"
+msgstr "Düzenle"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:93
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:13
+msgid "Unarchive"
+msgstr "Arşivden çıkar"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:98
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:10
+#: bookmarks/templates/settings/general.html:80
+msgid "Archive"
+msgstr "Arşivle"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:106
+#: bookmarks/templates/bookmarks/details/assets.html:31
+#: bookmarks/templates/bundles/index.html:43
+#: bookmarks/templates/settings/general.html:81
+#: bookmarks/templates/tags/index.html:112
+msgid "Remove"
+msgstr "Kaldır"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:112
+#, python-format
+msgid "Shared by <a href=\"?%(owner_query)s\">%(username)s</a>"
+msgstr "<a href=\"?%(owner_query)s\">%(username)s</a> tarafından paylaşıldı"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:126
+msgid "Mark as read?"
+msgstr "Okundu olarak işaretlensin mi?"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:139
+msgid "Unshare?"
+msgstr "Paylaşım kaldırılsın mı?"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:151
+#: bookmarks/templates/bookmarks/details/form.html:119
+#: bookmarks/templates/bookmarks/form.html:58
+#: bookmarks/templates/bookmarks/form.html:60
+msgid "Notes"
+msgstr "Notlar"
+
+#: bookmarks/templates/bookmarks/bookmark_page.html:14
+msgid "Bulk edit"
+msgstr "Toplu düzenleme"
+
+#: bookmarks/templates/bookmarks/bookmark_page.html:21
+#: bookmarks/templates/shared/layout.html:10
+msgid "Filters"
+msgstr "Filtreler"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:15
+#: bookmarks/templates/bookmarks/details/modal.html:29
+#: bookmarks/templates/settings/integrations.html:163
+msgid "Delete"
+msgstr "Sil"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:16
+msgid "Add tags"
+msgstr "Etiket ekle"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:17
+msgid "Remove tags"
+msgstr "Etiket kaldır"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:21
+#: bookmarks/templates/bookmarks/form.html:75
+msgid "Share"
+msgstr "Paylaş"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:22
+msgid "Unshare"
+msgstr "Paylaşımı kaldır"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:24
+#: bookmarks/templates/bookmarks/form.html:37
+msgid "Refresh from website"
+msgstr "Web sitesinden yenile"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:26
+#: bookmarks/templates/bookmarks/details/assets.html:45
+msgid "Create HTML snapshot"
+msgstr "HTML anlık görüntüsü oluştur"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:30
+msgid "Tag names..."
+msgstr "Etiket adları..."
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:37
+msgid "Execute"
+msgstr "Çalıştır"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:42
+#, python-format
+msgid "All <span class=\"total\">%(total)s</span> bookmarks"
+msgstr "Tüm <span class=\"total\">%(total)s</span> yer imi"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:5
+#: bookmarks/templates/bundles/index.html:9
+msgid "Bundles"
+msgstr "Paketler"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:8
+msgid "Bundles menu"
+msgstr "Paket menüsü"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:15
+msgid "Manage bundles"
+msgstr "Paketleri yönet"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:20
+msgid "Create bundle from search"
+msgstr "Aramadan paket oluştur"
+
+#: bookmarks/templates/bookmarks/close.html:7
+msgid "You can now close this window."
+msgstr "Bu pencereyi şimdi kapatabilirsiniz."
+
+#: bookmarks/templates/bookmarks/details/assets.html:12
+msgid "(queued)"
+msgstr "(kuyrukta)"
+
+#: bookmarks/templates/bookmarks/details/assets.html:15
+msgid "(failed)"
+msgstr "(başarısız)"
+
+#: bookmarks/templates/bookmarks/details/assets.html:53
+msgid "Upload file"
+msgstr "Dosya yükle"
+
+#: bookmarks/templates/bookmarks/details/form.html:31
+msgid "Reader mode"
+msgstr "Okuma modu"
+
+#: bookmarks/templates/bookmarks/details/form.html:57
+msgid "Status"
+msgstr "Durum"
+
+#: bookmarks/templates/bookmarks/details/form.html:65
+#: bookmarks/templates/shared/nav_menu.html:14 bookmarks/views/manifest.py:62
+msgid "Archived"
+msgstr "Arşivlendi"
+
+#: bookmarks/templates/bookmarks/details/form.html:92
+msgid "Files"
+msgstr "Dosyalar"
+
+#: bookmarks/templates/bookmarks/details/form.html:97
+#: bookmarks/templates/bookmarks/form.html:22
+#: bookmarks/templates/bookmarks/tag_section.html:4
+#: bookmarks/templates/bundles/form.html:16
+#: bookmarks/templates/tags/index.html:11
+msgid "Tags"
+msgstr "Etiketler"
+
+#: bookmarks/templates/bookmarks/details/form.html:106
+msgid "Date added"
+msgstr "Eklenme tarihi"
+
+#: bookmarks/templates/bookmarks/details/form.html:113
+#: bookmarks/templates/bookmarks/form.html:48
+msgid "Description"
+msgstr "Açıklama"
+
+#: bookmarks/templates/bookmarks/edit.html:4
+msgid "Edit bookmark - Linkding"
+msgstr "Yer imini düzenle - Linkding"
+
+#: bookmarks/templates/bookmarks/edit.html:10
+msgid "Edit bookmark"
+msgstr "Yer imini düzenle"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:4
+msgid "Invalid search query"
+msgstr "Geçersiz arama sorgusu"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:6
+#, python-format
+msgid ""
+"The search query you entered is not valid. Common reasons are unclosed "
+"parentheses or a logical operator (AND, OR, NOT) without operands. The error"
+" message from the parser is: \"%(error_message)s\"."
+msgstr ""
+"Girdiğiniz arama sorgusu geçerli değil. Yaygın nedenler kapatılmamış "
+"parantezler veya işlenensiz bir mantıksal işleçtir (AND, OR, NOT). "
+"Ayrıştırıcının hata mesajı: \"%(error_message)s\"."
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:12
+msgid "You have no bookmarks yet"
+msgstr "Henüz yer iminiz yok"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:17
+#, python-format
+msgid ""
+"You can get started by <a href=\"%(new_url)s\">adding</a> bookmarks, <a "
+"href=\"%(settings_url)s\">importing</a> your existing bookmarks or "
+"configuring the <a href=\"%(integrations_url)s\">browser extension</a> or "
+"the <a href=\"%(integrations_url)s\">bookmarklet</a>."
+msgstr ""
+"Yer imi <a href=\"%(new_url)s\">ekleyerek</a>, mevcut yer imlerinizi <a "
+"href=\"%(settings_url)s\">içe aktararak</a> ya da <a "
+"href=\"%(integrations_url)s\">tarayıcı eklentisini</a> veya <a "
+"href=\"%(integrations_url)s\">bookmarklet'i</a> yapılandırarak "
+"başlayabilirsiniz."
+
+#: bookmarks/templates/bookmarks/form.html:8
+msgid "URL"
+msgstr "URL"
+
+#: bookmarks/templates/bookmarks/form.html:15
+msgid ""
+"This URL is already bookmarked. The form has been pre-filled with the "
+"existing bookmark, and saving the form will update the existing bookmark."
+msgstr ""
+"Bu URL zaten yer imlerinde. Form mevcut yer imiyle önceden dolduruldu; formu"
+" kaydetmek mevcut yer imini güncelleyecek."
+
+#: bookmarks/templates/bookmarks/form.html:25
+msgid ""
+"Enter any number of tags separated by space and <strong>without</strong> the"
+" hash (#). If a tag does not exist it will be automatically created."
+msgstr ""
+"İstediğiniz kadar etiketi boşlukla ayırarak ve diyez (#) "
+"<strong>olmadan</strong> girin. Etiket yoksa otomatik olarak oluşturulur."
+
+#: bookmarks/templates/bookmarks/form.html:34
+msgid "Title"
+msgstr "Başlık"
+
+#: bookmarks/templates/bookmarks/form.html:40
+#: bookmarks/templates/bookmarks/form.html:50
+msgid "Clear"
+msgstr "Temizle"
+
+#: bookmarks/templates/bookmarks/form.html:63
+msgid "Additional notes, supports Markdown."
+msgstr "Ek notlar, Markdown desteklenir."
+
+#: bookmarks/templates/bookmarks/form.html:70
+msgid ""
+"Unread bookmarks can be filtered for, and marked as read after you had a "
+"chance to look at them."
+msgstr ""
+"Okunmamış yer imleri filtrelenebilir ve inceledikten sonra okundu olarak "
+"işaretlenebilir."
+
+#: bookmarks/templates/bookmarks/form.html:78
+msgid "Share this bookmark with other registered users and anonymous users."
+msgstr ""
+"Bu yer imini diğer kayıtlı kullanıcılar ve anonim kullanıcılarla paylaş."
+
+#: bookmarks/templates/bookmarks/form.html:80
+msgid "Share this bookmark with other registered users."
+msgstr "Bu yer imini diğer kayıtlı kullanıcılarla paylaş."
+
+#: bookmarks/templates/bookmarks/form.html:89
+msgid "Save and close"
+msgstr "Kaydet ve kapat"
+
+#: bookmarks/templates/bookmarks/form.html:93
+#: bookmarks/templates/bundles/form.html:53
+#: bookmarks/templates/settings/general.html:280
+#: bookmarks/templates/settings/general.html:324
+#: bookmarks/templates/tags/edit.html:17 bookmarks/templates/tags/new.html:17
+msgid "Save"
+msgstr "Kaydet"
+
+#: bookmarks/templates/bookmarks/form.html:96
+#: bookmarks/templates/bundles/form.html:56
+#: bookmarks/templates/settings/create_api_token_modal.html:27
+#: bookmarks/templates/shared/layout.html:8
+#: bookmarks/templates/tags/edit.html:16
+#: bookmarks/templates/tags/merge.html:47 bookmarks/templates/tags/new.html:16
+msgid "Cancel"
+msgstr "İptal"
+
+#: bookmarks/templates/bookmarks/form.html:98
+msgid "Auto tags:"
+msgstr "Otomatik etiketler:"
+
+#: bookmarks/templates/bookmarks/new.html:4
+msgid "New bookmark - Linkding"
+msgstr "Yeni yer imi - Linkding"
+
+#: bookmarks/templates/bookmarks/new.html:10
+msgid "New bookmark"
+msgstr "Yeni yer imi"
+
+#: bookmarks/templates/bookmarks/read.html:6
+msgid "Reader view"
+msgstr "Okuma görünümü"
+
+#: bookmarks/templates/bookmarks/read.html:47
+msgid "minutes"
+msgstr "dakika"
+
+#: bookmarks/templates/bookmarks/search.html:5
+msgid "Search for words or #tags"
+msgstr "Kelime veya #etiket ara"
+
+#: bookmarks/templates/bookmarks/search.html:13
+#: bookmarks/templates/tags/index.html:35
+msgid "Search"
+msgstr "Ara"
+
+#: bookmarks/templates/bookmarks/search.html:18
+msgid "Search preferences"
+msgstr "Arama tercihleri"
+
+#: bookmarks/templates/bookmarks/search.html:31
+#: bookmarks/templates/tags/index.html:39
+msgid "Sort by"
+msgstr "Sıralama"
+
+#: bookmarks/templates/bookmarks/search.html:42
+msgid "Shared filter"
+msgstr "Paylaşım filtresi"
+
+#: bookmarks/templates/bookmarks/search.html:59
+msgid "Unread filter"
+msgstr "Okunma filtresi"
+
+#: bookmarks/templates/bookmarks/search.html:71
+#: bookmarks/templates/bookmarks/user_section.html:14
+msgid "Apply"
+msgstr "Uygula"
+
+#: bookmarks/templates/bookmarks/search.html:73
+msgid "Save as default"
+msgstr "Varsayılan olarak kaydet"
+
+#: bookmarks/templates/bookmarks/tag_section.html:8
+msgid "Tags menu"
+msgstr "Etiket menüsü"
+
+#: bookmarks/templates/bookmarks/tag_section.html:15
+msgid "Manage tags"
+msgstr "Etiketleri yönet"
+
+#: bookmarks/templates/bookmarks/user_section.html:4
+msgid "User"
+msgstr "Kullanıcı"
+
+#: bookmarks/templates/bundles/edit.html:4
+msgid "Edit bundle - Linkding"
+msgstr "Paketi düzenle - Linkding"
+
+#: bookmarks/templates/bundles/edit.html:10
+msgid "Edit bundle"
+msgstr "Paketi düzenle"
+
+#: bookmarks/templates/bundles/edit.html:23
+#: bookmarks/templates/bundles/new.html:23
+msgid "Preview"
+msgstr "Önizleme"
+
+#: bookmarks/templates/bundles/form.html:8
+msgid "Search terms"
+msgstr "Arama terimleri"
+
+#: bookmarks/templates/bundles/form.html:12
+msgid "All of these search terms must be present in a bookmark to match."
+msgstr "Eşleşmesi için bu arama terimlerinin tümü yer iminde bulunmalıdır."
+
+#: bookmarks/templates/bundles/form.html:19
+msgid "At least one of these tags must be present in a bookmark to match."
+msgstr "Eşleşmesi için bu etiketlerden en az biri yer iminde bulunmalıdır."
+
+#: bookmarks/templates/bundles/form.html:23
+msgid "Required tags"
+msgstr "Gerekli etiketler"
+
+#: bookmarks/templates/bundles/form.html:26
+msgid "All of these tags must be present in a bookmark to match."
+msgstr "Eşleşmesi için bu etiketlerin tümü yer iminde bulunmalıdır."
+
+#: bookmarks/templates/bundles/form.html:30
+msgid "Excluded tags"
+msgstr "Hariç tutulan etiketler"
+
+#: bookmarks/templates/bundles/form.html:33
+msgid "None of these tags must be present in a bookmark to match."
+msgstr "Eşleşmesi için bu etiketlerin hiçbiri yer iminde bulunmamalıdır."
+
+#: bookmarks/templates/bundles/form.html:37
+msgid "Reading State"
+msgstr "Okunma Durumu"
+
+#: bookmarks/templates/bundles/form.html:40
+msgid "Limit matches to unread or read bookmarks."
+msgstr "Eşleşmeleri okunmamış veya okunmuş yer imleriyle sınırla."
+
+#: bookmarks/templates/bundles/form.html:44
+msgid "Sharing State"
+msgstr "Paylaşım Durumu"
+
+#: bookmarks/templates/bundles/form.html:47
+msgid "Limit matches to shared or unshared bookmarks."
+msgstr "Eşleşmeleri paylaşılan veya paylaşılmayan yer imleriyle sınırla."
+
+#: bookmarks/templates/bundles/index.html:4
+msgid "Bundles - Linkding"
+msgstr "Paketler - Linkding"
+
+#: bookmarks/templates/bundles/index.html:10
+msgid "Add bundle"
+msgstr "Paket ekle"
+
+#: bookmarks/templates/bundles/index.html:21
+#: bookmarks/templates/settings/integrations.html:148
+#: bookmarks/templates/tags/index.html:89
+msgid "Actions"
+msgstr "İşlemler"
+
+#: bookmarks/templates/bundles/index.html:54
+msgid "You have no bundles yet"
+msgstr "Henüz paketiniz yok"
+
+#: bookmarks/templates/bundles/index.html:55
+msgid "Create your first bundle to get started"
+msgstr "Başlamak için ilk paketinizi oluşturun"
+
+#: bookmarks/templates/bundles/new.html:4
+msgid "New bundle - Linkding"
+msgstr "Yeni paket - Linkding"
+
+#: bookmarks/templates/bundles/new.html:10
+msgid "New bundle"
+msgstr "Yeni paket"
+
+#: bookmarks/templates/bundles/preview.html:4
+msgid "No bookmarks match the current bundle."
+msgstr "Mevcut paketle eşleşen yer imi yok."
+
+#: bookmarks/templates/bundles/preview.html:7
+#, python-format
+msgid "Found %(total)s bookmarks matching this bundle."
+msgstr "Bu paketle eşleşen %(total)s yer imi bulundu."
+
+#: bookmarks/templates/registration/login.html:5
+msgid "Login - Linkding"
+msgstr "Giriş - Linkding"
+
+#: bookmarks/templates/registration/login.html:16
+msgid "Your username and password didn't match. Please try again."
+msgstr "Kullanıcı adınız ve parolanız eşleşmedi. Lütfen tekrar deneyin."
+
+#: bookmarks/templates/registration/login.html:19
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#: bookmarks/templates/registration/login.html:23
+msgid "Password"
+msgstr "Parola"
+
+#: bookmarks/templates/registration/login.html:35
+msgid "Login with OIDC"
+msgstr "OIDC ile giriş yap"
+
+#: bookmarks/templates/registration/password_change_done.html:4
+msgid "Password changed - Linkding"
+msgstr "Parola değiştirildi - Linkding"
+
+#: bookmarks/templates/registration/password_change_done.html:9
+msgid "Password Changed"
+msgstr "Parola Değiştirildi"
+
+#: bookmarks/templates/registration/password_change_done.html:11
+msgid "Your password was changed successfully."
+msgstr "Parolanız başarıyla değiştirildi."
+
+#: bookmarks/templates/registration/password_change_form.html:5
+msgid "Change password - Linkding"
+msgstr "Parolayı değiştir - Linkding"
+
+#: bookmarks/templates/registration/password_change_form.html:10
+#: bookmarks/templates/registration/password_change_form.html:30
+msgid "Change Password"
+msgstr "Parolayı Değiştir"
+
+#: bookmarks/templates/registration/password_change_form.html:15
+msgid "Old password"
+msgstr "Eski parola"
+
+#: bookmarks/templates/registration/password_change_form.html:20
+msgid "New password"
+msgstr "Yeni parola"
+
+#: bookmarks/templates/registration/password_change_form.html:25
+msgid "Confirm new password"
+msgstr "Yeni parolayı onayla"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:12
+msgid "Create API Token"
+msgstr "API Belirteci Oluştur"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:15
+msgid "Token name"
+msgstr "Belirteç adı"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:20
+msgid "e.g., Browser Extension, Mobile App"
+msgstr "örn. Tarayıcı Eklentisi, Mobil Uygulama"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:21
+msgid "API Token"
+msgstr "API Belirteci"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:23
+msgid "A descriptive name to identify the purpose of the token"
+msgstr "Belirtecin amacını tanımlayan açıklayıcı bir ad"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:28
+msgid "Create Token"
+msgstr "Belirteç Oluştur"
+
+#: bookmarks/templates/settings/general.html:5
+msgid "Settings - Linkding"
+msgstr "Ayarlar - Linkding"
+
+#: bookmarks/templates/settings/general.html:9
+#: bookmarks/templates/shared/nav_menu.html:32
+#: bookmarks/templates/shared/nav_menu.html:95
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: bookmarks/templates/settings/general.html:16
+msgid "Change password"
+msgstr "Parolayı değiştir"
+
+#: bookmarks/templates/settings/general.html:24
+msgid "Theme"
+msgstr "Tema"
+
+#: bookmarks/templates/settings/general.html:27
+msgid ""
+"Whether to use a light or dark theme, or automatically adjust the theme "
+"based on your system's settings."
+msgstr ""
+"Açık veya koyu tema kullanılsın ya da tema sistem ayarlarınıza göre otomatik"
+" ayarlansın."
+
+#: bookmarks/templates/settings/general.html:31
+msgid "Language"
+msgstr "Dil"
+
+#: bookmarks/templates/settings/general.html:34
+msgid ""
+"Automatically use the language preferred by your browser, or a fixed "
+"language for all your devices. Falls back to English for texts that are not "
+"translated."
+msgstr ""
+"Tarayıcınızın tercih ettiği dil otomatik olarak kullanılsın ya da tüm "
+"cihazlarınız için sabit bir dil seçilsin. Çevrilmemiş metinler İngilizce "
+"gösterilir."
+
+#: bookmarks/templates/settings/general.html:38
+msgid "Bookmark date format"
+msgstr "Yer imi tarih biçimi"
+
+#: bookmarks/templates/settings/general.html:41
+msgid ""
+"Whether to show bookmark dates as relative (how long ago), or as absolute "
+"dates. Alternatively the date can be hidden."
+msgstr ""
+"Yer imi tarihleri göreli (ne kadar önce) mi yoksa mutlak tarih olarak mı "
+"gösterilsin. Tarih gizlenebilir de."
+
+#: bookmarks/templates/settings/general.html:48
+msgid "Bookmark description"
+msgstr "Yer imi açıklaması"
+
+#: bookmarks/templates/settings/general.html:51
+msgid ""
+"Whether to show bookmark descriptions and tags in the same line, or as "
+"separate blocks."
+msgstr ""
+"Yer imi açıklamaları ve etiketleri aynı satırda mı yoksa ayrı bloklar "
+"halinde mi gösterilsin."
+
+#: bookmarks/templates/settings/general.html:55
+msgid "Bookmark description max lines"
+msgstr "Yer imi açıklaması en fazla satır"
+
+#: bookmarks/templates/settings/general.html:58
+msgid ""
+"Limits the number of lines that are displayed for the bookmark description."
+msgstr "Yer imi açıklaması için gösterilen satır sayısını sınırlar."
+
+#: bookmarks/templates/settings/general.html:62
+msgid "Show bookmark URL"
+msgstr "Yer imi URL'sini göster"
+
+#: bookmarks/templates/settings/general.html:64
+msgid "When enabled, this setting displays the bookmark URL below the title."
+msgstr ""
+"Etkinleştirildiğinde bu ayar yer imi URL'sini başlığın altında gösterir."
+
+#: bookmarks/templates/settings/general.html:68
+msgid "Show notes permanently"
+msgstr "Notları kalıcı olarak göster"
+
+#: bookmarks/templates/settings/general.html:70
+msgid ""
+"Whether to show bookmark notes permanently, without having to toggle them "
+"individually. Alternatively the keyboard shortcut <code>e</code> can be used"
+" to temporarily show all notes."
+msgstr ""
+"Yer imi notları tek tek açmaya gerek kalmadan kalıcı olarak gösterilsin. "
+"Alternatif olarak <code>e</code> klavye kısayoluyla tüm notlar geçici olarak"
+" gösterilebilir."
+
+#: bookmarks/templates/settings/general.html:77
+msgid "Bookmark actions"
+msgstr "Yer imi işlemleri"
+
+#: bookmarks/templates/settings/general.html:82
+msgid "Which actions to display for each bookmark."
+msgstr "Her yer imi için hangi işlemler gösterilsin."
+
+#: bookmarks/templates/settings/general.html:85
+msgid "Open bookmarks in"
+msgstr "Yer imlerini şurada aç"
+
+#: bookmarks/templates/settings/general.html:88
+msgid "Whether to open bookmarks a new page or in the same page."
+msgstr "Yer imleri yeni sayfada mı yoksa aynı sayfada mı açılsın."
+
+#: bookmarks/templates/settings/general.html:92
+msgid "Items per page"
+msgstr "Sayfa başına öğe"
+
+#: bookmarks/templates/settings/general.html:96
+msgid "The number of bookmarks to display per page."
+msgstr "Sayfa başına gösterilecek yer imi sayısı."
+
+#: bookmarks/templates/settings/general.html:100
+msgid "Sticky pagination"
+msgstr "Yapışkan sayfalama"
+
+#: bookmarks/templates/settings/general.html:102
+msgid ""
+"When enabled, the pagination controls will stick to the bottom of the "
+"screen, so that they are always visible without having to scroll to the end "
+"of the page first."
+msgstr ""
+"Etkinleştirildiğinde sayfalama denetimleri ekranın altına yapışır ve "
+"sayfanın sonuna kaydırmadan her zaman görünür kalır."
+
+#: bookmarks/templates/settings/general.html:109
+msgid "Collapse side panel"
+msgstr "Yan paneli daralt"
+
+#: bookmarks/templates/settings/general.html:111
+msgid ""
+"When enabled, the tags side panel will be collapsed by default to give more "
+"space to the bookmark list. Instead, the tags are shown in an expandable "
+"drawer."
+msgstr ""
+"Etkinleştirildiğinde etiket yan paneli yer imi listesine daha fazla alan "
+"bırakmak için varsayılan olarak daraltılır. Etiketler bunun yerine "
+"açılabilir bir çekmecede gösterilir."
+
+#: bookmarks/templates/settings/general.html:118
+msgid "Hide bundles"
+msgstr "Paketleri gizle"
+
+#: bookmarks/templates/settings/general.html:120
+msgid ""
+"Allows to hide the bundles in the side panel if you don't intend to use "
+"them."
+msgstr "Paketleri kullanmayı düşünmüyorsanız yan panelde gizlemenizi sağlar."
+
+#: bookmarks/templates/settings/general.html:124
+msgid "Tag search"
+msgstr "Etiket arama"
+
+#: bookmarks/templates/settings/general.html:127
+msgid ""
+"In strict mode, tags must be prefixed with a hash character (#). In lax "
+"mode, tags can also be searched without the hash character. Note that tags "
+"without the hash character are indistinguishable from search terms, which "
+"means the search result will also include bookmarks where a search term "
+"matches otherwise."
+msgstr ""
+"Katı modda etiketlerin başına diyez (#) konmalıdır. Esnek modda etiketler "
+"diyez olmadan da aranabilir. Diyezsiz etiketlerin arama terimlerinden ayırt "
+"edilemediğini unutmayın; bu, arama sonucunun bir arama teriminin başka "
+"şekilde eşleştiği yer imlerini de içereceği anlamına gelir."
+
+#: bookmarks/templates/settings/general.html:136
+msgid "Enable legacy search"
+msgstr "Eski aramayı etkinleştir"
+
+#: bookmarks/templates/settings/general.html:138
+msgid ""
+"Since version 1.44.0, linkding has a new search engine that supports logical"
+" expressions (and, or, not). If you run into any issues with the new search,"
+" you can enable this option to temporarily switch back to the old search. "
+"Please report any issues you encounter with the new search on <a "
+"href=\"https://github.com/sissbruecker/linkding/issues\" "
+"target=\"_blank\">GitHub</a> so they can be addressed. This option will be "
+"removed in a future version."
+msgstr ""
+"1.44.0 sürümünden itibaren linkding, mantıksal ifadeleri (and, or, not) "
+"destekleyen yeni bir arama motoruna sahiptir. Yeni aramada sorun yaşarsanız "
+"geçici olarak eski aramaya dönmek için bu seçeneği etkinleştirebilirsiniz. "
+"Lütfen yeni aramada karşılaştığınız sorunları giderilebilmeleri için <a "
+"href=\"https://github.com/sissbruecker/linkding/issues\" "
+"target=\"_blank\">GitHub</a> üzerinde bildirin. Bu seçenek gelecekteki bir "
+"sürümde kaldırılacaktır."
+
+#: bookmarks/templates/settings/general.html:148
+msgid "Tag grouping"
+msgstr "Etiket gruplama"
+
+#: bookmarks/templates/settings/general.html:151
+msgid ""
+"In alphabetical mode, tags will be grouped by the first letter. If disabled,"
+" tags will not be grouped."
+msgstr ""
+"Alfabetik modda etiketler ilk harfe göre gruplanır. Devre dışıysa etiketler "
+"gruplanmaz."
+
+#: bookmarks/templates/settings/general.html:160
+#: bookmarks/templates/settings/general.html:163
+msgid "Auto Tagging"
+msgstr "Otomatik Etiketleme"
+
+#: bookmarks/templates/settings/general.html:167
+msgid ""
+"Automatically adds tags to bookmarks based on predefined rules. Each line is"
+" a single rule that maps a URL to one or more tags. For example:"
+msgstr ""
+"Önceden tanımlanmış kurallara göre yer imlerine otomatik olarak etiket "
+"ekler. Her satır, bir URL'yi bir veya daha fazla etiketle eşleyen tek bir "
+"kuraldır. Örneğin:"
+
+#: bookmarks/templates/settings/general.html:176
+msgid "Enable Favicons"
+msgstr "Favicon'ları Etkinleştir"
+
+#: bookmarks/templates/settings/general.html:178
+msgid ""
+"Automatically loads favicons for bookmarked websites and displays them next "
+"to each bookmark. Enabling this feature automatically downloads all missing "
+"favicons. By default, this feature uses a <b>Google service</b> to download "
+"favicons. If you don't want to use this service, check the <a "
+"href=\"https://linkding.link/options/#ld_favicon_provider\" "
+"target=\"_blank\">options documentation</a> on how to configure a custom "
+"favicon provider. Icons are downloaded in the background, and it may take a "
+"while for them to show up."
+msgstr ""
+"Yer imi eklenen web sitelerinin favicon'larını otomatik olarak yükler ve her"
+" yer iminin yanında gösterir. Bu özelliği etkinleştirmek eksik tüm "
+"favicon'ları otomatik olarak indirir. Varsayılan olarak bu özellik "
+"favicon'ları indirmek için bir <b>Google hizmeti</b> kullanır. Bu hizmeti "
+"kullanmak istemiyorsanız özel bir favicon sağlayıcısı yapılandırmak için <a "
+"href=\"https://linkding.link/options/#ld_favicon_provider\" "
+"target=\"_blank\">seçenekler belgelerine</a> bakın. Simgeler arka planda "
+"indirilir ve görünmeleri biraz zaman alabilir."
+
+#: bookmarks/templates/settings/general.html:189
+msgid "Refresh Favicons"
+msgstr "Favicon'ları Yenile"
+
+#: bookmarks/templates/settings/general.html:193
+msgid "Enable Preview Images"
+msgstr "Önizleme Resimlerini Etkinleştir"
+
+#: bookmarks/templates/settings/general.html:195
+msgid ""
+"Automatically loads preview images for bookmarked websites and displays them"
+" next to each bookmark. Enabling this feature automatically downloads all "
+"missing preview images."
+msgstr ""
+"Yer imi eklenen web sitelerinin önizleme resimlerini otomatik olarak yükler "
+"ve her yer iminin yanında gösterir. Bu özelliği etkinleştirmek eksik tüm "
+"önizleme resimlerini otomatik olarak indirir."
+
+#: bookmarks/templates/settings/general.html:202
+msgid "Internet Archive integration"
+msgstr "Internet Archive entegrasyonu"
+
+#: bookmarks/templates/settings/general.html:205
+msgid ""
+"Enabling this feature will automatically create snapshots of bookmarked "
+"websites on the <a href=\"https://web.archive.org/\" target=\"_blank\" "
+"rel=\"noopener\">Internet Archive Wayback Machine</a>. This allows to "
+"preserve, and later access the website as it was at the point in time it was"
+" bookmarked, in case it goes offline or its content is modified. Please "
+"consider donating to the <a href=\"https://archive.org/donate\" "
+"target=\"_blank\" rel=\"noopener\">Internet Archive</a> if you make use of "
+"this feature."
+msgstr ""
+"Bu özelliği etkinleştirmek, yer imi eklenen web sitelerinin <a "
+"href=\"https://web.archive.org/\" target=\"_blank\" "
+"rel=\"noopener\">Internet Archive Wayback Machine</a> üzerinde otomatik "
+"olarak anlık görüntülerini oluşturur. Bu, web sitesi çevrimdışı olursa veya "
+"içeriği değişirse, yer imi eklendiği andaki haliyle korunmasını ve daha "
+"sonra erişilmesini sağlar. Bu özelliği kullanıyorsanız lütfen <a "
+"href=\"https://archive.org/donate\" target=\"_blank\" "
+"rel=\"noopener\">Internet Archive</a>'a bağış yapmayı düşünün."
+
+#: bookmarks/templates/settings/general.html:215
+msgid "Enable bookmark sharing"
+msgstr "Yer imi paylaşımını etkinleştir"
+
+#: bookmarks/templates/settings/general.html:217
+msgid ""
+"Allows to share bookmarks with other users, and to view shared bookmarks. "
+"Disabling this feature will hide all previously shared bookmarks from other "
+"users."
+msgstr ""
+"Yer imlerini diğer kullanıcılarla paylaşmayı ve paylaşılan yer imlerini "
+"görüntülemeyi sağlar. Bu özelliği devre dışı bırakmak daha önce paylaşılan "
+"tüm yer imlerini diğer kullanıcılardan gizler."
+
+#: bookmarks/templates/settings/general.html:224
+msgid "Enable public bookmark sharing"
+msgstr "Herkese açık yer imi paylaşımını etkinleştir"
+
+#: bookmarks/templates/settings/general.html:227
+#, python-format
+msgid ""
+"Makes shared bookmarks publicly accessible, without requiring a login. That "
+"means that anyone with a link to this instance can view shared bookmarks via"
+" the <a href=\"%(shared_bookmarks_url)s\">shared bookmarks page</a>."
+msgstr ""
+"Paylaşılan yer imlerini giriş gerektirmeden herkese açık hale getirir. Bu, "
+"bu örneğe bağlantısı olan herkesin <a "
+"href=\"%(shared_bookmarks_url)s\">paylaşılan yer imleri sayfası</a> "
+"üzerinden paylaşılan yer imlerini görebileceği anlamına gelir."
+
+#: bookmarks/templates/settings/general.html:235
+msgid "Automatically create HTML snapshots"
+msgstr "HTML anlık görüntülerini otomatik oluştur"
+
+#: bookmarks/templates/settings/general.html:237
+msgid ""
+"Automatically creates HTML snapshots when adding bookmarks. Alternatively, "
+"when disabled, snapshots can be created manually in the details view of a "
+"bookmark."
+msgstr ""
+"Yer imi eklerken otomatik olarak HTML anlık görüntüleri oluşturur. Devre "
+"dışı bırakıldığında anlık görüntüler bir yer iminin ayrıntı görünümünde elle"
+" oluşturulabilir."
+
+#: bookmarks/templates/settings/general.html:242
+msgid "Create missing HTML snapshots"
+msgstr "Eksik HTML anlık görüntülerini oluştur"
+
+#: bookmarks/templates/settings/general.html:246
+msgid "Create bookmarks as unread by default"
+msgstr "Yer imlerini varsayılan olarak okunmamış oluştur"
+
+#: bookmarks/templates/settings/general.html:248
+msgid ""
+"Sets the default state for the \"Mark as unread\" option when creating a new"
+" bookmark. Setting this option will make all new bookmarks default to "
+"unread. This can be overridden when creating each new bookmark."
+msgstr ""
+"Yeni bir yer imi oluştururken \"Okunmadı olarak işaretle\" seçeneğinin "
+"varsayılan durumunu belirler. Bu seçenek tüm yeni yer imlerini varsayılan "
+"olarak okunmamış yapar. Her yeni yer imi oluşturulurken bu geçersiz "
+"kılınabilir."
+
+#: bookmarks/templates/settings/general.html:256
+msgid "Create bookmarks as shared by default"
+msgstr "Yer imlerini varsayılan olarak paylaşılan oluştur"
+
+#: bookmarks/templates/settings/general.html:258
+msgid ""
+"Sets the default state for the \"Share\" option when creating a new "
+"bookmark. Setting this option will make all new bookmarks default to shared."
+" This can be overridden when creating each new bookmark."
+msgstr ""
+"Yeni bir yer imi oluştururken \"Paylaş\" seçeneğinin varsayılan durumunu "
+"belirler. Bu seçenek tüm yeni yer imlerini varsayılan olarak paylaşılan "
+"yapar. Her yeni yer imi oluşturulurken bu geçersiz kılınabilir."
+
+#: bookmarks/templates/settings/general.html:268
+#: bookmarks/templates/settings/general.html:270
+msgid "Custom CSS"
+msgstr "Özel CSS"
+
+#: bookmarks/templates/settings/general.html:274
+msgid "Allows to add custom CSS to the page."
+msgstr "Sayfaya özel CSS eklemenizi sağlar."
+
+#: bookmarks/templates/settings/general.html:288
+msgid "Global settings"
+msgstr "Genel ayarlar"
+
+#: bookmarks/templates/settings/general.html:295
+msgid "Landing page"
+msgstr "Açılış sayfası"
+
+#: bookmarks/templates/settings/general.html:298
+msgid ""
+"The page that unauthenticated users are redirected to when accessing the "
+"root URL."
+msgstr ""
+"Kimliği doğrulanmamış kullanıcıların kök URL'ye eriştiklerinde "
+"yönlendirildiği sayfa."
+
+#: bookmarks/templates/settings/general.html:302
+msgid "Guest user profile"
+msgstr "Misafir kullanıcı profili"
+
+#: bookmarks/templates/settings/general.html:305
+msgid ""
+"The user profile to use for users that are not logged in. This will affect "
+"how publicly shared bookmarks are displayed regarding theme, bookmark list "
+"settings, etc. You can either use your own profile or create a dedicated "
+"user for this purpose. By default, a standard profile with fixed settings is"
+" used."
+msgstr ""
+"Giriş yapmamış kullanıcılar için kullanılacak kullanıcı profili. Bu, herkese"
+" açık paylaşılan yer imlerinin tema, yer imi listesi ayarları vb. açısından "
+"nasıl gösterileceğini etkiler. Kendi profilinizi kullanabilir veya bu amaçla"
+" özel bir kullanıcı oluşturabilirsiniz. Varsayılan olarak sabit ayarlara "
+"sahip standart bir profil kullanılır."
+
+#: bookmarks/templates/settings/general.html:313
+msgid "Enable prefetching links on hover"
+msgstr "Üzerine gelince bağlantıları önceden yüklemeyi etkinleştir"
+
+#: bookmarks/templates/settings/general.html:315
+msgid ""
+"Prefetches internal links when hovering over them. This can improve the "
+"perceived performance when navigating application, but also increases the "
+"load on the server as well as bandwidth usage."
+msgstr ""
+"Üzerlerine gelindiğinde dahili bağlantıları önceden yükler. Bu, uygulamada "
+"gezinirken algılanan performansı artırabilir, ancak sunucu yükünü ve bant "
+"genişliği kullanımını da artırır."
+
+#: bookmarks/templates/settings/general.html:332
+msgid "Import"
+msgstr "İçe aktar"
+
+#: bookmarks/templates/settings/general.html:334
+msgid ""
+"Import bookmarks and tags in the Netscape HTML format. This will execute a "
+"sync where new bookmarks are added and existing ones are updated."
+msgstr ""
+"Yer imlerini ve etiketleri Netscape HTML biçiminde içe aktar. Bu, yeni yer "
+"imlerinin eklendiği ve mevcut olanların güncellendiği bir eşitleme "
+"çalıştırır."
+
+#: bookmarks/templates/settings/general.html:349
+msgid "Import public bookmarks as shared"
+msgstr "Herkese açık yer imlerini paylaşılan olarak içe aktar"
+
+#: bookmarks/templates/settings/general.html:352
+msgid ""
+"When importing bookmarks from a service that supports marking bookmarks as "
+"public or private (using the <code>PRIVATE</code> attribute), enabling this "
+"option will import all bookmarks that are marked as not private as shared "
+"bookmarks. Otherwise, all bookmarks will be imported as private bookmarks."
+msgstr ""
+"Yer imlerini herkese açık veya özel olarak işaretlemeyi destekleyen bir "
+"hizmetten (<code>PRIVATE</code> özniteliğini kullanarak) içe aktarırken, bu "
+"seçeneğin etkinleştirilmesi özel olarak işaretlenmemiş tüm yer imlerini "
+"paylaşılan yer imleri olarak içe aktarır. Aksi halde tüm yer imleri özel "
+"olarak içe aktarılır."
+
+#: bookmarks/templates/settings/general.html:365
+msgid "Upload"
+msgstr "Yükle"
+
+#: bookmarks/templates/settings/general.html:372
+msgid "Export"
+msgstr "Dışa aktar"
+
+#: bookmarks/templates/settings/general.html:373
+msgid "Export all bookmarks in Netscape HTML format."
+msgstr "Tüm yer imlerini Netscape HTML biçiminde dışa aktar."
+
+#: bookmarks/templates/settings/general.html:376
+msgid "Download (.html)"
+msgstr "İndir (.html)"
+
+#: bookmarks/templates/settings/general.html:385
+msgid "About"
+msgstr "Hakkında"
+
+#: bookmarks/templates/settings/general.html:389
+msgid "Version"
+msgstr "Sürüm"
+
+#: bookmarks/templates/settings/general.html:393
+msgid "Links"
+msgstr "Bağlantılar"
+
+#: bookmarks/templates/settings/general.html:397
+msgid "Documentation"
+msgstr "Belgeler"
+
+#: bookmarks/templates/settings/general.html:399
+msgid "Changelog"
+msgstr "Değişiklik günlüğü"
+
+#: bookmarks/templates/settings/integrations.html:4
+msgid "Integrations - Linkding"
+msgstr "Entegrasyonlar - Linkding"
+
+#: bookmarks/templates/settings/integrations.html:8
+#: bookmarks/templates/shared/nav_menu.html:38
+#: bookmarks/templates/shared/nav_menu.html:98
+msgid "Integrations"
+msgstr "Entegrasyonlar"
+
+#: bookmarks/templates/settings/integrations.html:10
+msgid "Browser Extension"
+msgstr "Tarayıcı Eklentisi"
+
+#: bookmarks/templates/settings/integrations.html:12
+msgid ""
+"The browser extension allows you to quickly add new bookmarks without "
+"leaving the page that you are on. The extension is available in the official"
+" extension stores for:"
+msgstr ""
+"Tarayıcı eklentisi, bulunduğunuz sayfadan ayrılmadan hızlıca yeni yer imleri"
+" eklemenizi sağlar. Eklenti şu resmi eklenti mağazalarında mevcuttur:"
+
+#: bookmarks/templates/settings/integrations.html:28
+msgid ""
+"The extension is <a href=\"https://github.com/sissbruecker/linkding-"
+"extension\" target=\"_blank\">open source</a> as well, which enables you to "
+"build and manually load it into any browser that supports Chrome extensions."
+msgstr ""
+"Eklenti ayrıca <a href=\"https://github.com/sissbruecker/linkding-"
+"extension\" target=\"_blank\">açık kaynaklıdır</a>; böylece Chrome "
+"eklentilerini destekleyen herhangi bir tarayıcıya derleyip elle "
+"yükleyebilirsiniz."
+
+#: bookmarks/templates/settings/integrations.html:34
+msgid "Bookmarklet"
+msgstr "Bookmarklet"
+
+#: bookmarks/templates/settings/integrations.html:36
+msgid ""
+"The bookmarklet is an alternative, cross-browser way to quickly add new "
+"bookmarks without opening the linkding application first. Here's how it "
+"works:"
+msgstr ""
+"Bookmarklet, önce linkding uygulamasını açmadan hızlıca yeni yer imleri "
+"eklemenin alternatif, tarayıcılar arası bir yoludur. Şöyle çalışır:"
+
+#: bookmarks/templates/settings/integrations.html:43
+msgid ""
+"Choose your preferred method for detecting website titles and descriptions "
+"below (<a href=\"https://linkding.link/troubleshooting/#automatically-"
+"detected-title-and-description-are-incorrect\" target=\"_blank\">Help</a>)"
+msgstr ""
+"Aşağıda web sitesi başlıklarını ve açıklamalarını algılamak için tercih "
+"ettiğiniz yöntemi seçin (<a "
+"href=\"https://linkding.link/troubleshooting/#automatically-detected-title-"
+"and-description-are-incorrect\" target=\"_blank\">Yardım</a>)"
+
+#: bookmarks/templates/settings/integrations.html:48
+msgid "Drag the bookmarklet below into your browser's bookmark bar / toolbar"
+msgstr ""
+"Aşağıdaki bookmarklet'i tarayıcınızın yer imi çubuğuna / araç çubuğuna "
+"sürükleyin"
+
+#: bookmarks/templates/settings/integrations.html:49
+msgid "Open the website that you want to bookmark"
+msgstr "Yer imi eklemek istediğiniz web sitesini açın"
+
+#: bookmarks/templates/settings/integrations.html:50
+msgid "Click the bookmarklet in your browser's toolbar"
+msgstr "Tarayıcınızın araç çubuğundaki bookmarklet'e tıklayın"
+
+#: bookmarks/templates/settings/integrations.html:51
+msgid ""
+"linkding opens in a new window or tab and allows you to add a bookmark for "
+"the site"
+msgstr ""
+"linkding yeni bir pencerede veya sekmede açılır ve site için yer imi "
+"eklemenizi sağlar"
+
+#: bookmarks/templates/settings/integrations.html:52
+msgid ""
+"After saving the bookmark, the linkding window closes, and you are back on "
+"your website"
+msgstr ""
+"Yer imini kaydettikten sonra linkding penceresi kapanır ve web sitenize geri"
+" dönersiniz"
+
+#: bookmarks/templates/settings/integrations.html:57
+msgid "Choose your preferred bookmarklet:"
+msgstr "Tercih ettiğiniz bookmarklet'i seçin:"
+
+#: bookmarks/templates/settings/integrations.html:65
+msgid "Detect title and description on the server"
+msgstr "Başlığı ve açıklamayı sunucuda algıla"
+
+#: bookmarks/templates/settings/integrations.html:73
+msgid "Detect title and description in the browser"
+msgstr "Başlığı ve açıklamayı tarayıcıda algıla"
+
+#: bookmarks/templates/settings/integrations.html:80
+#: bookmarks/templates/settings/integrations.html:85
+#: bookmarks/templates/shared/nav_menu.html:6
+#: bookmarks/templates/shared/nav_menu.html:58 bookmarks/views/manifest.py:58
+msgid "Add bookmark"
+msgstr "Yer imi ekle"
+
+#: bookmarks/templates/settings/integrations.html:114
+msgid "REST API"
+msgstr "REST API"
+
+#: bookmarks/templates/settings/integrations.html:119
+msgid "Copy this token now, it will only be shown once:"
+msgstr "Bu belirteci şimdi kopyalayın, yalnızca bir kez gösterilecek:"
+
+#: bookmarks/templates/settings/integrations.html:121
+msgid "New token key"
+msgstr "Yeni belirteç anahtarı"
+
+#: bookmarks/templates/settings/integrations.html:127
+#: bookmarks/templates/settings/integrations.html:177
+msgid "Copy"
+msgstr "Kopyala"
+
+#: bookmarks/templates/settings/integrations.html:132
+msgid ""
+"API tokens can be used to authenticate 3rd-party applications against the "
+"REST API. <strong>Please treat tokens as you would any other "
+"credential.</strong> Any party with access to a token can access and manage "
+"all your bookmarks."
+msgstr ""
+"API belirteçleri, üçüncü taraf uygulamaların REST API'ye karşı kimliğini "
+"doğrulamak için kullanılabilir. <strong>Lütfen belirteçlere diğer kimlik "
+"bilgileri gibi davranın.</strong> Belirtece erişimi olan herkes tüm yer "
+"imlerinize erişebilir ve onları yönetebilir."
+
+#: bookmarks/templates/settings/integrations.html:146
+msgid "Created"
+msgstr "Oluşturulma"
+
+#: bookmarks/templates/settings/integrations.html:173
+msgid "Create API token"
+msgstr "API belirteci oluştur"
+
+#: bookmarks/templates/settings/integrations.html:176
+msgid "Copied!"
+msgstr "Kopyalandı!"
+
+#: bookmarks/templates/settings/integrations.html:200
+msgid "RSS Feeds"
+msgstr "RSS Akışları"
+
+#: bookmarks/templates/settings/integrations.html:201
+msgid "The following URLs provide RSS feeds for your bookmarks:"
+msgstr "Aşağıdaki URL'ler yer imleriniz için RSS akışları sağlar:"
+
+#: bookmarks/templates/settings/integrations.html:215
+msgid ""
+"The public shared feed does not contain an authentication token and can be "
+"shared with other people. Only shows shared bookmarks from users who have "
+"explicitly enabled public sharing."
+msgstr ""
+"Herkese açık paylaşılan akış kimlik doğrulama belirteci içermez ve "
+"başkalarıyla paylaşılabilir. Yalnızca herkese açık paylaşımı açıkça "
+"etkinleştirmiş kullanıcıların paylaşılan yer imlerini gösterir."
+
+#: bookmarks/templates/settings/integrations.html:218
+msgid "Feed URLs support the following URL parameters:"
+msgstr "Akış URL'leri aşağıdaki URL parametrelerini destekler:"
+
+#: bookmarks/templates/settings/integrations.html:221
+msgid ""
+"A <code>limit</code> parameter for specifying the maximum number of "
+"bookmarks to include in the feed. By default, only the latest 100 matching "
+"bookmarks are included."
+msgstr ""
+"Akışa dahil edilecek en fazla yer imi sayısını belirtmek için bir "
+"<code>limit</code> parametresi. Varsayılan olarak yalnızca eşleşen en son "
+"100 yer imi dahil edilir."
+
+#: bookmarks/templates/settings/integrations.html:227
+msgid ""
+"A <code>q</code> URL parameter for specifying a search query. You can get an"
+" example by doing a search in the bookmarks view and then copying the "
+"parameter from the URL."
+msgstr ""
+"Bir arama sorgusu belirtmek için bir <code>q</code> URL parametresi. Yer "
+"imleri görünümünde bir arama yapıp parametreyi URL'den kopyalayarak bir "
+"örnek alabilirsiniz."
+
+#: bookmarks/templates/settings/integrations.html:233
+msgid ""
+"An <code>unread</code> parameter for filtering for unread or read bookmarks."
+" Use <code>yes</code> for unread bookmarks and <code>no</code> for read "
+"bookmarks."
+msgstr ""
+"Okunmamış veya okunmuş yer imlerini filtrelemek için bir <code>unread</code>"
+" parametresi. Okunmamış yer imleri için <code>yes</code>, okunmuş yer imleri"
+" için <code>no</code> kullanın."
+
+#: bookmarks/templates/settings/integrations.html:239
+msgid ""
+"A <code>shared</code> parameter for filtering for shared or unshared "
+"bookmarks. Use <code>yes</code> for shared bookmarks and <code>no</code> for"
+" unshared bookmarks."
+msgstr ""
+"Paylaşılan veya paylaşılmayan yer imlerini filtrelemek için bir "
+"<code>shared</code> parametresi. Paylaşılan yer imleri için "
+"<code>yes</code>, paylaşılmayan yer imleri için <code>no</code> kullanın."
+
+#: bookmarks/templates/settings/integrations.html:245
+msgid ""
+"A <code>user</code> parameter for filtering bookmarks by user name. Only "
+"applies to the shared bookmark feeds."
+msgstr ""
+"Yer imlerini kullanıcı adına göre filtrelemek için bir <code>user</code> "
+"parametresi. Yalnızca paylaşılan yer imi akışları için geçerlidir."
+
+#: bookmarks/templates/settings/integrations.html:252
+#, python-format
+msgid ""
+"<strong>Please note that these URLs include an authentication token that "
+"should be treated like any other credential.</strong> Any party with access "
+"to these URLs can read all your bookmarks. If you think that a URL was "
+"compromised you can delete the feed token for your user in the <a "
+"target=\"_blank\" href=\"%(feed_token_admin_url)s\">admin panel</a>. After "
+"deleting the feed token, new URLs will be generated when you reload this "
+"settings page."
+msgstr ""
+"<strong>Bu URL'lerin diğer kimlik bilgileri gibi ele alınması gereken bir "
+"kimlik doğrulama belirteci içerdiğini lütfen unutmayın.</strong> Bu URL'lere"
+" erişimi olan herkes tüm yer imlerinizi okuyabilir. Bir URL'nin ele "
+"geçirildiğini düşünüyorsanız <a target=\"_blank\" "
+"href=\"%(feed_token_admin_url)s\">yönetim panelinde</a> kullanıcınızın akış "
+"belirtecini silebilirsiniz. Akış belirtecini sildikten sonra bu ayarlar "
+"sayfasını yeniden yüklediğinizde yeni URL'ler oluşturulur."
+
+#: bookmarks/templates/shared/head.html:24 bookmarks/views/manifest.py:10
+msgid "Self-hosted bookmark service"
+msgstr "Kendi barındırdığınız yer imi hizmeti"
+
+#: bookmarks/templates/shared/layout.html:7
+msgid "Are you sure?"
+msgstr "Emin misiniz?"
+
+#: bookmarks/templates/shared/layout.html:9
+msgid "Confirm"
+msgstr "Onayla"
+
+#: bookmarks/templates/shared/layout.html:11
+#: bookmarks/templates/shared/modal_header.html:6
+msgid "Close dialog"
+msgstr "İletişim kutusunu kapat"
+
+#: bookmarks/templates/shared/layout.html:38
+msgid "Application logo"
+msgstr "Uygulama logosu"
+
+#: bookmarks/templates/shared/nav_menu.html:11
+msgid "Active"
+msgstr "Etkin"
+
+#: bookmarks/templates/shared/nav_menu.html:27
+#: bookmarks/templates/shared/nav_menu.html:91 bookmarks/views/manifest.py:70
+msgid "Untagged"
+msgstr "Etiketsiz"
+
+#: bookmarks/templates/shared/nav_menu.html:35
+msgid "General"
+msgstr "Genel"
+
+#: bookmarks/templates/shared/nav_menu.html:42
+#: bookmarks/templates/shared/nav_menu.html:102
+msgid "Admin"
+msgstr "Yönetici"
+
+#: bookmarks/templates/shared/nav_menu.html:52
+#: bookmarks/templates/shared/nav_menu.html:112
+msgid "Logout"
+msgstr "Çıkış"
+
+#: bookmarks/templates/shared/nav_menu.html:66
+msgid "Navigation menu"
+msgstr "Gezinme menüsü"
+
+#: bookmarks/templates/shared/nav_menu.html:78 bookmarks/views/contexts.py:277
+msgid "Archived bookmarks"
+msgstr "Arşivlenmiş yer imleri"
+
+#: bookmarks/templates/shared/pagination.html:7
+#: bookmarks/templates/shared/pagination.html:11
+msgid "Previous"
+msgstr "Önceki"
+
+#: bookmarks/templates/shared/pagination.html:29
+#: bookmarks/templates/shared/pagination.html:33
+msgid "Next"
+msgstr "Sonraki"
+
+#: bookmarks/templates/tags/edit.html:13
+msgid "Edit Tag"
+msgstr "Etiketi Düzenle"
+
+#: bookmarks/templates/tags/form.html:6
+msgid ""
+"Tag names are case-insensitive and cannot contain spaces (spaces will be "
+"replaced with hyphens)."
+msgstr ""
+"Etiket adları büyük/küçük harfe duyarlı değildir ve boşluk içeremez "
+"(boşluklar tire ile değiştirilir)."
+
+#: bookmarks/templates/tags/index.html:4
+msgid "Tags - Linkding"
+msgstr "Etiketler - Linkding"
+
+#: bookmarks/templates/tags/index.html:15 bookmarks/templates/tags/new.html:13
+msgid "Create Tag"
+msgstr "Etiket Oluştur"
+
+#: bookmarks/templates/tags/index.html:18
+#: bookmarks/templates/tags/merge.html:13
+#: bookmarks/templates/tags/merge.html:48
+msgid "Merge Tags"
+msgstr "Etiketleri Birleştir"
+
+#: bookmarks/templates/tags/index.html:27
+msgid "Search tags"
+msgstr "Etiket ara"
+
+#: bookmarks/templates/tags/index.html:33
+msgid "Search tags..."
+msgstr "Etiket ara..."
+
+#: bookmarks/templates/tags/index.html:47
+msgid "Name A-Z"
+msgstr "Ad A-Z"
+
+#: bookmarks/templates/tags/index.html:48
+msgid "Name Z-A"
+msgstr "Ad Z-A"
+
+#: bookmarks/templates/tags/index.html:49
+msgid "Fewest bookmarks"
+msgstr "En az yer imi"
+
+#: bookmarks/templates/tags/index.html:50
+msgid "Most bookmarks"
+msgstr "En çok yer imi"
+
+#: bookmarks/templates/tags/index.html:61
+msgid "Show only unused tags"
+msgstr "Yalnızca kullanılmayan etiketleri göster"
+
+#: bookmarks/templates/tags/index.html:69
+#, python-format
+msgid "Showing %(count)s of %(total_tags)s tags"
+msgstr "%(total_tags)s etiketten %(count)s tanesi gösteriliyor"
+
+#: bookmarks/templates/tags/index.html:73
+#, python-format
+msgid "%(total_tags)s tags total"
+msgstr "Toplam %(total_tags)s etiket"
+
+#: bookmarks/templates/tags/index.html:123
+msgid "No tags found"
+msgstr "Etiket bulunamadı"
+
+#: bookmarks/templates/tags/index.html:124
+msgid "Try adjusting your search or filters"
+msgstr "Aramanızı veya filtrelerinizi değiştirmeyi deneyin"
+
+#: bookmarks/templates/tags/index.html:126
+msgid "You have no tags yet"
+msgstr "Henüz etiketiniz yok"
+
+#: bookmarks/templates/tags/index.html:127
+msgid "Tags will appear here when you add bookmarks with tags"
+msgstr "Etiketli yer imleri eklediğinizde etiketler burada görünecek"
+
+#: bookmarks/templates/tags/merge.html:17
+msgid "How to merge tags"
+msgstr "Etiketler nasıl birleştirilir"
+
+#: bookmarks/templates/tags/merge.html:20
+msgid "Enter the name of the tag you want to keep"
+msgstr "Tutmak istediğiniz etiketin adını girin"
+
+#: bookmarks/templates/tags/merge.html:21
+msgid "Enter the names of tags to merge into the target tag"
+msgstr "Hedef etiketle birleştirilecek etiketlerin adlarını girin"
+
+#: bookmarks/templates/tags/merge.html:22
+msgid ""
+"The target tag is added to all bookmarks that have any of the merge tags"
+msgstr ""
+"Hedef etiket, birleştirilen etiketlerden herhangi birine sahip tüm yer "
+"imlerine eklenir"
+
+#: bookmarks/templates/tags/merge.html:23
+msgid "The merged tags are deleted"
+msgstr "Birleştirilen etiketler silinir"
+
+#: bookmarks/templates/tags/merge.html:27
+msgid "Target tag"
+msgstr "Hedef etiket"
+
+#: bookmarks/templates/tags/merge.html:30
+msgid ""
+"Enter the name of the tag you want to keep. The tags entered below will be "
+"merged into this one."
+msgstr ""
+"Tutmak istediğiniz etiketin adını girin. Aşağıya girilen etiketler bununla "
+"birleştirilecek."
+
+#: bookmarks/templates/tags/merge.html:35
+msgid "Tags to merge"
+msgstr "Birleştirilecek etiketler"
+
+#: bookmarks/templates/tags/merge.html:38
+msgid ""
+"Enter the names of tags to merge into the target tag, separated by spaces. "
+"These tags will be deleted after merging."
+msgstr ""
+"Hedef etiketle birleştirilecek etiketlerin adlarını boşlukla ayırarak girin."
+" Bu etiketler birleştirme sonrasında silinecek."
+
+#: bookmarks/utils.py:26
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: bookmarks/utils.py:27
+msgid "Tuesday"
+msgstr "Salı"
+
+#: bookmarks/utils.py:28
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: bookmarks/utils.py:29
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: bookmarks/utils.py:30
+msgid "Friday"
+msgstr "Cuma"
+
+#: bookmarks/utils.py:31
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: bookmarks/utils.py:32
+msgid "Sunday"
+msgstr "Pazar"
+
+#: bookmarks/utils.py:76 bookmarks/utils.py:105
+msgid "Today"
+msgstr "Bugün"
+
+#: bookmarks/utils.py:78 bookmarks/utils.py:107
+msgid "Yesterday"
+msgstr "Dün"
+
+#: bookmarks/utils.py:91
+#, python-format
+msgid "%(count)d year ago"
+msgid_plural "%(count)d years ago"
+msgstr[0] "%(count)d yıl önce"
+msgstr[1] "%(count)d yıl önce"
+
+#: bookmarks/utils.py:95
+#, python-format
+msgid "%(count)d month ago"
+msgid_plural "%(count)d months ago"
+msgstr[0] "%(count)d ay önce"
+msgstr[1] "%(count)d ay önce"
+
+#: bookmarks/utils.py:99
+#, python-format
+msgid "%(count)d week ago"
+msgid_plural "%(count)d weeks ago"
+msgstr[0] "%(count)d hafta önce"
+msgstr[1] "%(count)d hafta önce"
+
+#: bookmarks/views/bookmarks.py:61
+msgid "Bookmarks - Linkding"
+msgstr "Yer imleri - Linkding"
+
+#: bookmarks/views/bookmarks.py:100
+msgid "Archived bookmarks - Linkding"
+msgstr "Arşivlenmiş yer imleri - Linkding"
+
+#: bookmarks/views/bookmarks.py:137
+msgid "Shared bookmarks - Linkding"
+msgstr "Paylaşılan yer imleri - Linkding"
+
+#: bookmarks/views/bookmarks.py:161
+msgid "Bookmark details - Linkding"
+msgstr "Yer imi ayrıntıları - Linkding"
+
+#: bookmarks/views/bookmarks.py:290
+msgid "Asset upload is disabled"
+msgstr "Dosya yükleme devre dışı"
+
+#: bookmarks/views/bookmarks.py:295
+msgid "No file provided"
+msgstr "Dosya sağlanmadı"
+
+#: bookmarks/views/bookmarks.py:350
+msgid "View does not support bulk actions"
+msgstr "Bu görünüm toplu işlemleri desteklemiyor"
+
+#: bookmarks/views/bundles.py:32
+#, python-format
+msgid "Bundle '%(name)s' removed successfully."
+msgstr "'%(name)s' paketi kaldırıldı."
+
+#: bookmarks/views/bundles.py:68
+msgid "Bundle saved successfully."
+msgstr "Paket kaydedildi."
+
+#: bookmarks/views/contexts.py:156
+msgid "View latest snapshot"
+msgstr "Son anlık görüntüyü görüntüle"
+
+#: bookmarks/views/contexts.py:160
+msgid "View snapshot on the Internet Archive Wayback Machine"
+msgstr "Anlık görüntüyü Internet Archive Wayback Machine'de görüntüle"
+
+#: bookmarks/views/settings.py:77
+msgid "Global settings updated"
+msgstr "Genel ayarlar güncellendi"
+
+#: bookmarks/views/settings.py:83
+msgid "Scheduled favicon update. This may take a while..."
+msgstr "Favicon güncellemesi planlandı. Bu biraz zaman alabilir..."
+
+#: bookmarks/views/settings.py:91
+#, python-format
+msgid "Queued %(count)d missing snapshots. This may take a while..."
+msgstr ""
+"%(count)d eksik anlık görüntü kuyruğa alındı. Bu biraz zaman alabilir..."
+
+#: bookmarks/views/settings.py:98
+msgid "No missing snapshots found."
+msgstr "Eksik anlık görüntü bulunamadı."
+
+#: bookmarks/views/settings.py:113
+msgid "Profile updated"
+msgstr "Profil güncellendi"
+
+#: bookmarks/views/settings.py:125
+msgid "Profile update failed, check the form below for errors"
+msgstr ""
+"Profil güncellemesi başarısız oldu, aşağıdaki formdaki hataları kontrol edin"
+
+#: bookmarks/views/settings.py:164
+#, python-format
+msgid "%(version)s (latest)"
+msgstr "%(version)s (güncel)"
+
+#: bookmarks/views/settings.py:166
+#, python-format
+msgid "%(version)s (latest: %(latest_version)s)"
+msgstr "%(version)s (en son: %(latest_version)s)"
+
+#: bookmarks/views/settings.py:228
+#, python-format
+msgid "API token \"%(name)s\" created successfully"
+msgstr "\"%(name)s\" API belirteci oluşturuldu"
+
+#: bookmarks/views/settings.py:246
+#, python-format
+msgid "API token \"%(name)s\" has been deleted."
+msgstr "\"%(name)s\" API belirteci silindi."
+
+#: bookmarks/views/settings.py:262
+msgid "Please select a file to import."
+msgstr "Lütfen içe aktarılacak bir dosya seçin."
+
+#: bookmarks/views/settings.py:269
+#, python-format
+msgid "%(count)s bookmarks were successfully imported."
+msgstr "%(count)s yer imi içe aktarıldı."
+
+#: bookmarks/views/settings.py:275
+#, python-format
+msgid ""
+"%(count)s bookmarks could not be imported. Please check the logs for more "
+"details."
+msgstr ""
+"%(count)s yer imi içe aktarılamadı. Ayrıntılar için lütfen günlükleri "
+"kontrol edin."
+
+#: bookmarks/views/settings.py:282
+msgid "An error occurred during bookmark import."
+msgstr "Yer imi içe aktarma sırasında bir hata oluştu."
+
+#: bookmarks/views/settings.py:311
+msgid "An error occurred during bookmark export."
+msgstr "Yer imi dışa aktarma sırasında bir hata oluştu."
+
+#: bookmarks/views/tags.py:75
+#, python-format
+msgid "Tag \"%(name)s\" created successfully."
+msgstr "\"%(name)s\" etiketi oluşturuldu."
+
+#: bookmarks/views/tags.py:158
+#, python-format
+msgid "Successfully merged %(count)d tags (%(tags)s) into \"%(target)s\"."
+msgstr "%(count)d etiket (%(tags)s) \"%(target)s\" ile birleştirildi."

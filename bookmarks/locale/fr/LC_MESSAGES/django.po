@@ -1,0 +1,2061 @@
+#  French translation for linkding.
+msgid ""
+msgstr ""
+"Project-Id-Version: linkding\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-06 12:54+0000\n"
+"PO-Revision-Date: 2026-09-06 13:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: bookmarks/admin.py:78
+msgid "linkding administration"
+msgstr "Administration de linkding"
+
+#: bookmarks/admin.py:79
+msgid "linkding Admin"
+msgstr "Admin linkding"
+
+#: bookmarks/admin.py:101
+msgid "Queued tasks"
+msgstr "Tâches en file d'attente"
+
+#: bookmarks/admin.py:145
+msgid "Delete selected bookmarks"
+msgstr "Supprimer les signets sélectionnés"
+
+#: bookmarks/admin.py:153
+#, python-format
+msgid "%d bookmark was successfully deleted."
+msgid_plural "%d bookmarks were successfully deleted."
+msgstr[0] "%d signet a été supprimé."
+msgstr[1] "%d signets ont été supprimés."
+
+#: bookmarks/admin.py:161
+msgid "Archive selected bookmarks"
+msgstr "Archiver les signets sélectionnés"
+
+#: bookmarks/admin.py:169
+#, python-format
+msgid "%d bookmark was successfully archived."
+msgid_plural "%d bookmarks were successfully archived."
+msgstr[0] "%d signet a été archivé."
+msgstr[1] "%d signets ont été archivés."
+
+#: bookmarks/admin.py:177
+msgid "Unarchive selected bookmarks"
+msgstr "Désarchiver les signets sélectionnés"
+
+#: bookmarks/admin.py:185
+#, python-format
+msgid "%d bookmark was successfully unarchived."
+msgid_plural "%d bookmarks were successfully unarchived."
+msgstr[0] "%d signet a été désarchivé."
+msgstr[1] "%d signets ont été désarchivés."
+
+#: bookmarks/admin.py:193 bookmarks/templates/bookmarks/bulk_edit_bar.html:18
+msgid "Mark as read"
+msgstr "Marquer comme lu"
+
+#: bookmarks/admin.py:200
+#, python-format
+msgid "%d bookmark marked as read."
+msgid_plural "%d bookmarks marked as read."
+msgstr[0] "%d signet marqué comme lu."
+msgstr[1] "%d signets marqués comme lus."
+
+#: bookmarks/admin.py:208 bookmarks/templates/bookmarks/bulk_edit_bar.html:19
+#: bookmarks/templates/bookmarks/form.html:68
+msgid "Mark as unread"
+msgstr "Marquer comme non lu"
+
+#: bookmarks/admin.py:215
+#, python-format
+msgid "%d bookmark marked as unread."
+msgid_plural "%d bookmarks marked as unread."
+msgstr[0] "%d signet marqué comme non lu."
+msgstr[1] "%d signets marqués comme non lus."
+
+#: bookmarks/admin.py:225
+msgid "Display Name"
+msgstr "Nom d'affichage"
+
+#: bookmarks/admin.py:254
+msgid "Delete unused tags"
+msgstr "Supprimer les étiquettes inutilisées"
+
+#: bookmarks/admin.py:265
+#, python-format
+msgid "%d unused tag was successfully deleted."
+msgid_plural "%d unused tags were successfully deleted."
+msgstr[0] "%d étiquette inutilisée a été supprimée."
+msgstr[1] "%d étiquettes inutilisées ont été supprimées."
+
+#: bookmarks/admin.py:276
+msgid "There were no unused tags in the selection"
+msgstr "Aucune étiquette inutilisée dans la sélection"
+
+#: bookmarks/admin.py:302 bookmarks/templates/settings/general.html:14
+msgid "Profile"
+msgstr "Profil"
+
+#: bookmarks/api/auth.py:24
+msgid "Invalid token header. No credentials provided."
+msgstr "En-tête de jeton invalide. Aucun identifiant fourni."
+
+#: bookmarks/api/auth.py:27
+msgid "Invalid token header. Token string should not contain spaces."
+msgstr "En-tête de jeton invalide. Le jeton ne doit pas contenir d'espaces."
+
+#: bookmarks/api/auth.py:34
+msgid ""
+"Invalid token header. Token string should not contain invalid characters."
+msgstr ""
+"En-tête de jeton invalide. Le jeton ne doit pas contenir de caractères "
+"invalides."
+
+#: bookmarks/api/serializers.py:176 bookmarks/forms.py:116
+msgid "A bookmark with this URL already exists."
+msgstr "Un signet avec cette URL existe déjà."
+
+#: bookmarks/apps.py:6 bookmarks/templates/shared/nav_menu.html:8
+#: bookmarks/templates/shared/nav_menu.html:75
+#: bookmarks/templates/tags/index.html:87 bookmarks/views/contexts.py:269
+msgid "Bookmarks"
+msgstr "Signets"
+
+#: bookmarks/feeds.py:80 bookmarks/feeds.py:81
+#: bookmarks/templates/settings/integrations.html:204
+msgid "All bookmarks"
+msgstr "Tous les signets"
+
+#: bookmarks/feeds.py:91 bookmarks/templates/settings/integrations.html:207
+msgid "Unread bookmarks"
+msgstr "Signets non lus"
+
+#: bookmarks/feeds.py:92
+msgid "All unread bookmarks"
+msgstr "Tous les signets non lus"
+
+#: bookmarks/feeds.py:104 bookmarks/templates/settings/integrations.html:210
+#: bookmarks/templates/shared/nav_menu.html:82 bookmarks/views/contexts.py:285
+msgid "Shared bookmarks"
+msgstr "Signets partagés"
+
+#: bookmarks/feeds.py:105
+msgid "All shared bookmarks"
+msgstr "Tous les signets partagés"
+
+#: bookmarks/feeds.py:120 bookmarks/templates/settings/integrations.html:213
+msgid "Public shared bookmarks"
+msgstr "Signets partagés publiquement"
+
+#: bookmarks/feeds.py:121
+msgid "All public shared bookmarks"
+msgstr "Tous les signets partagés publiquement"
+
+#: bookmarks/forms.py:150
+#, python-format
+msgid "Tag \"%(name)s\" already exists."
+msgstr "L'étiquette « %(name)s » existe déjà."
+
+#: bookmarks/forms.py:181
+msgid "Please enter only one tag name for the target tag."
+msgstr "Veuillez saisir un seul nom d'étiquette pour l'étiquette cible."
+
+#: bookmarks/forms.py:190 bookmarks/forms.py:209
+#, python-format
+msgid "Tag \"%(name)s\" does not exist."
+msgstr "L'étiquette « %(name)s » n'existe pas."
+
+#: bookmarks/forms.py:200
+msgid "Please enter at least one tag to merge."
+msgstr "Veuillez saisir au moins une étiquette à fusionner."
+
+#: bookmarks/forms.py:215
+msgid "The target tag cannot be selected for merging."
+msgstr "L'étiquette cible ne peut pas être sélectionnée pour la fusion."
+
+#: bookmarks/forms.py:256
+msgid "Added ↑"
+msgstr "Ajouté ↑"
+
+#: bookmarks/forms.py:257
+msgid "Added ↓"
+msgstr "Ajouté ↓"
+
+#: bookmarks/forms.py:258
+msgid "Modified ↑"
+msgstr "Modifié ↑"
+
+#: bookmarks/forms.py:259
+msgid "Modified ↓"
+msgstr "Modifié ↓"
+
+#: bookmarks/forms.py:260
+msgid "Title ↑"
+msgstr "Titre ↑"
+
+#: bookmarks/forms.py:261
+msgid "Title ↓"
+msgstr "Titre ↓"
+
+#: bookmarks/forms.py:264 bookmarks/forms.py:269
+msgid "Off"
+msgstr "Désactivé"
+
+#: bookmarks/forms.py:265 bookmarks/models.py:211
+#: bookmarks/templates/bookmarks/bookmark_list.html:143
+#: bookmarks/templates/bookmarks/details/form.html:84
+#: bookmarks/templates/shared/nav_menu.html:18 bookmarks/views/manifest.py:74
+msgid "Shared"
+msgstr "Partagés"
+
+#: bookmarks/forms.py:266 bookmarks/models.py:212
+msgid "Unshared"
+msgstr "Non partagés"
+
+#: bookmarks/forms.py:270 bookmarks/models.py:206
+#: bookmarks/templates/bookmarks/bookmark_list.html:130
+#: bookmarks/templates/bookmarks/details/form.html:74
+#: bookmarks/templates/shared/nav_menu.html:23
+#: bookmarks/templates/shared/nav_menu.html:87 bookmarks/views/manifest.py:66
+msgid "Unread"
+msgstr "Non lus"
+
+#: bookmarks/forms.py:271 bookmarks/models.py:207
+msgid "Read"
+msgstr "Lus"
+
+#: bookmarks/forms.py:296
+msgid "Everyone"
+msgstr "Tout le monde"
+
+#: bookmarks/forms.py:319 bookmarks/models.py:374
+msgid "Auto"
+msgstr "Auto"
+
+#: bookmarks/forms.py:398
+msgid "Standard profile"
+msgstr "Profil standard"
+
+#: bookmarks/models.py:24
+msgid "tag"
+msgstr "étiquette"
+
+#: bookmarks/models.py:25
+msgid "tags"
+msgstr "étiquettes"
+
+#: bookmarks/models.py:60
+msgid "bookmark"
+msgstr "signet"
+
+#: bookmarks/models.py:61
+msgid "bookmarks"
+msgstr "signets"
+
+#: bookmarks/models.py:140
+msgid "bookmark asset"
+msgstr "fichier de signet"
+
+#: bookmarks/models.py:141
+msgid "bookmark assets"
+msgstr "fichiers de signet"
+
+#: bookmarks/models.py:198
+msgid "bundle"
+msgstr "bundle"
+
+#: bookmarks/models.py:199
+msgid "bundles"
+msgstr "bundles"
+
+#: bookmarks/models.py:205 bookmarks/models.py:210
+msgid "All"
+msgstr "Tous"
+
+#: bookmarks/models.py:367
+msgid "user profile"
+msgstr "profil utilisateur"
+
+#: bookmarks/models.py:368
+msgid "user profiles"
+msgstr "profils utilisateur"
+
+#: bookmarks/models.py:375
+msgid "Light"
+msgstr "Clair"
+
+#: bookmarks/models.py:376
+msgid "Dark"
+msgstr "Sombre"
+
+#: bookmarks/models.py:382
+msgid "Relative"
+msgstr "Relative"
+
+#: bookmarks/models.py:383
+msgid "Absolute"
+msgstr "Absolue"
+
+#: bookmarks/models.py:384
+msgid "Hidden"
+msgstr "Masquée"
+
+#: bookmarks/models.py:389
+msgid "Inline"
+msgstr "Sur la même ligne"
+
+#: bookmarks/models.py:390
+msgid "Separate"
+msgstr "Séparée"
+
+#: bookmarks/models.py:395
+msgid "New page"
+msgstr "Nouvelle page"
+
+#: bookmarks/models.py:396
+msgid "Same page"
+msgstr "Même page"
+
+#: bookmarks/models.py:401 bookmarks/models.py:414
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: bookmarks/models.py:402
+msgid "Enabled"
+msgstr "Activé"
+
+#: bookmarks/models.py:407
+msgid "Strict"
+msgstr "Strict"
+
+#: bookmarks/models.py:408
+msgid "Lax"
+msgstr "Souple"
+
+#: bookmarks/models.py:413
+msgid "Alphabetical"
+msgstr "Alphabétique"
+
+#: bookmarks/models.py:510
+msgid "toast"
+msgstr "notification"
+
+#: bookmarks/models.py:511
+msgid "toasts"
+msgstr "notifications"
+
+#: bookmarks/models.py:525
+msgid "feed token"
+msgstr "jeton de flux"
+
+#: bookmarks/models.py:526
+msgid "feed tokens"
+msgstr "jetons de flux"
+
+#: bookmarks/models.py:551
+msgid "API token"
+msgstr "jeton d'API"
+
+#: bookmarks/models.py:552
+msgid "API tokens"
+msgstr "jetons d'API"
+
+#: bookmarks/models.py:578 bookmarks/models.py:579
+msgid "global settings"
+msgstr "paramètres globaux"
+
+#: bookmarks/models.py:584 bookmarks/templates/registration/login.html:10
+#: bookmarks/templates/registration/login.html:27
+#: bookmarks/templates/shared/layout.html:47
+msgid "Login"
+msgstr "Connexion"
+
+#: bookmarks/models.py:585
+msgid "Shared Bookmarks"
+msgstr "Signets partagés"
+
+#: bookmarks/templates/admin/background_tasks.html:7
+msgid "ID"
+msgstr "ID"
+
+#: bookmarks/templates/admin/background_tasks.html:8
+#: bookmarks/templates/bundles/form.html:3
+#: bookmarks/templates/bundles/index.html:19
+#: bookmarks/templates/settings/integrations.html:145
+#: bookmarks/templates/tags/form.html:3 bookmarks/templates/tags/index.html:86
+msgid "Name"
+msgstr "Nom"
+
+#: bookmarks/templates/admin/background_tasks.html:9
+msgid "Args"
+msgstr "Arguments"
+
+#: bookmarks/templates/admin/background_tasks.html:10
+msgid "Retries"
+msgstr "Tentatives"
+
+#: bookmarks/templates/admin/background_tasks.html:37
+#, python-format
+msgid "%(counter)s task"
+msgid_plural "%(counter)s tasks"
+msgstr[0] "%(counter)s tâche"
+msgstr[1] "%(counter)s tâches"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:5
+msgid "Bookmark list"
+msgstr "Liste des signets"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:81
+#: bookmarks/templates/bookmarks/details/assets.html:24
+#: bookmarks/templates/settings/general.html:78
+msgid "View"
+msgstr "Afficher"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:86
+#: bookmarks/templates/bookmarks/details/modal.html:17
+#: bookmarks/templates/bundles/index.html:38
+#: bookmarks/templates/settings/general.html:79
+#: bookmarks/templates/tags/index.html:107
+msgid "Edit"
+msgstr "Modifier"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:93
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:13
+msgid "Unarchive"
+msgstr "Désarchiver"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:98
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:10
+#: bookmarks/templates/settings/general.html:80
+msgid "Archive"
+msgstr "Archiver"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:106
+#: bookmarks/templates/bookmarks/details/assets.html:31
+#: bookmarks/templates/bundles/index.html:43
+#: bookmarks/templates/settings/general.html:81
+#: bookmarks/templates/tags/index.html:112
+msgid "Remove"
+msgstr "Supprimer"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:112
+#, python-format
+msgid "Shared by <a href=\"?%(owner_query)s\">%(username)s</a>"
+msgstr "Partagé par <a href=\"?%(owner_query)s\">%(username)s</a>"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:126
+msgid "Mark as read?"
+msgstr "Marquer comme lu ?"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:139
+msgid "Unshare?"
+msgstr "Ne plus partager ?"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:151
+#: bookmarks/templates/bookmarks/details/form.html:119
+#: bookmarks/templates/bookmarks/form.html:58
+#: bookmarks/templates/bookmarks/form.html:60
+msgid "Notes"
+msgstr "Notes"
+
+#: bookmarks/templates/bookmarks/bookmark_page.html:14
+msgid "Bulk edit"
+msgstr "Modification groupée"
+
+#: bookmarks/templates/bookmarks/bookmark_page.html:21
+#: bookmarks/templates/shared/layout.html:10
+msgid "Filters"
+msgstr "Filtres"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:15
+#: bookmarks/templates/bookmarks/details/modal.html:29
+#: bookmarks/templates/settings/integrations.html:163
+msgid "Delete"
+msgstr "Supprimer"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:16
+msgid "Add tags"
+msgstr "Ajouter des étiquettes"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:17
+msgid "Remove tags"
+msgstr "Retirer des étiquettes"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:21
+#: bookmarks/templates/bookmarks/form.html:75
+msgid "Share"
+msgstr "Partager"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:22
+msgid "Unshare"
+msgstr "Ne plus partager"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:24
+#: bookmarks/templates/bookmarks/form.html:37
+msgid "Refresh from website"
+msgstr "Actualiser depuis le site web"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:26
+#: bookmarks/templates/bookmarks/details/assets.html:45
+msgid "Create HTML snapshot"
+msgstr "Créer un instantané HTML"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:30
+msgid "Tag names..."
+msgstr "Noms d'étiquettes..."
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:37
+msgid "Execute"
+msgstr "Exécuter"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:42
+#, python-format
+msgid "All <span class=\"total\">%(total)s</span> bookmarks"
+msgstr "Tous les <span class=\"total\">%(total)s</span> signets"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:5
+#: bookmarks/templates/bundles/index.html:9
+msgid "Bundles"
+msgstr "Bundles"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:8
+msgid "Bundles menu"
+msgstr "Menu des bundles"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:15
+msgid "Manage bundles"
+msgstr "Gérer les bundles"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:20
+msgid "Create bundle from search"
+msgstr "Créer un bundle à partir de la recherche"
+
+#: bookmarks/templates/bookmarks/close.html:7
+msgid "You can now close this window."
+msgstr "Vous pouvez maintenant fermer cette fenêtre."
+
+#: bookmarks/templates/bookmarks/details/assets.html:12
+msgid "(queued)"
+msgstr "(en attente)"
+
+#: bookmarks/templates/bookmarks/details/assets.html:15
+msgid "(failed)"
+msgstr "(échec)"
+
+#: bookmarks/templates/bookmarks/details/assets.html:53
+msgid "Upload file"
+msgstr "Téléverser un fichier"
+
+#: bookmarks/templates/bookmarks/details/form.html:31
+msgid "Reader mode"
+msgstr "Mode lecture"
+
+#: bookmarks/templates/bookmarks/details/form.html:57
+msgid "Status"
+msgstr "Statut"
+
+#: bookmarks/templates/bookmarks/details/form.html:65
+#: bookmarks/templates/shared/nav_menu.html:14 bookmarks/views/manifest.py:62
+msgid "Archived"
+msgstr "Archivé"
+
+#: bookmarks/templates/bookmarks/details/form.html:92
+msgid "Files"
+msgstr "Fichiers"
+
+#: bookmarks/templates/bookmarks/details/form.html:97
+#: bookmarks/templates/bookmarks/form.html:22
+#: bookmarks/templates/bookmarks/tag_section.html:4
+#: bookmarks/templates/bundles/form.html:16
+#: bookmarks/templates/tags/index.html:11
+msgid "Tags"
+msgstr "Étiquettes"
+
+#: bookmarks/templates/bookmarks/details/form.html:106
+msgid "Date added"
+msgstr "Date d'ajout"
+
+#: bookmarks/templates/bookmarks/details/form.html:113
+#: bookmarks/templates/bookmarks/form.html:48
+msgid "Description"
+msgstr "Description"
+
+#: bookmarks/templates/bookmarks/edit.html:4
+msgid "Edit bookmark - Linkding"
+msgstr "Modifier le signet - Linkding"
+
+#: bookmarks/templates/bookmarks/edit.html:10
+msgid "Edit bookmark"
+msgstr "Modifier le signet"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:4
+msgid "Invalid search query"
+msgstr "Requête de recherche invalide"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:6
+#, python-format
+msgid ""
+"The search query you entered is not valid. Common reasons are unclosed "
+"parentheses or a logical operator (AND, OR, NOT) without operands. The error"
+" message from the parser is: \"%(error_message)s\"."
+msgstr ""
+"La requête de recherche saisie n'est pas valide. Les causes fréquentes sont "
+"des parenthèses non fermées ou un opérateur logique (AND, OR, NOT) sans "
+"opérandes. Message d'erreur de l'analyseur : « %(error_message)s »."
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:12
+msgid "You have no bookmarks yet"
+msgstr "Vous n'avez pas encore de signets"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:17
+#, python-format
+msgid ""
+"You can get started by <a href=\"%(new_url)s\">adding</a> bookmarks, <a "
+"href=\"%(settings_url)s\">importing</a> your existing bookmarks or "
+"configuring the <a href=\"%(integrations_url)s\">browser extension</a> or "
+"the <a href=\"%(integrations_url)s\">bookmarklet</a>."
+msgstr ""
+"Vous pouvez commencer en <a href=\"%(new_url)s\">ajoutant</a> des signets, "
+"en <a href=\"%(settings_url)s\">important</a> vos signets existants ou en "
+"configurant l'<a href=\"%(integrations_url)s\">extension de navigateur</a> "
+"ou le <a href=\"%(integrations_url)s\">bookmarklet</a>."
+
+#: bookmarks/templates/bookmarks/form.html:8
+msgid "URL"
+msgstr "URL"
+
+#: bookmarks/templates/bookmarks/form.html:15
+msgid ""
+"This URL is already bookmarked. The form has been pre-filled with the "
+"existing bookmark, and saving the form will update the existing bookmark."
+msgstr ""
+"Cette URL est déjà enregistrée. Le formulaire a été prérempli avec le signet"
+" existant ; l'enregistrer mettra à jour ce signet."
+
+#: bookmarks/templates/bookmarks/form.html:25
+msgid ""
+"Enter any number of tags separated by space and <strong>without</strong> the"
+" hash (#). If a tag does not exist it will be automatically created."
+msgstr ""
+"Saisissez autant d'étiquettes que vous voulez, séparées par des espaces et "
+"<strong>sans</strong> le dièse (#). Les étiquettes inexistantes seront "
+"créées automatiquement."
+
+#: bookmarks/templates/bookmarks/form.html:34
+msgid "Title"
+msgstr "Titre"
+
+#: bookmarks/templates/bookmarks/form.html:40
+#: bookmarks/templates/bookmarks/form.html:50
+msgid "Clear"
+msgstr "Effacer"
+
+#: bookmarks/templates/bookmarks/form.html:63
+msgid "Additional notes, supports Markdown."
+msgstr "Notes supplémentaires, Markdown pris en charge."
+
+#: bookmarks/templates/bookmarks/form.html:70
+msgid ""
+"Unread bookmarks can be filtered for, and marked as read after you had a "
+"chance to look at them."
+msgstr ""
+"Les signets non lus peuvent être filtrés et marqués comme lus une fois que "
+"vous les avez consultés."
+
+#: bookmarks/templates/bookmarks/form.html:78
+msgid "Share this bookmark with other registered users and anonymous users."
+msgstr ""
+"Partager ce signet avec les autres utilisateurs enregistrés et les "
+"utilisateurs anonymes."
+
+#: bookmarks/templates/bookmarks/form.html:80
+msgid "Share this bookmark with other registered users."
+msgstr "Partager ce signet avec les autres utilisateurs enregistrés."
+
+#: bookmarks/templates/bookmarks/form.html:89
+msgid "Save and close"
+msgstr "Enregistrer et fermer"
+
+#: bookmarks/templates/bookmarks/form.html:93
+#: bookmarks/templates/bundles/form.html:53
+#: bookmarks/templates/settings/general.html:280
+#: bookmarks/templates/settings/general.html:324
+#: bookmarks/templates/tags/edit.html:17 bookmarks/templates/tags/new.html:17
+msgid "Save"
+msgstr "Enregistrer"
+
+#: bookmarks/templates/bookmarks/form.html:96
+#: bookmarks/templates/bundles/form.html:56
+#: bookmarks/templates/settings/create_api_token_modal.html:27
+#: bookmarks/templates/shared/layout.html:8
+#: bookmarks/templates/tags/edit.html:16
+#: bookmarks/templates/tags/merge.html:47 bookmarks/templates/tags/new.html:16
+msgid "Cancel"
+msgstr "Annuler"
+
+#: bookmarks/templates/bookmarks/form.html:98
+msgid "Auto tags:"
+msgstr "Étiquettes automatiques :"
+
+#: bookmarks/templates/bookmarks/new.html:4
+msgid "New bookmark - Linkding"
+msgstr "Nouveau signet - Linkding"
+
+#: bookmarks/templates/bookmarks/new.html:10
+msgid "New bookmark"
+msgstr "Nouveau signet"
+
+#: bookmarks/templates/bookmarks/read.html:6
+msgid "Reader view"
+msgstr "Vue lecture"
+
+#: bookmarks/templates/bookmarks/read.html:47
+msgid "minutes"
+msgstr "minutes"
+
+#: bookmarks/templates/bookmarks/search.html:5
+msgid "Search for words or #tags"
+msgstr "Rechercher des mots ou des #étiquettes"
+
+#: bookmarks/templates/bookmarks/search.html:13
+#: bookmarks/templates/tags/index.html:35
+msgid "Search"
+msgstr "Rechercher"
+
+#: bookmarks/templates/bookmarks/search.html:18
+msgid "Search preferences"
+msgstr "Préférences de recherche"
+
+#: bookmarks/templates/bookmarks/search.html:31
+#: bookmarks/templates/tags/index.html:39
+msgid "Sort by"
+msgstr "Trier par"
+
+#: bookmarks/templates/bookmarks/search.html:42
+msgid "Shared filter"
+msgstr "Filtre de partage"
+
+#: bookmarks/templates/bookmarks/search.html:59
+msgid "Unread filter"
+msgstr "Filtre de lecture"
+
+#: bookmarks/templates/bookmarks/search.html:71
+#: bookmarks/templates/bookmarks/user_section.html:14
+msgid "Apply"
+msgstr "Appliquer"
+
+#: bookmarks/templates/bookmarks/search.html:73
+msgid "Save as default"
+msgstr "Enregistrer par défaut"
+
+#: bookmarks/templates/bookmarks/tag_section.html:8
+msgid "Tags menu"
+msgstr "Menu des étiquettes"
+
+#: bookmarks/templates/bookmarks/tag_section.html:15
+msgid "Manage tags"
+msgstr "Gérer les étiquettes"
+
+#: bookmarks/templates/bookmarks/user_section.html:4
+msgid "User"
+msgstr "Utilisateur"
+
+#: bookmarks/templates/bundles/edit.html:4
+msgid "Edit bundle - Linkding"
+msgstr "Modifier le bundle - Linkding"
+
+#: bookmarks/templates/bundles/edit.html:10
+msgid "Edit bundle"
+msgstr "Modifier le bundle"
+
+#: bookmarks/templates/bundles/edit.html:23
+#: bookmarks/templates/bundles/new.html:23
+msgid "Preview"
+msgstr "Aperçu"
+
+#: bookmarks/templates/bundles/form.html:8
+msgid "Search terms"
+msgstr "Termes de recherche"
+
+#: bookmarks/templates/bundles/form.html:12
+msgid "All of these search terms must be present in a bookmark to match."
+msgstr ""
+"Tous ces termes doivent être présents dans un signet pour qu'il corresponde."
+
+#: bookmarks/templates/bundles/form.html:19
+msgid "At least one of these tags must be present in a bookmark to match."
+msgstr ""
+"Au moins une de ces étiquettes doit être présente dans un signet pour qu'il "
+"corresponde."
+
+#: bookmarks/templates/bundles/form.html:23
+msgid "Required tags"
+msgstr "Étiquettes requises"
+
+#: bookmarks/templates/bundles/form.html:26
+msgid "All of these tags must be present in a bookmark to match."
+msgstr ""
+"Toutes ces étiquettes doivent être présentes dans un signet pour qu'il "
+"corresponde."
+
+#: bookmarks/templates/bundles/form.html:30
+msgid "Excluded tags"
+msgstr "Étiquettes exclues"
+
+#: bookmarks/templates/bundles/form.html:33
+msgid "None of these tags must be present in a bookmark to match."
+msgstr ""
+"Aucune de ces étiquettes ne doit être présente dans un signet pour qu'il "
+"corresponde."
+
+#: bookmarks/templates/bundles/form.html:37
+msgid "Reading State"
+msgstr "État de lecture"
+
+#: bookmarks/templates/bundles/form.html:40
+msgid "Limit matches to unread or read bookmarks."
+msgstr "Limiter les résultats aux signets non lus ou lus."
+
+#: bookmarks/templates/bundles/form.html:44
+msgid "Sharing State"
+msgstr "État de partage"
+
+#: bookmarks/templates/bundles/form.html:47
+msgid "Limit matches to shared or unshared bookmarks."
+msgstr "Limiter les résultats aux signets partagés ou non partagés."
+
+#: bookmarks/templates/bundles/index.html:4
+msgid "Bundles - Linkding"
+msgstr "Bundles - Linkding"
+
+#: bookmarks/templates/bundles/index.html:10
+msgid "Add bundle"
+msgstr "Ajouter un bundle"
+
+#: bookmarks/templates/bundles/index.html:21
+#: bookmarks/templates/settings/integrations.html:148
+#: bookmarks/templates/tags/index.html:89
+msgid "Actions"
+msgstr "Actions"
+
+#: bookmarks/templates/bundles/index.html:54
+msgid "You have no bundles yet"
+msgstr "Vous n'avez pas encore de bundles"
+
+#: bookmarks/templates/bundles/index.html:55
+msgid "Create your first bundle to get started"
+msgstr "Créez votre premier bundle pour commencer"
+
+#: bookmarks/templates/bundles/new.html:4
+msgid "New bundle - Linkding"
+msgstr "Nouveau bundle - Linkding"
+
+#: bookmarks/templates/bundles/new.html:10
+msgid "New bundle"
+msgstr "Nouveau bundle"
+
+#: bookmarks/templates/bundles/preview.html:4
+msgid "No bookmarks match the current bundle."
+msgstr "Aucun signet ne correspond à ce bundle."
+
+#: bookmarks/templates/bundles/preview.html:7
+#, python-format
+msgid "Found %(total)s bookmarks matching this bundle."
+msgstr "%(total)s signets correspondent à ce bundle."
+
+#: bookmarks/templates/registration/login.html:5
+msgid "Login - Linkding"
+msgstr "Connexion - Linkding"
+
+#: bookmarks/templates/registration/login.html:16
+msgid "Your username and password didn't match. Please try again."
+msgstr ""
+"Le nom d'utilisateur et le mot de passe ne correspondent pas. Veuillez "
+"réessayer."
+
+#: bookmarks/templates/registration/login.html:19
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: bookmarks/templates/registration/login.html:23
+msgid "Password"
+msgstr "Mot de passe"
+
+#: bookmarks/templates/registration/login.html:35
+msgid "Login with OIDC"
+msgstr "Se connecter avec OIDC"
+
+#: bookmarks/templates/registration/password_change_done.html:4
+msgid "Password changed - Linkding"
+msgstr "Mot de passe modifié - Linkding"
+
+#: bookmarks/templates/registration/password_change_done.html:9
+msgid "Password Changed"
+msgstr "Mot de passe modifié"
+
+#: bookmarks/templates/registration/password_change_done.html:11
+msgid "Your password was changed successfully."
+msgstr "Votre mot de passe a été modifié avec succès."
+
+#: bookmarks/templates/registration/password_change_form.html:5
+msgid "Change password - Linkding"
+msgstr "Changer le mot de passe - Linkding"
+
+#: bookmarks/templates/registration/password_change_form.html:10
+#: bookmarks/templates/registration/password_change_form.html:30
+msgid "Change Password"
+msgstr "Changer le mot de passe"
+
+#: bookmarks/templates/registration/password_change_form.html:15
+msgid "Old password"
+msgstr "Ancien mot de passe"
+
+#: bookmarks/templates/registration/password_change_form.html:20
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: bookmarks/templates/registration/password_change_form.html:25
+msgid "Confirm new password"
+msgstr "Confirmer le nouveau mot de passe"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:12
+msgid "Create API Token"
+msgstr "Créer un jeton d'API"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:15
+msgid "Token name"
+msgstr "Nom du jeton"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:20
+msgid "e.g., Browser Extension, Mobile App"
+msgstr "p. ex. Extension de navigateur, Application mobile"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:21
+msgid "API Token"
+msgstr "Jeton d'API"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:23
+msgid "A descriptive name to identify the purpose of the token"
+msgstr "Un nom descriptif pour identifier l'usage du jeton"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:28
+msgid "Create Token"
+msgstr "Créer le jeton"
+
+#: bookmarks/templates/settings/general.html:5
+msgid "Settings - Linkding"
+msgstr "Paramètres - Linkding"
+
+#: bookmarks/templates/settings/general.html:9
+#: bookmarks/templates/shared/nav_menu.html:32
+#: bookmarks/templates/shared/nav_menu.html:95
+msgid "Settings"
+msgstr "Paramètres"
+
+#: bookmarks/templates/settings/general.html:16
+msgid "Change password"
+msgstr "Changer le mot de passe"
+
+#: bookmarks/templates/settings/general.html:24
+msgid "Theme"
+msgstr "Thème"
+
+#: bookmarks/templates/settings/general.html:27
+msgid ""
+"Whether to use a light or dark theme, or automatically adjust the theme "
+"based on your system's settings."
+msgstr ""
+"Utiliser un thème clair ou sombre, ou adapter automatiquement le thème aux "
+"réglages de votre système."
+
+#: bookmarks/templates/settings/general.html:31
+msgid "Language"
+msgstr "Langue"
+
+#: bookmarks/templates/settings/general.html:34
+msgid ""
+"Automatically use the language preferred by your browser, or a fixed "
+"language for all your devices. Falls back to English for texts that are not "
+"translated."
+msgstr ""
+"Utiliser automatiquement la langue préférée de votre navigateur, ou une "
+"langue fixe pour tous vos appareils. Les textes non traduits s'affichent en "
+"anglais."
+
+#: bookmarks/templates/settings/general.html:38
+msgid "Bookmark date format"
+msgstr "Format de date des signets"
+
+#: bookmarks/templates/settings/general.html:41
+msgid ""
+"Whether to show bookmark dates as relative (how long ago), or as absolute "
+"dates. Alternatively the date can be hidden."
+msgstr ""
+"Afficher les dates des signets de façon relative (il y a combien de temps) "
+"ou absolue. La date peut aussi être masquée."
+
+#: bookmarks/templates/settings/general.html:48
+msgid "Bookmark description"
+msgstr "Description des signets"
+
+#: bookmarks/templates/settings/general.html:51
+msgid ""
+"Whether to show bookmark descriptions and tags in the same line, or as "
+"separate blocks."
+msgstr ""
+"Afficher la description et les étiquettes d'un signet sur la même ligne, ou "
+"dans des blocs séparés."
+
+#: bookmarks/templates/settings/general.html:55
+msgid "Bookmark description max lines"
+msgstr "Nombre max. de lignes de description"
+
+#: bookmarks/templates/settings/general.html:58
+msgid ""
+"Limits the number of lines that are displayed for the bookmark description."
+msgstr "Limite le nombre de lignes affichées pour la description d'un signet."
+
+#: bookmarks/templates/settings/general.html:62
+msgid "Show bookmark URL"
+msgstr "Afficher l'URL du signet"
+
+#: bookmarks/templates/settings/general.html:64
+msgid "When enabled, this setting displays the bookmark URL below the title."
+msgstr ""
+"Lorsque cette option est activée, l'URL du signet s'affiche sous le titre."
+
+#: bookmarks/templates/settings/general.html:68
+msgid "Show notes permanently"
+msgstr "Toujours afficher les notes"
+
+#: bookmarks/templates/settings/general.html:70
+msgid ""
+"Whether to show bookmark notes permanently, without having to toggle them "
+"individually. Alternatively the keyboard shortcut <code>e</code> can be used"
+" to temporarily show all notes."
+msgstr ""
+"Afficher les notes des signets en permanence, sans avoir à les déplier une "
+"par une. Le raccourci clavier <code>e</code> permet aussi d'afficher "
+"temporairement toutes les notes."
+
+#: bookmarks/templates/settings/general.html:77
+msgid "Bookmark actions"
+msgstr "Actions des signets"
+
+#: bookmarks/templates/settings/general.html:82
+msgid "Which actions to display for each bookmark."
+msgstr "Quelles actions afficher pour chaque signet."
+
+#: bookmarks/templates/settings/general.html:85
+msgid "Open bookmarks in"
+msgstr "Ouvrir les signets dans"
+
+#: bookmarks/templates/settings/general.html:88
+msgid "Whether to open bookmarks a new page or in the same page."
+msgstr "Ouvrir les signets dans une nouvelle page ou dans la même page."
+
+#: bookmarks/templates/settings/general.html:92
+msgid "Items per page"
+msgstr "Éléments par page"
+
+#: bookmarks/templates/settings/general.html:96
+msgid "The number of bookmarks to display per page."
+msgstr "Le nombre de signets à afficher par page."
+
+#: bookmarks/templates/settings/general.html:100
+msgid "Sticky pagination"
+msgstr "Pagination fixe"
+
+#: bookmarks/templates/settings/general.html:102
+msgid ""
+"When enabled, the pagination controls will stick to the bottom of the "
+"screen, so that they are always visible without having to scroll to the end "
+"of the page first."
+msgstr ""
+"Lorsque cette option est activée, les commandes de pagination restent fixées"
+" en bas de l'écran et sont toujours visibles sans avoir à faire défiler la "
+"page jusqu'en bas."
+
+#: bookmarks/templates/settings/general.html:109
+msgid "Collapse side panel"
+msgstr "Réduire le panneau latéral"
+
+#: bookmarks/templates/settings/general.html:111
+msgid ""
+"When enabled, the tags side panel will be collapsed by default to give more "
+"space to the bookmark list. Instead, the tags are shown in an expandable "
+"drawer."
+msgstr ""
+"Lorsque cette option est activée, le panneau latéral des étiquettes est "
+"réduit par défaut pour laisser plus de place à la liste des signets. Les "
+"étiquettes sont alors affichées dans un tiroir dépliable."
+
+#: bookmarks/templates/settings/general.html:118
+msgid "Hide bundles"
+msgstr "Masquer les bundles"
+
+#: bookmarks/templates/settings/general.html:120
+msgid ""
+"Allows to hide the bundles in the side panel if you don't intend to use "
+"them."
+msgstr ""
+"Permet de masquer les bundles dans le panneau latéral si vous ne comptez pas"
+" les utiliser."
+
+#: bookmarks/templates/settings/general.html:124
+msgid "Tag search"
+msgstr "Recherche d'étiquettes"
+
+#: bookmarks/templates/settings/general.html:127
+msgid ""
+"In strict mode, tags must be prefixed with a hash character (#). In lax "
+"mode, tags can also be searched without the hash character. Note that tags "
+"without the hash character are indistinguishable from search terms, which "
+"means the search result will also include bookmarks where a search term "
+"matches otherwise."
+msgstr ""
+"En mode strict, les étiquettes doivent être précédées d'un dièse (#). En "
+"mode souple, les étiquettes peuvent aussi être recherchées sans le dièse. "
+"Notez que les étiquettes sans dièse ne se distinguent pas des termes de "
+"recherche : le résultat inclura donc aussi les signets où un terme de "
+"recherche correspond par ailleurs."
+
+#: bookmarks/templates/settings/general.html:136
+msgid "Enable legacy search"
+msgstr "Activer l'ancienne recherche"
+
+#: bookmarks/templates/settings/general.html:138
+msgid ""
+"Since version 1.44.0, linkding has a new search engine that supports logical"
+" expressions (and, or, not). If you run into any issues with the new search,"
+" you can enable this option to temporarily switch back to the old search. "
+"Please report any issues you encounter with the new search on <a "
+"href=\"https://github.com/sissbruecker/linkding/issues\" "
+"target=\"_blank\">GitHub</a> so they can be addressed. This option will be "
+"removed in a future version."
+msgstr ""
+"Depuis la version 1.44.0, linkding dispose d'un nouveau moteur de recherche "
+"qui prend en charge les expressions logiques (and, or, not). Si vous "
+"rencontrez des problèmes avec la nouvelle recherche, vous pouvez activer "
+"cette option pour revenir temporairement à l'ancienne. Merci de signaler les"
+" problèmes rencontrés avec la nouvelle recherche sur <a "
+"href=\"https://github.com/sissbruecker/linkding/issues\" "
+"target=\"_blank\">GitHub</a> afin qu'ils puissent être corrigés. Cette "
+"option sera supprimée dans une version future."
+
+#: bookmarks/templates/settings/general.html:148
+msgid "Tag grouping"
+msgstr "Regroupement des étiquettes"
+
+#: bookmarks/templates/settings/general.html:151
+msgid ""
+"In alphabetical mode, tags will be grouped by the first letter. If disabled,"
+" tags will not be grouped."
+msgstr ""
+"En mode alphabétique, les étiquettes sont regroupées par première lettre. Si"
+" désactivé, les étiquettes ne sont pas regroupées."
+
+#: bookmarks/templates/settings/general.html:160
+#: bookmarks/templates/settings/general.html:163
+msgid "Auto Tagging"
+msgstr "Étiquetage automatique"
+
+#: bookmarks/templates/settings/general.html:167
+msgid ""
+"Automatically adds tags to bookmarks based on predefined rules. Each line is"
+" a single rule that maps a URL to one or more tags. For example:"
+msgstr ""
+"Ajoute automatiquement des étiquettes aux signets selon des règles "
+"prédéfinies. Chaque ligne est une règle qui associe une URL à une ou "
+"plusieurs étiquettes. Par exemple :"
+
+#: bookmarks/templates/settings/general.html:176
+msgid "Enable Favicons"
+msgstr "Activer les favicons"
+
+#: bookmarks/templates/settings/general.html:178
+msgid ""
+"Automatically loads favicons for bookmarked websites and displays them next "
+"to each bookmark. Enabling this feature automatically downloads all missing "
+"favicons. By default, this feature uses a <b>Google service</b> to download "
+"favicons. If you don't want to use this service, check the <a "
+"href=\"https://linkding.link/options/#ld_favicon_provider\" "
+"target=\"_blank\">options documentation</a> on how to configure a custom "
+"favicon provider. Icons are downloaded in the background, and it may take a "
+"while for them to show up."
+msgstr ""
+"Charge automatiquement les favicons des sites web enregistrés et les affiche"
+" à côté de chaque signet. L'activation de cette fonction télécharge "
+"automatiquement toutes les favicons manquantes. Par défaut, cette fonction "
+"utilise un <b>service Google</b> pour télécharger les favicons. Si vous ne "
+"souhaitez pas utiliser ce service, consultez la <a "
+"href=\"https://linkding.link/options/#ld_favicon_provider\" "
+"target=\"_blank\">documentation des options</a> pour configurer un "
+"fournisseur de favicons personnalisé. Les icônes sont téléchargées en "
+"arrière-plan et peuvent mettre un certain temps à apparaître."
+
+#: bookmarks/templates/settings/general.html:189
+msgid "Refresh Favicons"
+msgstr "Actualiser les favicons"
+
+#: bookmarks/templates/settings/general.html:193
+msgid "Enable Preview Images"
+msgstr "Activer les images d'aperçu"
+
+#: bookmarks/templates/settings/general.html:195
+msgid ""
+"Automatically loads preview images for bookmarked websites and displays them"
+" next to each bookmark. Enabling this feature automatically downloads all "
+"missing preview images."
+msgstr ""
+"Charge automatiquement les images d'aperçu des sites web enregistrés et les "
+"affiche à côté de chaque signet. L'activation de cette fonction télécharge "
+"automatiquement toutes les images d'aperçu manquantes."
+
+#: bookmarks/templates/settings/general.html:202
+msgid "Internet Archive integration"
+msgstr "Intégration Internet Archive"
+
+#: bookmarks/templates/settings/general.html:205
+msgid ""
+"Enabling this feature will automatically create snapshots of bookmarked "
+"websites on the <a href=\"https://web.archive.org/\" target=\"_blank\" "
+"rel=\"noopener\">Internet Archive Wayback Machine</a>. This allows to "
+"preserve, and later access the website as it was at the point in time it was"
+" bookmarked, in case it goes offline or its content is modified. Please "
+"consider donating to the <a href=\"https://archive.org/donate\" "
+"target=\"_blank\" rel=\"noopener\">Internet Archive</a> if you make use of "
+"this feature."
+msgstr ""
+"L'activation de cette fonction crée automatiquement des instantanés des "
+"sites web enregistrés sur la <a href=\"https://web.archive.org/\" "
+"target=\"_blank\" rel=\"noopener\">Wayback Machine d'Internet Archive</a>. "
+"Cela permet de conserver le site tel qu'il était au moment de "
+"l'enregistrement et d'y accéder plus tard, s'il venait à disparaître ou si "
+"son contenu était modifié. Pensez à faire un don à <a "
+"href=\"https://archive.org/donate\" target=\"_blank\" "
+"rel=\"noopener\">Internet Archive</a> si vous utilisez cette fonction."
+
+#: bookmarks/templates/settings/general.html:215
+msgid "Enable bookmark sharing"
+msgstr "Activer le partage de signets"
+
+#: bookmarks/templates/settings/general.html:217
+msgid ""
+"Allows to share bookmarks with other users, and to view shared bookmarks. "
+"Disabling this feature will hide all previously shared bookmarks from other "
+"users."
+msgstr ""
+"Permet de partager des signets avec d'autres utilisateurs et de voir les "
+"signets partagés. La désactivation de cette fonction masque aux autres "
+"utilisateurs tous les signets partagés auparavant."
+
+#: bookmarks/templates/settings/general.html:224
+msgid "Enable public bookmark sharing"
+msgstr "Activer le partage public de signets"
+
+#: bookmarks/templates/settings/general.html:227
+#, python-format
+msgid ""
+"Makes shared bookmarks publicly accessible, without requiring a login. That "
+"means that anyone with a link to this instance can view shared bookmarks via"
+" the <a href=\"%(shared_bookmarks_url)s\">shared bookmarks page</a>."
+msgstr ""
+"Rend les signets partagés accessibles publiquement, sans connexion. Toute "
+"personne disposant d'un lien vers cette instance peut alors voir les signets"
+" partagés via la <a href=\"%(shared_bookmarks_url)s\">page des signets "
+"partagés</a>."
+
+#: bookmarks/templates/settings/general.html:235
+msgid "Automatically create HTML snapshots"
+msgstr "Créer automatiquement des instantanés HTML"
+
+#: bookmarks/templates/settings/general.html:237
+msgid ""
+"Automatically creates HTML snapshots when adding bookmarks. Alternatively, "
+"when disabled, snapshots can be created manually in the details view of a "
+"bookmark."
+msgstr ""
+"Crée automatiquement des instantanés HTML lors de l'ajout de signets. Si "
+"cette option est désactivée, les instantanés peuvent être créés manuellement"
+" dans la vue détaillée d'un signet."
+
+#: bookmarks/templates/settings/general.html:242
+msgid "Create missing HTML snapshots"
+msgstr "Créer les instantanés HTML manquants"
+
+#: bookmarks/templates/settings/general.html:246
+msgid "Create bookmarks as unread by default"
+msgstr "Créer les signets comme non lus par défaut"
+
+#: bookmarks/templates/settings/general.html:248
+msgid ""
+"Sets the default state for the \"Mark as unread\" option when creating a new"
+" bookmark. Setting this option will make all new bookmarks default to "
+"unread. This can be overridden when creating each new bookmark."
+msgstr ""
+"Définit l'état par défaut de l'option « Marquer comme non lu » lors de la "
+"création d'un signet. Avec cette option, tous les nouveaux signets sont non "
+"lus par défaut. Cela peut être modifié pour chaque nouveau signet."
+
+#: bookmarks/templates/settings/general.html:256
+msgid "Create bookmarks as shared by default"
+msgstr "Créer les signets comme partagés par défaut"
+
+#: bookmarks/templates/settings/general.html:258
+msgid ""
+"Sets the default state for the \"Share\" option when creating a new "
+"bookmark. Setting this option will make all new bookmarks default to shared."
+" This can be overridden when creating each new bookmark."
+msgstr ""
+"Définit l'état par défaut de l'option « Partager » lors de la création d'un "
+"signet. Avec cette option, tous les nouveaux signets sont partagés par "
+"défaut. Cela peut être modifié pour chaque nouveau signet."
+
+#: bookmarks/templates/settings/general.html:268
+#: bookmarks/templates/settings/general.html:270
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: bookmarks/templates/settings/general.html:274
+msgid "Allows to add custom CSS to the page."
+msgstr "Permet d'ajouter du CSS personnalisé à la page."
+
+#: bookmarks/templates/settings/general.html:288
+msgid "Global settings"
+msgstr "Paramètres globaux"
+
+#: bookmarks/templates/settings/general.html:295
+msgid "Landing page"
+msgstr "Page d'accueil"
+
+#: bookmarks/templates/settings/general.html:298
+msgid ""
+"The page that unauthenticated users are redirected to when accessing the "
+"root URL."
+msgstr ""
+"La page vers laquelle les utilisateurs non connectés sont redirigés "
+"lorsqu'ils accèdent à l'URL racine."
+
+#: bookmarks/templates/settings/general.html:302
+msgid "Guest user profile"
+msgstr "Profil des invités"
+
+#: bookmarks/templates/settings/general.html:305
+msgid ""
+"The user profile to use for users that are not logged in. This will affect "
+"how publicly shared bookmarks are displayed regarding theme, bookmark list "
+"settings, etc. You can either use your own profile or create a dedicated "
+"user for this purpose. By default, a standard profile with fixed settings is"
+" used."
+msgstr ""
+"Le profil utilisateur à utiliser pour les utilisateurs non connectés. Il "
+"détermine l'affichage des signets partagés publiquement : thème, paramètres "
+"de la liste de signets, etc. Vous pouvez utiliser votre propre profil ou "
+"créer un utilisateur dédié. Par défaut, un profil standard avec des réglages"
+" fixes est utilisé."
+
+#: bookmarks/templates/settings/general.html:313
+msgid "Enable prefetching links on hover"
+msgstr "Activer le préchargement des liens au survol"
+
+#: bookmarks/templates/settings/general.html:315
+msgid ""
+"Prefetches internal links when hovering over them. This can improve the "
+"perceived performance when navigating application, but also increases the "
+"load on the server as well as bandwidth usage."
+msgstr ""
+"Précharge les liens internes lorsqu'on les survole. Cela peut améliorer la "
+"réactivité perçue lors de la navigation, mais augmente aussi la charge du "
+"serveur et la consommation de bande passante."
+
+#: bookmarks/templates/settings/general.html:332
+msgid "Import"
+msgstr "Importer"
+
+#: bookmarks/templates/settings/general.html:334
+msgid ""
+"Import bookmarks and tags in the Netscape HTML format. This will execute a "
+"sync where new bookmarks are added and existing ones are updated."
+msgstr ""
+"Importer des signets et des étiquettes au format HTML Netscape. Une "
+"synchronisation est effectuée : les nouveaux signets sont ajoutés et les "
+"existants mis à jour."
+
+#: bookmarks/templates/settings/general.html:349
+msgid "Import public bookmarks as shared"
+msgstr "Importer les signets publics comme partagés"
+
+#: bookmarks/templates/settings/general.html:352
+msgid ""
+"When importing bookmarks from a service that supports marking bookmarks as "
+"public or private (using the <code>PRIVATE</code> attribute), enabling this "
+"option will import all bookmarks that are marked as not private as shared "
+"bookmarks. Otherwise, all bookmarks will be imported as private bookmarks."
+msgstr ""
+"Lors de l'import depuis un service qui permet de marquer les signets comme "
+"publics ou privés (via l'attribut <code>PRIVATE</code>), cette option "
+"importe tous les signets non privés comme signets partagés. Sinon, tous les "
+"signets sont importés comme privés."
+
+#: bookmarks/templates/settings/general.html:365
+msgid "Upload"
+msgstr "Téléverser"
+
+#: bookmarks/templates/settings/general.html:372
+msgid "Export"
+msgstr "Exporter"
+
+#: bookmarks/templates/settings/general.html:373
+msgid "Export all bookmarks in Netscape HTML format."
+msgstr "Exporter tous les signets au format HTML Netscape."
+
+#: bookmarks/templates/settings/general.html:376
+msgid "Download (.html)"
+msgstr "Télécharger (.html)"
+
+#: bookmarks/templates/settings/general.html:385
+msgid "About"
+msgstr "À propos"
+
+#: bookmarks/templates/settings/general.html:389
+msgid "Version"
+msgstr "Version"
+
+#: bookmarks/templates/settings/general.html:393
+msgid "Links"
+msgstr "Liens"
+
+#: bookmarks/templates/settings/general.html:397
+msgid "Documentation"
+msgstr "Documentation"
+
+#: bookmarks/templates/settings/general.html:399
+msgid "Changelog"
+msgstr "Journal des modifications"
+
+#: bookmarks/templates/settings/integrations.html:4
+msgid "Integrations - Linkding"
+msgstr "Intégrations - Linkding"
+
+#: bookmarks/templates/settings/integrations.html:8
+#: bookmarks/templates/shared/nav_menu.html:38
+#: bookmarks/templates/shared/nav_menu.html:98
+msgid "Integrations"
+msgstr "Intégrations"
+
+#: bookmarks/templates/settings/integrations.html:10
+msgid "Browser Extension"
+msgstr "Extension de navigateur"
+
+#: bookmarks/templates/settings/integrations.html:12
+msgid ""
+"The browser extension allows you to quickly add new bookmarks without "
+"leaving the page that you are on. The extension is available in the official"
+" extension stores for:"
+msgstr ""
+"L'extension de navigateur permet d'ajouter rapidement des signets sans "
+"quitter la page en cours. Elle est disponible dans les boutiques "
+"d'extensions officielles pour :"
+
+#: bookmarks/templates/settings/integrations.html:28
+msgid ""
+"The extension is <a href=\"https://github.com/sissbruecker/linkding-"
+"extension\" target=\"_blank\">open source</a> as well, which enables you to "
+"build and manually load it into any browser that supports Chrome extensions."
+msgstr ""
+"L'extension est également <a "
+"href=\"https://github.com/sissbruecker/linkding-extension\" "
+"target=\"_blank\">open source</a>, ce qui vous permet de la compiler et de "
+"la charger manuellement dans tout navigateur compatible avec les extensions "
+"Chrome."
+
+#: bookmarks/templates/settings/integrations.html:34
+msgid "Bookmarklet"
+msgstr "Bookmarklet"
+
+#: bookmarks/templates/settings/integrations.html:36
+msgid ""
+"The bookmarklet is an alternative, cross-browser way to quickly add new "
+"bookmarks without opening the linkding application first. Here's how it "
+"works:"
+msgstr ""
+"Le bookmarklet est une alternative multi-navigateurs pour ajouter rapidement"
+" des signets sans ouvrir d'abord l'application linkding. Voici comment il "
+"fonctionne :"
+
+#: bookmarks/templates/settings/integrations.html:43
+msgid ""
+"Choose your preferred method for detecting website titles and descriptions "
+"below (<a href=\"https://linkding.link/troubleshooting/#automatically-"
+"detected-title-and-description-are-incorrect\" target=\"_blank\">Help</a>)"
+msgstr ""
+"Choisissez ci-dessous votre méthode préférée pour détecter le titre et la "
+"description des sites web (<a "
+"href=\"https://linkding.link/troubleshooting/#automatically-detected-title-"
+"and-description-are-incorrect\" target=\"_blank\">Aide</a>)"
+
+#: bookmarks/templates/settings/integrations.html:48
+msgid "Drag the bookmarklet below into your browser's bookmark bar / toolbar"
+msgstr ""
+"Faites glisser le bookmarklet ci-dessous dans la barre de signets / barre "
+"d'outils de votre navigateur"
+
+#: bookmarks/templates/settings/integrations.html:49
+msgid "Open the website that you want to bookmark"
+msgstr "Ouvrez le site web que vous souhaitez enregistrer"
+
+#: bookmarks/templates/settings/integrations.html:50
+msgid "Click the bookmarklet in your browser's toolbar"
+msgstr "Cliquez sur le bookmarklet dans la barre d'outils de votre navigateur"
+
+#: bookmarks/templates/settings/integrations.html:51
+msgid ""
+"linkding opens in a new window or tab and allows you to add a bookmark for "
+"the site"
+msgstr ""
+"linkding s'ouvre dans une nouvelle fenêtre ou un nouvel onglet et vous "
+"permet d'ajouter un signet pour le site"
+
+#: bookmarks/templates/settings/integrations.html:52
+msgid ""
+"After saving the bookmark, the linkding window closes, and you are back on "
+"your website"
+msgstr ""
+"Après l'enregistrement du signet, la fenêtre linkding se ferme et vous "
+"revenez sur votre site"
+
+#: bookmarks/templates/settings/integrations.html:57
+msgid "Choose your preferred bookmarklet:"
+msgstr "Choisissez votre bookmarklet :"
+
+#: bookmarks/templates/settings/integrations.html:65
+msgid "Detect title and description on the server"
+msgstr "Détecter le titre et la description sur le serveur"
+
+#: bookmarks/templates/settings/integrations.html:73
+msgid "Detect title and description in the browser"
+msgstr "Détecter le titre et la description dans le navigateur"
+
+#: bookmarks/templates/settings/integrations.html:80
+#: bookmarks/templates/settings/integrations.html:85
+#: bookmarks/templates/shared/nav_menu.html:6
+#: bookmarks/templates/shared/nav_menu.html:58 bookmarks/views/manifest.py:58
+msgid "Add bookmark"
+msgstr "Ajouter un signet"
+
+#: bookmarks/templates/settings/integrations.html:114
+msgid "REST API"
+msgstr "API REST"
+
+#: bookmarks/templates/settings/integrations.html:119
+msgid "Copy this token now, it will only be shown once:"
+msgstr "Copiez ce jeton maintenant, il ne sera affiché qu'une seule fois :"
+
+#: bookmarks/templates/settings/integrations.html:121
+msgid "New token key"
+msgstr "Nouvelle clé de jeton"
+
+#: bookmarks/templates/settings/integrations.html:127
+#: bookmarks/templates/settings/integrations.html:177
+msgid "Copy"
+msgstr "Copier"
+
+#: bookmarks/templates/settings/integrations.html:132
+msgid ""
+"API tokens can be used to authenticate 3rd-party applications against the "
+"REST API. <strong>Please treat tokens as you would any other "
+"credential.</strong> Any party with access to a token can access and manage "
+"all your bookmarks."
+msgstr ""
+"Les jetons d'API permettent d'authentifier des applications tierces auprès "
+"de l'API REST. <strong>Traitez les jetons comme n'importe quel autre "
+"identifiant.</strong> Toute personne disposant d'un jeton peut accéder à "
+"tous vos signets et les gérer."
+
+#: bookmarks/templates/settings/integrations.html:146
+msgid "Created"
+msgstr "Créé le"
+
+#: bookmarks/templates/settings/integrations.html:173
+msgid "Create API token"
+msgstr "Créer un jeton d'API"
+
+#: bookmarks/templates/settings/integrations.html:176
+msgid "Copied!"
+msgstr "Copié !"
+
+#: bookmarks/templates/settings/integrations.html:200
+msgid "RSS Feeds"
+msgstr "Flux RSS"
+
+#: bookmarks/templates/settings/integrations.html:201
+msgid "The following URLs provide RSS feeds for your bookmarks:"
+msgstr "Les URL suivantes fournissent des flux RSS pour vos signets :"
+
+#: bookmarks/templates/settings/integrations.html:215
+msgid ""
+"The public shared feed does not contain an authentication token and can be "
+"shared with other people. Only shows shared bookmarks from users who have "
+"explicitly enabled public sharing."
+msgstr ""
+"Le flux public partagé ne contient pas de jeton d'authentification et peut "
+"être partagé avec d'autres personnes. Il n'affiche que les signets partagés "
+"des utilisateurs ayant explicitement activé le partage public."
+
+#: bookmarks/templates/settings/integrations.html:218
+msgid "Feed URLs support the following URL parameters:"
+msgstr "Les URL de flux acceptent les paramètres suivants :"
+
+#: bookmarks/templates/settings/integrations.html:221
+msgid ""
+"A <code>limit</code> parameter for specifying the maximum number of "
+"bookmarks to include in the feed. By default, only the latest 100 matching "
+"bookmarks are included."
+msgstr ""
+"Un paramètre <code>limit</code> pour indiquer le nombre maximal de signets à"
+" inclure dans le flux. Par défaut, seuls les 100 derniers signets "
+"correspondants sont inclus."
+
+#: bookmarks/templates/settings/integrations.html:227
+msgid ""
+"A <code>q</code> URL parameter for specifying a search query. You can get an"
+" example by doing a search in the bookmarks view and then copying the "
+"parameter from the URL."
+msgstr ""
+"Un paramètre d'URL <code>q</code> pour indiquer une requête de recherche. "
+"Vous pouvez obtenir un exemple en effectuant une recherche dans la vue des "
+"signets puis en copiant le paramètre depuis l'URL."
+
+#: bookmarks/templates/settings/integrations.html:233
+msgid ""
+"An <code>unread</code> parameter for filtering for unread or read bookmarks."
+" Use <code>yes</code> for unread bookmarks and <code>no</code> for read "
+"bookmarks."
+msgstr ""
+"Un paramètre <code>unread</code> pour filtrer les signets lus ou non lus. "
+"Utilisez <code>yes</code> pour les signets non lus et <code>no</code> pour "
+"les signets lus."
+
+#: bookmarks/templates/settings/integrations.html:239
+msgid ""
+"A <code>shared</code> parameter for filtering for shared or unshared "
+"bookmarks. Use <code>yes</code> for shared bookmarks and <code>no</code> for"
+" unshared bookmarks."
+msgstr ""
+"Un paramètre <code>shared</code> pour filtrer les signets partagés ou non "
+"partagés. Utilisez <code>yes</code> pour les signets partagés et "
+"<code>no</code> pour les signets non partagés."
+
+#: bookmarks/templates/settings/integrations.html:245
+msgid ""
+"A <code>user</code> parameter for filtering bookmarks by user name. Only "
+"applies to the shared bookmark feeds."
+msgstr ""
+"Un paramètre <code>user</code> pour filtrer les signets par nom "
+"d'utilisateur. Ne s'applique qu'aux flux de signets partagés."
+
+#: bookmarks/templates/settings/integrations.html:252
+#, python-format
+msgid ""
+"<strong>Please note that these URLs include an authentication token that "
+"should be treated like any other credential.</strong> Any party with access "
+"to these URLs can read all your bookmarks. If you think that a URL was "
+"compromised you can delete the feed token for your user in the <a "
+"target=\"_blank\" href=\"%(feed_token_admin_url)s\">admin panel</a>. After "
+"deleting the feed token, new URLs will be generated when you reload this "
+"settings page."
+msgstr ""
+"<strong>Notez que ces URL contiennent un jeton d'authentification à traiter "
+"comme n'importe quel autre identifiant.</strong> Toute personne disposant de"
+" ces URL peut lire tous vos signets. Si vous pensez qu'une URL a été "
+"compromise, vous pouvez supprimer le jeton de flux de votre utilisateur dans"
+" le <a target=\"_blank\" href=\"%(feed_token_admin_url)s\">panneau "
+"d'administration</a>. Après la suppression du jeton, de nouvelles URL seront"
+" générées au rechargement de cette page de paramètres."
+
+#: bookmarks/templates/shared/head.html:24 bookmarks/views/manifest.py:10
+msgid "Self-hosted bookmark service"
+msgstr "Service de signets auto-hébergé"
+
+#: bookmarks/templates/shared/layout.html:7
+msgid "Are you sure?"
+msgstr "Êtes-vous sûr ?"
+
+#: bookmarks/templates/shared/layout.html:9
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: bookmarks/templates/shared/layout.html:11
+#: bookmarks/templates/shared/modal_header.html:6
+msgid "Close dialog"
+msgstr "Fermer la boîte de dialogue"
+
+#: bookmarks/templates/shared/layout.html:38
+msgid "Application logo"
+msgstr "Logo de l'application"
+
+#: bookmarks/templates/shared/nav_menu.html:11
+msgid "Active"
+msgstr "Actif"
+
+#: bookmarks/templates/shared/nav_menu.html:27
+#: bookmarks/templates/shared/nav_menu.html:91 bookmarks/views/manifest.py:70
+msgid "Untagged"
+msgstr "Sans étiquette"
+
+#: bookmarks/templates/shared/nav_menu.html:35
+msgid "General"
+msgstr "Général"
+
+#: bookmarks/templates/shared/nav_menu.html:42
+#: bookmarks/templates/shared/nav_menu.html:102
+msgid "Admin"
+msgstr "Admin"
+
+#: bookmarks/templates/shared/nav_menu.html:52
+#: bookmarks/templates/shared/nav_menu.html:112
+msgid "Logout"
+msgstr "Déconnexion"
+
+#: bookmarks/templates/shared/nav_menu.html:66
+msgid "Navigation menu"
+msgstr "Menu de navigation"
+
+#: bookmarks/templates/shared/nav_menu.html:78 bookmarks/views/contexts.py:277
+msgid "Archived bookmarks"
+msgstr "Signets archivés"
+
+#: bookmarks/templates/shared/pagination.html:7
+#: bookmarks/templates/shared/pagination.html:11
+msgid "Previous"
+msgstr "Précédent"
+
+#: bookmarks/templates/shared/pagination.html:29
+#: bookmarks/templates/shared/pagination.html:33
+msgid "Next"
+msgstr "Suivant"
+
+#: bookmarks/templates/tags/edit.html:13
+msgid "Edit Tag"
+msgstr "Modifier l'étiquette"
+
+#: bookmarks/templates/tags/form.html:6
+msgid ""
+"Tag names are case-insensitive and cannot contain spaces (spaces will be "
+"replaced with hyphens)."
+msgstr ""
+"Les noms d'étiquettes sont insensibles à la casse et ne peuvent pas contenir"
+" d'espaces (les espaces sont remplacés par des tirets)."
+
+#: bookmarks/templates/tags/index.html:4
+msgid "Tags - Linkding"
+msgstr "Étiquettes - Linkding"
+
+#: bookmarks/templates/tags/index.html:15 bookmarks/templates/tags/new.html:13
+msgid "Create Tag"
+msgstr "Créer une étiquette"
+
+#: bookmarks/templates/tags/index.html:18
+#: bookmarks/templates/tags/merge.html:13
+#: bookmarks/templates/tags/merge.html:48
+msgid "Merge Tags"
+msgstr "Fusionner des étiquettes"
+
+#: bookmarks/templates/tags/index.html:27
+msgid "Search tags"
+msgstr "Rechercher des étiquettes"
+
+#: bookmarks/templates/tags/index.html:33
+msgid "Search tags..."
+msgstr "Rechercher des étiquettes..."
+
+#: bookmarks/templates/tags/index.html:47
+msgid "Name A-Z"
+msgstr "Nom A-Z"
+
+#: bookmarks/templates/tags/index.html:48
+msgid "Name Z-A"
+msgstr "Nom Z-A"
+
+#: bookmarks/templates/tags/index.html:49
+msgid "Fewest bookmarks"
+msgstr "Moins de signets"
+
+#: bookmarks/templates/tags/index.html:50
+msgid "Most bookmarks"
+msgstr "Plus de signets"
+
+#: bookmarks/templates/tags/index.html:61
+msgid "Show only unused tags"
+msgstr "Afficher uniquement les étiquettes inutilisées"
+
+#: bookmarks/templates/tags/index.html:69
+#, python-format
+msgid "Showing %(count)s of %(total_tags)s tags"
+msgstr "%(count)s étiquettes affichées sur %(total_tags)s"
+
+#: bookmarks/templates/tags/index.html:73
+#, python-format
+msgid "%(total_tags)s tags total"
+msgstr "%(total_tags)s étiquettes au total"
+
+#: bookmarks/templates/tags/index.html:123
+msgid "No tags found"
+msgstr "Aucune étiquette trouvée"
+
+#: bookmarks/templates/tags/index.html:124
+msgid "Try adjusting your search or filters"
+msgstr "Essayez de modifier votre recherche ou vos filtres"
+
+#: bookmarks/templates/tags/index.html:126
+msgid "You have no tags yet"
+msgstr "Vous n'avez pas encore d'étiquettes"
+
+#: bookmarks/templates/tags/index.html:127
+msgid "Tags will appear here when you add bookmarks with tags"
+msgstr ""
+"Les étiquettes apparaîtront ici lorsque vous ajouterez des signets avec des "
+"étiquettes"
+
+#: bookmarks/templates/tags/merge.html:17
+msgid "How to merge tags"
+msgstr "Comment fusionner des étiquettes"
+
+#: bookmarks/templates/tags/merge.html:20
+msgid "Enter the name of the tag you want to keep"
+msgstr "Saisissez le nom de l'étiquette à conserver"
+
+#: bookmarks/templates/tags/merge.html:21
+msgid "Enter the names of tags to merge into the target tag"
+msgstr "Saisissez les noms des étiquettes à fusionner dans l'étiquette cible"
+
+#: bookmarks/templates/tags/merge.html:22
+msgid ""
+"The target tag is added to all bookmarks that have any of the merge tags"
+msgstr ""
+"L'étiquette cible est ajoutée à tous les signets qui portent l'une des "
+"étiquettes fusionnées"
+
+#: bookmarks/templates/tags/merge.html:23
+msgid "The merged tags are deleted"
+msgstr "Les étiquettes fusionnées sont supprimées"
+
+#: bookmarks/templates/tags/merge.html:27
+msgid "Target tag"
+msgstr "Étiquette cible"
+
+#: bookmarks/templates/tags/merge.html:30
+msgid ""
+"Enter the name of the tag you want to keep. The tags entered below will be "
+"merged into this one."
+msgstr ""
+"Saisissez le nom de l'étiquette à conserver. Les étiquettes saisies ci-"
+"dessous seront fusionnées dans celle-ci."
+
+#: bookmarks/templates/tags/merge.html:35
+msgid "Tags to merge"
+msgstr "Étiquettes à fusionner"
+
+#: bookmarks/templates/tags/merge.html:38
+msgid ""
+"Enter the names of tags to merge into the target tag, separated by spaces. "
+"These tags will be deleted after merging."
+msgstr ""
+"Saisissez les noms des étiquettes à fusionner dans l'étiquette cible, "
+"séparés par des espaces. Ces étiquettes seront supprimées après la fusion."
+
+#: bookmarks/utils.py:26
+msgid "Monday"
+msgstr "Lundi"
+
+#: bookmarks/utils.py:27
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: bookmarks/utils.py:28
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: bookmarks/utils.py:29
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: bookmarks/utils.py:30
+msgid "Friday"
+msgstr "Vendredi"
+
+#: bookmarks/utils.py:31
+msgid "Saturday"
+msgstr "Samedi"
+
+#: bookmarks/utils.py:32
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: bookmarks/utils.py:76 bookmarks/utils.py:105
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: bookmarks/utils.py:78 bookmarks/utils.py:107
+msgid "Yesterday"
+msgstr "Hier"
+
+#: bookmarks/utils.py:91
+#, python-format
+msgid "%(count)d year ago"
+msgid_plural "%(count)d years ago"
+msgstr[0] "il y a %(count)d an"
+msgstr[1] "il y a %(count)d ans"
+
+#: bookmarks/utils.py:95
+#, python-format
+msgid "%(count)d month ago"
+msgid_plural "%(count)d months ago"
+msgstr[0] "il y a %(count)d mois"
+msgstr[1] "il y a %(count)d mois"
+
+#: bookmarks/utils.py:99
+#, python-format
+msgid "%(count)d week ago"
+msgid_plural "%(count)d weeks ago"
+msgstr[0] "il y a %(count)d semaine"
+msgstr[1] "il y a %(count)d semaines"
+
+#: bookmarks/views/bookmarks.py:61
+msgid "Bookmarks - Linkding"
+msgstr "Signets - Linkding"
+
+#: bookmarks/views/bookmarks.py:100
+msgid "Archived bookmarks - Linkding"
+msgstr "Signets archivés - Linkding"
+
+#: bookmarks/views/bookmarks.py:137
+msgid "Shared bookmarks - Linkding"
+msgstr "Signets partagés - Linkding"
+
+#: bookmarks/views/bookmarks.py:161
+msgid "Bookmark details - Linkding"
+msgstr "Détails du signet - Linkding"
+
+#: bookmarks/views/bookmarks.py:290
+msgid "Asset upload is disabled"
+msgstr "Le téléversement de fichiers est désactivé"
+
+#: bookmarks/views/bookmarks.py:295
+msgid "No file provided"
+msgstr "Aucun fichier fourni"
+
+#: bookmarks/views/bookmarks.py:350
+msgid "View does not support bulk actions"
+msgstr "Cette vue ne prend pas en charge les actions groupées"
+
+#: bookmarks/views/bundles.py:32
+#, python-format
+msgid "Bundle '%(name)s' removed successfully."
+msgstr "Le bundle « %(name)s » a été supprimé."
+
+#: bookmarks/views/bundles.py:68
+msgid "Bundle saved successfully."
+msgstr "Bundle enregistré."
+
+#: bookmarks/views/contexts.py:156
+msgid "View latest snapshot"
+msgstr "Voir le dernier instantané"
+
+#: bookmarks/views/contexts.py:160
+msgid "View snapshot on the Internet Archive Wayback Machine"
+msgstr "Voir l'instantané sur la Wayback Machine d'Internet Archive"
+
+#: bookmarks/views/settings.py:77
+msgid "Global settings updated"
+msgstr "Paramètres globaux mis à jour"
+
+#: bookmarks/views/settings.py:83
+msgid "Scheduled favicon update. This may take a while..."
+msgstr "Mise à jour des favicons planifiée. Cela peut prendre un moment..."
+
+#: bookmarks/views/settings.py:91
+#, python-format
+msgid "Queued %(count)d missing snapshots. This may take a while..."
+msgstr ""
+"%(count)d instantanés manquants mis en file d'attente. Cela peut prendre un "
+"moment..."
+
+#: bookmarks/views/settings.py:98
+msgid "No missing snapshots found."
+msgstr "Aucun instantané manquant."
+
+#: bookmarks/views/settings.py:113
+msgid "Profile updated"
+msgstr "Profil mis à jour"
+
+#: bookmarks/views/settings.py:125
+msgid "Profile update failed, check the form below for errors"
+msgstr ""
+"La mise à jour du profil a échoué, vérifiez les erreurs dans le formulaire "
+"ci-dessous"
+
+#: bookmarks/views/settings.py:164
+#, python-format
+msgid "%(version)s (latest)"
+msgstr "%(version)s (à jour)"
+
+#: bookmarks/views/settings.py:166
+#, python-format
+msgid "%(version)s (latest: %(latest_version)s)"
+msgstr "%(version)s (dernière : %(latest_version)s)"
+
+#: bookmarks/views/settings.py:228
+#, python-format
+msgid "API token \"%(name)s\" created successfully"
+msgstr "Jeton d'API « %(name)s » créé"
+
+#: bookmarks/views/settings.py:246
+#, python-format
+msgid "API token \"%(name)s\" has been deleted."
+msgstr "Le jeton d'API « %(name)s » a été supprimé."
+
+#: bookmarks/views/settings.py:262
+msgid "Please select a file to import."
+msgstr "Veuillez sélectionner un fichier à importer."
+
+#: bookmarks/views/settings.py:269
+#, python-format
+msgid "%(count)s bookmarks were successfully imported."
+msgstr "%(count)s signets ont été importés."
+
+#: bookmarks/views/settings.py:275
+#, python-format
+msgid ""
+"%(count)s bookmarks could not be imported. Please check the logs for more "
+"details."
+msgstr ""
+"%(count)s signets n'ont pas pu être importés. Consultez les journaux pour "
+"plus de détails."
+
+#: bookmarks/views/settings.py:282
+msgid "An error occurred during bookmark import."
+msgstr "Une erreur est survenue lors de l'import des signets."
+
+#: bookmarks/views/settings.py:311
+msgid "An error occurred during bookmark export."
+msgstr "Une erreur est survenue lors de l'export des signets."
+
+#: bookmarks/views/tags.py:75
+#, python-format
+msgid "Tag \"%(name)s\" created successfully."
+msgstr "L'étiquette « %(name)s » a été créée."
+
+#: bookmarks/views/tags.py:158
+#, python-format
+msgid "Successfully merged %(count)d tags (%(tags)s) into \"%(target)s\"."
+msgstr "%(count)d étiquettes (%(tags)s) fusionnées dans « %(target)s »."

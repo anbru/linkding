@@ -137,6 +137,10 @@ LANGUAGES = [
     ("en", "English"),
     ("de", "Deutsch"),
     ("es", "Español"),
+    ("fr", "Français"),
+    ("pl", "Polski"),
+    ("tr", "Türkçe"),
+    ("uk", "Українська"),
 ]
 LANGUAGES += discover_extra_languages(
     LOCALE_PATHS[0], [code for code, name in LANGUAGES]

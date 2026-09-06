@@ -1,0 +1,2036 @@
+#  Ukrainian translation for linkding.
+msgid ""
+msgstr ""
+"Project-Id-Version: linkding\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-06 12:54+0000\n"
+"PO-Revision-Date: 2026-09-06 13:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#: bookmarks/admin.py:78
+msgid "linkding administration"
+msgstr "Адміністрування linkding"
+
+#: bookmarks/admin.py:79
+msgid "linkding Admin"
+msgstr "Адміністратор linkding"
+
+#: bookmarks/admin.py:101
+msgid "Queued tasks"
+msgstr "Завдання в черзі"
+
+#: bookmarks/admin.py:145
+msgid "Delete selected bookmarks"
+msgstr "Видалити вибрані закладки"
+
+#: bookmarks/admin.py:153
+#, python-format
+msgid "%d bookmark was successfully deleted."
+msgid_plural "%d bookmarks were successfully deleted."
+msgstr[0] "%d закладку успішно видалено."
+msgstr[1] "%d закладки успішно видалено."
+msgstr[2] "%d закладок успішно видалено."
+
+#: bookmarks/admin.py:161
+msgid "Archive selected bookmarks"
+msgstr "Архівувати вибрані закладки"
+
+#: bookmarks/admin.py:169
+#, python-format
+msgid "%d bookmark was successfully archived."
+msgid_plural "%d bookmarks were successfully archived."
+msgstr[0] "%d закладку успішно архівовано."
+msgstr[1] "%d закладки успішно архівовано."
+msgstr[2] "%d закладок успішно архівовано."
+
+#: bookmarks/admin.py:177
+msgid "Unarchive selected bookmarks"
+msgstr "Розархівувати вибрані закладки"
+
+#: bookmarks/admin.py:185
+#, python-format
+msgid "%d bookmark was successfully unarchived."
+msgid_plural "%d bookmarks were successfully unarchived."
+msgstr[0] "%d закладку успішно розархівовано."
+msgstr[1] "%d закладки успішно розархівовано."
+msgstr[2] "%d закладок успішно розархівовано."
+
+#: bookmarks/admin.py:193 bookmarks/templates/bookmarks/bulk_edit_bar.html:18
+msgid "Mark as read"
+msgstr "Позначити як прочитане"
+
+#: bookmarks/admin.py:200
+#, python-format
+msgid "%d bookmark marked as read."
+msgid_plural "%d bookmarks marked as read."
+msgstr[0] "%d закладку позначено як прочитану."
+msgstr[1] "%d закладки позначено як прочитані."
+msgstr[2] "%d закладок позначено як прочитані."
+
+#: bookmarks/admin.py:208 bookmarks/templates/bookmarks/bulk_edit_bar.html:19
+#: bookmarks/templates/bookmarks/form.html:68
+msgid "Mark as unread"
+msgstr "Позначити як непрочитане"
+
+#: bookmarks/admin.py:215
+#, python-format
+msgid "%d bookmark marked as unread."
+msgid_plural "%d bookmarks marked as unread."
+msgstr[0] "%d закладку позначено як непрочитану."
+msgstr[1] "%d закладки позначено як непрочитані."
+msgstr[2] "%d закладок позначено як непрочитані."
+
+#: bookmarks/admin.py:225
+msgid "Display Name"
+msgstr "Відображуване ім'я"
+
+#: bookmarks/admin.py:254
+msgid "Delete unused tags"
+msgstr "Видалити невикористані теги"
+
+#: bookmarks/admin.py:265
+#, python-format
+msgid "%d unused tag was successfully deleted."
+msgid_plural "%d unused tags were successfully deleted."
+msgstr[0] "%d невикористаний тег успішно видалено."
+msgstr[1] "%d невикористані теги успішно видалено."
+msgstr[2] "%d невикористаних тегів успішно видалено."
+
+#: bookmarks/admin.py:276
+msgid "There were no unused tags in the selection"
+msgstr "У виборі не було невикористаних тегів"
+
+#: bookmarks/admin.py:302 bookmarks/templates/settings/general.html:14
+msgid "Profile"
+msgstr "Профіль"
+
+#: bookmarks/api/auth.py:24
+msgid "Invalid token header. No credentials provided."
+msgstr "Недійсний заголовок токена. Облікові дані не надано."
+
+#: bookmarks/api/auth.py:27
+msgid "Invalid token header. Token string should not contain spaces."
+msgstr "Недійсний заголовок токена. Рядок токена не повинен містити пробілів."
+
+#: bookmarks/api/auth.py:34
+msgid ""
+"Invalid token header. Token string should not contain invalid characters."
+msgstr ""
+"Недійсний заголовок токена. Рядок токена не повинен містити недопустимих "
+"символів."
+
+#: bookmarks/api/serializers.py:176 bookmarks/forms.py:116
+msgid "A bookmark with this URL already exists."
+msgstr "Закладка з цією URL-адресою вже існує."
+
+#: bookmarks/apps.py:6 bookmarks/templates/shared/nav_menu.html:8
+#: bookmarks/templates/shared/nav_menu.html:75
+#: bookmarks/templates/tags/index.html:87 bookmarks/views/contexts.py:269
+msgid "Bookmarks"
+msgstr "Закладки"
+
+#: bookmarks/feeds.py:80 bookmarks/feeds.py:81
+#: bookmarks/templates/settings/integrations.html:204
+msgid "All bookmarks"
+msgstr "Усі закладки"
+
+#: bookmarks/feeds.py:91 bookmarks/templates/settings/integrations.html:207
+msgid "Unread bookmarks"
+msgstr "Непрочитані закладки"
+
+#: bookmarks/feeds.py:92
+msgid "All unread bookmarks"
+msgstr "Усі непрочитані закладки"
+
+#: bookmarks/feeds.py:104 bookmarks/templates/settings/integrations.html:210
+#: bookmarks/templates/shared/nav_menu.html:82 bookmarks/views/contexts.py:285
+msgid "Shared bookmarks"
+msgstr "Спільні закладки"
+
+#: bookmarks/feeds.py:105
+msgid "All shared bookmarks"
+msgstr "Усі спільні закладки"
+
+#: bookmarks/feeds.py:120 bookmarks/templates/settings/integrations.html:213
+msgid "Public shared bookmarks"
+msgstr "Публічні спільні закладки"
+
+#: bookmarks/feeds.py:121
+msgid "All public shared bookmarks"
+msgstr "Усі публічні спільні закладки"
+
+#: bookmarks/forms.py:150
+#, python-format
+msgid "Tag \"%(name)s\" already exists."
+msgstr "Тег «%(name)s» уже існує."
+
+#: bookmarks/forms.py:181
+msgid "Please enter only one tag name for the target tag."
+msgstr "Введіть лише одну назву тегу для цільового тегу."
+
+#: bookmarks/forms.py:190 bookmarks/forms.py:209
+#, python-format
+msgid "Tag \"%(name)s\" does not exist."
+msgstr "Тег «%(name)s» не існує."
+
+#: bookmarks/forms.py:200
+msgid "Please enter at least one tag to merge."
+msgstr "Введіть принаймні один тег для об'єднання."
+
+#: bookmarks/forms.py:215
+msgid "The target tag cannot be selected for merging."
+msgstr "Цільовий тег не можна вибрати для об'єднання."
+
+#: bookmarks/forms.py:256
+msgid "Added ↑"
+msgstr "Додано ↑"
+
+#: bookmarks/forms.py:257
+msgid "Added ↓"
+msgstr "Додано ↓"
+
+#: bookmarks/forms.py:258
+msgid "Modified ↑"
+msgstr "Змінено ↑"
+
+#: bookmarks/forms.py:259
+msgid "Modified ↓"
+msgstr "Змінено ↓"
+
+#: bookmarks/forms.py:260
+msgid "Title ↑"
+msgstr "Назва ↑"
+
+#: bookmarks/forms.py:261
+msgid "Title ↓"
+msgstr "Назва ↓"
+
+#: bookmarks/forms.py:264 bookmarks/forms.py:269
+msgid "Off"
+msgstr "Вимкнено"
+
+#: bookmarks/forms.py:265 bookmarks/models.py:211
+#: bookmarks/templates/bookmarks/bookmark_list.html:143
+#: bookmarks/templates/bookmarks/details/form.html:84
+#: bookmarks/templates/shared/nav_menu.html:18 bookmarks/views/manifest.py:74
+msgid "Shared"
+msgstr "Спільні"
+
+#: bookmarks/forms.py:266 bookmarks/models.py:212
+msgid "Unshared"
+msgstr "Не спільні"
+
+#: bookmarks/forms.py:270 bookmarks/models.py:206
+#: bookmarks/templates/bookmarks/bookmark_list.html:130
+#: bookmarks/templates/bookmarks/details/form.html:74
+#: bookmarks/templates/shared/nav_menu.html:23
+#: bookmarks/templates/shared/nav_menu.html:87 bookmarks/views/manifest.py:66
+msgid "Unread"
+msgstr "Непрочитані"
+
+#: bookmarks/forms.py:271 bookmarks/models.py:207
+msgid "Read"
+msgstr "Прочитані"
+
+#: bookmarks/forms.py:296
+msgid "Everyone"
+msgstr "Усі користувачі"
+
+#: bookmarks/forms.py:319 bookmarks/models.py:374
+msgid "Auto"
+msgstr "Авто"
+
+#: bookmarks/forms.py:398
+msgid "Standard profile"
+msgstr "Стандартний профіль"
+
+#: bookmarks/models.py:24
+msgid "tag"
+msgstr "тег"
+
+#: bookmarks/models.py:25
+msgid "tags"
+msgstr "теги"
+
+#: bookmarks/models.py:60
+msgid "bookmark"
+msgstr "закладка"
+
+#: bookmarks/models.py:61
+msgid "bookmarks"
+msgstr "закладки"
+
+#: bookmarks/models.py:140
+msgid "bookmark asset"
+msgstr "файл закладки"
+
+#: bookmarks/models.py:141
+msgid "bookmark assets"
+msgstr "файли закладки"
+
+#: bookmarks/models.py:198
+msgid "bundle"
+msgstr "набір"
+
+#: bookmarks/models.py:199
+msgid "bundles"
+msgstr "набори"
+
+#: bookmarks/models.py:205 bookmarks/models.py:210
+msgid "All"
+msgstr "Усі"
+
+#: bookmarks/models.py:367
+msgid "user profile"
+msgstr "профіль користувача"
+
+#: bookmarks/models.py:368
+msgid "user profiles"
+msgstr "профілі користувачів"
+
+#: bookmarks/models.py:375
+msgid "Light"
+msgstr "Світла"
+
+#: bookmarks/models.py:376
+msgid "Dark"
+msgstr "Темна"
+
+#: bookmarks/models.py:382
+msgid "Relative"
+msgstr "Відносний"
+
+#: bookmarks/models.py:383
+msgid "Absolute"
+msgstr "Абсолютний"
+
+#: bookmarks/models.py:384
+msgid "Hidden"
+msgstr "Приховано"
+
+#: bookmarks/models.py:389
+msgid "Inline"
+msgstr "В одному рядку"
+
+#: bookmarks/models.py:390
+msgid "Separate"
+msgstr "Окремо"
+
+#: bookmarks/models.py:395
+msgid "New page"
+msgstr "Нова сторінка"
+
+#: bookmarks/models.py:396
+msgid "Same page"
+msgstr "Та сама сторінка"
+
+#: bookmarks/models.py:401 bookmarks/models.py:414
+msgid "Disabled"
+msgstr "Вимкнено"
+
+#: bookmarks/models.py:402
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: bookmarks/models.py:407
+msgid "Strict"
+msgstr "Строгий"
+
+#: bookmarks/models.py:408
+msgid "Lax"
+msgstr "Нестрогий"
+
+#: bookmarks/models.py:413
+msgid "Alphabetical"
+msgstr "За алфавітом"
+
+#: bookmarks/models.py:510
+msgid "toast"
+msgstr "сповіщення"
+
+#: bookmarks/models.py:511
+msgid "toasts"
+msgstr "сповіщення"
+
+#: bookmarks/models.py:525
+msgid "feed token"
+msgstr "токен стрічки"
+
+#: bookmarks/models.py:526
+msgid "feed tokens"
+msgstr "токени стрічки"
+
+#: bookmarks/models.py:551
+msgid "API token"
+msgstr "токен API"
+
+#: bookmarks/models.py:552
+msgid "API tokens"
+msgstr "токени API"
+
+#: bookmarks/models.py:578 bookmarks/models.py:579
+msgid "global settings"
+msgstr "глобальні налаштування"
+
+#: bookmarks/models.py:584 bookmarks/templates/registration/login.html:10
+#: bookmarks/templates/registration/login.html:27
+#: bookmarks/templates/shared/layout.html:47
+msgid "Login"
+msgstr "Увійти"
+
+#: bookmarks/models.py:585
+msgid "Shared Bookmarks"
+msgstr "Спільні закладки"
+
+#: bookmarks/templates/admin/background_tasks.html:7
+msgid "ID"
+msgstr "ID"
+
+#: bookmarks/templates/admin/background_tasks.html:8
+#: bookmarks/templates/bundles/form.html:3
+#: bookmarks/templates/bundles/index.html:19
+#: bookmarks/templates/settings/integrations.html:145
+#: bookmarks/templates/tags/form.html:3 bookmarks/templates/tags/index.html:86
+msgid "Name"
+msgstr "Назва"
+
+#: bookmarks/templates/admin/background_tasks.html:9
+msgid "Args"
+msgstr "Аргументи"
+
+#: bookmarks/templates/admin/background_tasks.html:10
+msgid "Retries"
+msgstr "Повторні спроби"
+
+#: bookmarks/templates/admin/background_tasks.html:37
+#, python-format
+msgid "%(counter)s task"
+msgid_plural "%(counter)s tasks"
+msgstr[0] "%(counter)s завдання"
+msgstr[1] "%(counter)s завдання"
+msgstr[2] "%(counter)s завдань"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:5
+msgid "Bookmark list"
+msgstr "Список закладок"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:81
+#: bookmarks/templates/bookmarks/details/assets.html:24
+#: bookmarks/templates/settings/general.html:78
+msgid "View"
+msgstr "Переглянути"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:86
+#: bookmarks/templates/bookmarks/details/modal.html:17
+#: bookmarks/templates/bundles/index.html:38
+#: bookmarks/templates/settings/general.html:79
+#: bookmarks/templates/tags/index.html:107
+msgid "Edit"
+msgstr "Редагувати"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:93
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:13
+msgid "Unarchive"
+msgstr "Розархівувати"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:98
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:10
+#: bookmarks/templates/settings/general.html:80
+msgid "Archive"
+msgstr "Архівувати"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:106
+#: bookmarks/templates/bookmarks/details/assets.html:31
+#: bookmarks/templates/bundles/index.html:43
+#: bookmarks/templates/settings/general.html:81
+#: bookmarks/templates/tags/index.html:112
+msgid "Remove"
+msgstr "Вилучити"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:112
+#, python-format
+msgid "Shared by <a href=\"?%(owner_query)s\">%(username)s</a>"
+msgstr "Спільний доступ від <a href=\"?%(owner_query)s\">%(username)s</a>"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:126
+msgid "Mark as read?"
+msgstr "Позначити як прочитане?"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:139
+msgid "Unshare?"
+msgstr "Скасувати спільний доступ?"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:151
+#: bookmarks/templates/bookmarks/details/form.html:119
+#: bookmarks/templates/bookmarks/form.html:58
+#: bookmarks/templates/bookmarks/form.html:60
+msgid "Notes"
+msgstr "Нотатки"
+
+#: bookmarks/templates/bookmarks/bookmark_page.html:14
+msgid "Bulk edit"
+msgstr "Масове редагування"
+
+#: bookmarks/templates/bookmarks/bookmark_page.html:21
+#: bookmarks/templates/shared/layout.html:10
+msgid "Filters"
+msgstr "Фільтри"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:15
+#: bookmarks/templates/bookmarks/details/modal.html:29
+#: bookmarks/templates/settings/integrations.html:163
+msgid "Delete"
+msgstr "Видалити"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:16
+msgid "Add tags"
+msgstr "Додати теги"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:17
+msgid "Remove tags"
+msgstr "Вилучити теги"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:21
+#: bookmarks/templates/bookmarks/form.html:75
+msgid "Share"
+msgstr "Поділитися"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:22
+msgid "Unshare"
+msgstr "Скасувати спільний доступ"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:24
+#: bookmarks/templates/bookmarks/form.html:37
+msgid "Refresh from website"
+msgstr "Оновити з вебсайту"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:26
+#: bookmarks/templates/bookmarks/details/assets.html:45
+msgid "Create HTML snapshot"
+msgstr "Створити HTML-знімок"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:30
+msgid "Tag names..."
+msgstr "Назви тегів..."
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:37
+msgid "Execute"
+msgstr "Виконати"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:42
+#, python-format
+msgid "All <span class=\"total\">%(total)s</span> bookmarks"
+msgstr "Усі закладки: <span class=\"total\">%(total)s</span>"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:5
+#: bookmarks/templates/bundles/index.html:9
+msgid "Bundles"
+msgstr "Набори"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:8
+msgid "Bundles menu"
+msgstr "Меню наборів"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:15
+msgid "Manage bundles"
+msgstr "Керувати наборами"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:20
+msgid "Create bundle from search"
+msgstr "Створити набір із пошуку"
+
+#: bookmarks/templates/bookmarks/close.html:7
+msgid "You can now close this window."
+msgstr "Тепер можна закрити це вікно."
+
+#: bookmarks/templates/bookmarks/details/assets.html:12
+msgid "(queued)"
+msgstr "(у черзі)"
+
+#: bookmarks/templates/bookmarks/details/assets.html:15
+msgid "(failed)"
+msgstr "(помилка)"
+
+#: bookmarks/templates/bookmarks/details/assets.html:53
+msgid "Upload file"
+msgstr "Завантажити файл"
+
+#: bookmarks/templates/bookmarks/details/form.html:31
+msgid "Reader mode"
+msgstr "Режим читання"
+
+#: bookmarks/templates/bookmarks/details/form.html:57
+msgid "Status"
+msgstr "Стан"
+
+#: bookmarks/templates/bookmarks/details/form.html:65
+#: bookmarks/templates/shared/nav_menu.html:14 bookmarks/views/manifest.py:62
+msgid "Archived"
+msgstr "Архівовано"
+
+#: bookmarks/templates/bookmarks/details/form.html:92
+msgid "Files"
+msgstr "Файли"
+
+#: bookmarks/templates/bookmarks/details/form.html:97
+#: bookmarks/templates/bookmarks/form.html:22
+#: bookmarks/templates/bookmarks/tag_section.html:4
+#: bookmarks/templates/bundles/form.html:16
+#: bookmarks/templates/tags/index.html:11
+msgid "Tags"
+msgstr "Теги"
+
+#: bookmarks/templates/bookmarks/details/form.html:106
+msgid "Date added"
+msgstr "Дата додавання"
+
+#: bookmarks/templates/bookmarks/details/form.html:113
+#: bookmarks/templates/bookmarks/form.html:48
+msgid "Description"
+msgstr "Опис"
+
+#: bookmarks/templates/bookmarks/edit.html:4
+msgid "Edit bookmark - Linkding"
+msgstr "Редагувати закладку - Linkding"
+
+#: bookmarks/templates/bookmarks/edit.html:10
+msgid "Edit bookmark"
+msgstr "Редагувати закладку"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:4
+msgid "Invalid search query"
+msgstr "Недійсний пошуковий запит"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:6
+#, python-format
+msgid ""
+"The search query you entered is not valid. Common reasons are unclosed "
+"parentheses or a logical operator (AND, OR, NOT) without operands. The error"
+" message from the parser is: \"%(error_message)s\"."
+msgstr ""
+"Введений пошуковий запит недійсний. Поширені причини: незакриті дужки або "
+"логічний оператор (AND, OR, NOT) без операндів. Повідомлення про помилку від"
+" аналізатора: «%(error_message)s»."
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:12
+msgid "You have no bookmarks yet"
+msgstr "У вас ще немає закладок"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:17
+#, python-format
+msgid ""
+"You can get started by <a href=\"%(new_url)s\">adding</a> bookmarks, <a "
+"href=\"%(settings_url)s\">importing</a> your existing bookmarks or "
+"configuring the <a href=\"%(integrations_url)s\">browser extension</a> or "
+"the <a href=\"%(integrations_url)s\">bookmarklet</a>."
+msgstr ""
+"Почніть із <a href=\"%(new_url)s\">додавання</a> закладок, <a "
+"href=\"%(settings_url)s\">імпорту</a> наявних закладок або налаштування <a "
+"href=\"%(integrations_url)s\">розширення для браузера</a> чи <a "
+"href=\"%(integrations_url)s\">букмарклета</a>."
+
+#: bookmarks/templates/bookmarks/form.html:8
+msgid "URL"
+msgstr "URL"
+
+#: bookmarks/templates/bookmarks/form.html:15
+msgid ""
+"This URL is already bookmarked. The form has been pre-filled with the "
+"existing bookmark, and saving the form will update the existing bookmark."
+msgstr ""
+"Ця URL-адреса вже є в закладках. Форму попередньо заповнено наявною "
+"закладкою, і збереження форми оновить її."
+
+#: bookmarks/templates/bookmarks/form.html:25
+msgid ""
+"Enter any number of tags separated by space and <strong>without</strong> the"
+" hash (#). If a tag does not exist it will be automatically created."
+msgstr ""
+"Введіть будь-яку кількість тегів через пробіл і <strong>без</strong> решітки"
+" (#). Якщо тег не існує, його буде створено автоматично."
+
+#: bookmarks/templates/bookmarks/form.html:34
+msgid "Title"
+msgstr "Назва"
+
+#: bookmarks/templates/bookmarks/form.html:40
+#: bookmarks/templates/bookmarks/form.html:50
+msgid "Clear"
+msgstr "Очистити"
+
+#: bookmarks/templates/bookmarks/form.html:63
+msgid "Additional notes, supports Markdown."
+msgstr "Додаткові нотатки, підтримується Markdown."
+
+#: bookmarks/templates/bookmarks/form.html:70
+msgid ""
+"Unread bookmarks can be filtered for, and marked as read after you had a "
+"chance to look at them."
+msgstr ""
+"Непрочитані закладки можна фільтрувати та позначати як прочитані після "
+"перегляду."
+
+#: bookmarks/templates/bookmarks/form.html:78
+msgid "Share this bookmark with other registered users and anonymous users."
+msgstr ""
+"Поділитися цією закладкою з іншими зареєстрованими та анонімними "
+"користувачами."
+
+#: bookmarks/templates/bookmarks/form.html:80
+msgid "Share this bookmark with other registered users."
+msgstr "Поділитися цією закладкою з іншими зареєстрованими користувачами."
+
+#: bookmarks/templates/bookmarks/form.html:89
+msgid "Save and close"
+msgstr "Зберегти й закрити"
+
+#: bookmarks/templates/bookmarks/form.html:93
+#: bookmarks/templates/bundles/form.html:53
+#: bookmarks/templates/settings/general.html:280
+#: bookmarks/templates/settings/general.html:324
+#: bookmarks/templates/tags/edit.html:17 bookmarks/templates/tags/new.html:17
+msgid "Save"
+msgstr "Зберегти"
+
+#: bookmarks/templates/bookmarks/form.html:96
+#: bookmarks/templates/bundles/form.html:56
+#: bookmarks/templates/settings/create_api_token_modal.html:27
+#: bookmarks/templates/shared/layout.html:8
+#: bookmarks/templates/tags/edit.html:16
+#: bookmarks/templates/tags/merge.html:47 bookmarks/templates/tags/new.html:16
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: bookmarks/templates/bookmarks/form.html:98
+msgid "Auto tags:"
+msgstr "Автоматичні теги:"
+
+#: bookmarks/templates/bookmarks/new.html:4
+msgid "New bookmark - Linkding"
+msgstr "Нова закладка - Linkding"
+
+#: bookmarks/templates/bookmarks/new.html:10
+msgid "New bookmark"
+msgstr "Нова закладка"
+
+#: bookmarks/templates/bookmarks/read.html:6
+msgid "Reader view"
+msgstr "Режим читання"
+
+#: bookmarks/templates/bookmarks/read.html:47
+msgid "minutes"
+msgstr "хвилин"
+
+#: bookmarks/templates/bookmarks/search.html:5
+msgid "Search for words or #tags"
+msgstr "Шукати слова або #теги"
+
+#: bookmarks/templates/bookmarks/search.html:13
+#: bookmarks/templates/tags/index.html:35
+msgid "Search"
+msgstr "Пошук"
+
+#: bookmarks/templates/bookmarks/search.html:18
+msgid "Search preferences"
+msgstr "Налаштування пошуку"
+
+#: bookmarks/templates/bookmarks/search.html:31
+#: bookmarks/templates/tags/index.html:39
+msgid "Sort by"
+msgstr "Сортувати за"
+
+#: bookmarks/templates/bookmarks/search.html:42
+msgid "Shared filter"
+msgstr "Фільтр спільного доступу"
+
+#: bookmarks/templates/bookmarks/search.html:59
+msgid "Unread filter"
+msgstr "Фільтр прочитаного"
+
+#: bookmarks/templates/bookmarks/search.html:71
+#: bookmarks/templates/bookmarks/user_section.html:14
+msgid "Apply"
+msgstr "Застосувати"
+
+#: bookmarks/templates/bookmarks/search.html:73
+msgid "Save as default"
+msgstr "Зберегти як типове"
+
+#: bookmarks/templates/bookmarks/tag_section.html:8
+msgid "Tags menu"
+msgstr "Меню тегів"
+
+#: bookmarks/templates/bookmarks/tag_section.html:15
+msgid "Manage tags"
+msgstr "Керувати тегами"
+
+#: bookmarks/templates/bookmarks/user_section.html:4
+msgid "User"
+msgstr "Користувач"
+
+#: bookmarks/templates/bundles/edit.html:4
+msgid "Edit bundle - Linkding"
+msgstr "Редагувати набір - Linkding"
+
+#: bookmarks/templates/bundles/edit.html:10
+msgid "Edit bundle"
+msgstr "Редагувати набір"
+
+#: bookmarks/templates/bundles/edit.html:23
+#: bookmarks/templates/bundles/new.html:23
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#: bookmarks/templates/bundles/form.html:8
+msgid "Search terms"
+msgstr "Пошукові терміни"
+
+#: bookmarks/templates/bundles/form.html:12
+msgid "All of these search terms must be present in a bookmark to match."
+msgstr "Усі ці пошукові терміни мають бути присутні в закладці для збігу."
+
+#: bookmarks/templates/bundles/form.html:19
+msgid "At least one of these tags must be present in a bookmark to match."
+msgstr "Принаймні один із цих тегів має бути присутнім у закладці для збігу."
+
+#: bookmarks/templates/bundles/form.html:23
+msgid "Required tags"
+msgstr "Обов'язкові теги"
+
+#: bookmarks/templates/bundles/form.html:26
+msgid "All of these tags must be present in a bookmark to match."
+msgstr "Усі ці теги мають бути присутні в закладці для збігу."
+
+#: bookmarks/templates/bundles/form.html:30
+msgid "Excluded tags"
+msgstr "Виключені теги"
+
+#: bookmarks/templates/bundles/form.html:33
+msgid "None of these tags must be present in a bookmark to match."
+msgstr "Жоден із цих тегів не має бути присутнім у закладці для збігу."
+
+#: bookmarks/templates/bundles/form.html:37
+msgid "Reading State"
+msgstr "Стан читання"
+
+#: bookmarks/templates/bundles/form.html:40
+msgid "Limit matches to unread or read bookmarks."
+msgstr "Обмежити збіги непрочитаними або прочитаними закладками."
+
+#: bookmarks/templates/bundles/form.html:44
+msgid "Sharing State"
+msgstr "Стан спільного доступу"
+
+#: bookmarks/templates/bundles/form.html:47
+msgid "Limit matches to shared or unshared bookmarks."
+msgstr "Обмежити збіги спільними або не спільними закладками."
+
+#: bookmarks/templates/bundles/index.html:4
+msgid "Bundles - Linkding"
+msgstr "Набори - Linkding"
+
+#: bookmarks/templates/bundles/index.html:10
+msgid "Add bundle"
+msgstr "Додати набір"
+
+#: bookmarks/templates/bundles/index.html:21
+#: bookmarks/templates/settings/integrations.html:148
+#: bookmarks/templates/tags/index.html:89
+msgid "Actions"
+msgstr "Дії"
+
+#: bookmarks/templates/bundles/index.html:54
+msgid "You have no bundles yet"
+msgstr "У вас ще немає наборів"
+
+#: bookmarks/templates/bundles/index.html:55
+msgid "Create your first bundle to get started"
+msgstr "Створіть свій перший набір, щоб почати"
+
+#: bookmarks/templates/bundles/new.html:4
+msgid "New bundle - Linkding"
+msgstr "Новий набір - Linkding"
+
+#: bookmarks/templates/bundles/new.html:10
+msgid "New bundle"
+msgstr "Новий набір"
+
+#: bookmarks/templates/bundles/preview.html:4
+msgid "No bookmarks match the current bundle."
+msgstr "Жодна закладка не відповідає поточному набору."
+
+#: bookmarks/templates/bundles/preview.html:7
+#, python-format
+msgid "Found %(total)s bookmarks matching this bundle."
+msgstr "Знайдено закладок, що відповідають цьому набору: %(total)s."
+
+#: bookmarks/templates/registration/login.html:5
+msgid "Login - Linkding"
+msgstr "Вхід - Linkding"
+
+#: bookmarks/templates/registration/login.html:16
+msgid "Your username and password didn't match. Please try again."
+msgstr "Ім'я користувача та пароль не збігаються. Спробуйте ще раз."
+
+#: bookmarks/templates/registration/login.html:19
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: bookmarks/templates/registration/login.html:23
+msgid "Password"
+msgstr "Пароль"
+
+#: bookmarks/templates/registration/login.html:35
+msgid "Login with OIDC"
+msgstr "Увійти через OIDC"
+
+#: bookmarks/templates/registration/password_change_done.html:4
+msgid "Password changed - Linkding"
+msgstr "Пароль змінено - Linkding"
+
+#: bookmarks/templates/registration/password_change_done.html:9
+msgid "Password Changed"
+msgstr "Пароль змінено"
+
+#: bookmarks/templates/registration/password_change_done.html:11
+msgid "Your password was changed successfully."
+msgstr "Ваш пароль успішно змінено."
+
+#: bookmarks/templates/registration/password_change_form.html:5
+msgid "Change password - Linkding"
+msgstr "Змінити пароль - Linkding"
+
+#: bookmarks/templates/registration/password_change_form.html:10
+#: bookmarks/templates/registration/password_change_form.html:30
+msgid "Change Password"
+msgstr "Змінити пароль"
+
+#: bookmarks/templates/registration/password_change_form.html:15
+msgid "Old password"
+msgstr "Старий пароль"
+
+#: bookmarks/templates/registration/password_change_form.html:20
+msgid "New password"
+msgstr "Новий пароль"
+
+#: bookmarks/templates/registration/password_change_form.html:25
+msgid "Confirm new password"
+msgstr "Підтвердьте новий пароль"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:12
+msgid "Create API Token"
+msgstr "Створити токен API"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:15
+msgid "Token name"
+msgstr "Назва токена"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:20
+msgid "e.g., Browser Extension, Mobile App"
+msgstr "напр., Розширення для браузера, Мобільний застосунок"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:21
+msgid "API Token"
+msgstr "Токен API"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:23
+msgid "A descriptive name to identify the purpose of the token"
+msgstr "Описова назва для визначення призначення токена"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:28
+msgid "Create Token"
+msgstr "Створити токен"
+
+#: bookmarks/templates/settings/general.html:5
+msgid "Settings - Linkding"
+msgstr "Налаштування - Linkding"
+
+#: bookmarks/templates/settings/general.html:9
+#: bookmarks/templates/shared/nav_menu.html:32
+#: bookmarks/templates/shared/nav_menu.html:95
+msgid "Settings"
+msgstr "Налаштування"
+
+#: bookmarks/templates/settings/general.html:16
+msgid "Change password"
+msgstr "Змінити пароль"
+
+#: bookmarks/templates/settings/general.html:24
+msgid "Theme"
+msgstr "Тема"
+
+#: bookmarks/templates/settings/general.html:27
+msgid ""
+"Whether to use a light or dark theme, or automatically adjust the theme "
+"based on your system's settings."
+msgstr ""
+"Використовувати світлу чи темну тему, або автоматично підлаштовувати тему "
+"під налаштування системи."
+
+#: bookmarks/templates/settings/general.html:31
+msgid "Language"
+msgstr "Мова"
+
+#: bookmarks/templates/settings/general.html:34
+msgid ""
+"Automatically use the language preferred by your browser, or a fixed "
+"language for all your devices. Falls back to English for texts that are not "
+"translated."
+msgstr ""
+"Автоматично використовувати мову, якій надає перевагу ваш браузер, або "
+"фіксовану мову для всіх ваших пристроїв. Неперекладені тексти показуються "
+"англійською."
+
+#: bookmarks/templates/settings/general.html:38
+msgid "Bookmark date format"
+msgstr "Формат дати закладок"
+
+#: bookmarks/templates/settings/general.html:41
+msgid ""
+"Whether to show bookmark dates as relative (how long ago), or as absolute "
+"dates. Alternatively the date can be hidden."
+msgstr ""
+"Показувати дати закладок відносно (як давно) чи як абсолютні дати. Дату "
+"також можна приховати."
+
+#: bookmarks/templates/settings/general.html:48
+msgid "Bookmark description"
+msgstr "Опис закладки"
+
+#: bookmarks/templates/settings/general.html:51
+msgid ""
+"Whether to show bookmark descriptions and tags in the same line, or as "
+"separate blocks."
+msgstr "Показувати описи й теги закладок в одному рядку чи окремими блоками."
+
+#: bookmarks/templates/settings/general.html:55
+msgid "Bookmark description max lines"
+msgstr "Макс. кількість рядків опису"
+
+#: bookmarks/templates/settings/general.html:58
+msgid ""
+"Limits the number of lines that are displayed for the bookmark description."
+msgstr "Обмежує кількість рядків, що показуються для опису закладки."
+
+#: bookmarks/templates/settings/general.html:62
+msgid "Show bookmark URL"
+msgstr "Показувати URL закладки"
+
+#: bookmarks/templates/settings/general.html:64
+msgid "When enabled, this setting displays the bookmark URL below the title."
+msgstr "Якщо увімкнено, URL-адреса закладки показується під назвою."
+
+#: bookmarks/templates/settings/general.html:68
+msgid "Show notes permanently"
+msgstr "Завжди показувати нотатки"
+
+#: bookmarks/templates/settings/general.html:70
+msgid ""
+"Whether to show bookmark notes permanently, without having to toggle them "
+"individually. Alternatively the keyboard shortcut <code>e</code> can be used"
+" to temporarily show all notes."
+msgstr ""
+"Показувати нотатки закладок постійно, не розгортаючи їх окремо. Також усі "
+"нотатки можна тимчасово показати комбінацією клавіш <code>e</code>."
+
+#: bookmarks/templates/settings/general.html:77
+msgid "Bookmark actions"
+msgstr "Дії із закладками"
+
+#: bookmarks/templates/settings/general.html:82
+msgid "Which actions to display for each bookmark."
+msgstr "Які дії показувати для кожної закладки."
+
+#: bookmarks/templates/settings/general.html:85
+msgid "Open bookmarks in"
+msgstr "Відкривати закладки в"
+
+#: bookmarks/templates/settings/general.html:88
+msgid "Whether to open bookmarks a new page or in the same page."
+msgstr "Відкривати закладки на новій сторінці чи на тій самій."
+
+#: bookmarks/templates/settings/general.html:92
+msgid "Items per page"
+msgstr "Елементів на сторінці"
+
+#: bookmarks/templates/settings/general.html:96
+msgid "The number of bookmarks to display per page."
+msgstr "Кількість закладок на сторінці."
+
+#: bookmarks/templates/settings/general.html:100
+msgid "Sticky pagination"
+msgstr "Закріплена пагінація"
+
+#: bookmarks/templates/settings/general.html:102
+msgid ""
+"When enabled, the pagination controls will stick to the bottom of the "
+"screen, so that they are always visible without having to scroll to the end "
+"of the page first."
+msgstr ""
+"Якщо увімкнено, елементи керування пагінацією закріплюються внизу екрана й "
+"завжди видимі без прокручування до кінця сторінки."
+
+#: bookmarks/templates/settings/general.html:109
+msgid "Collapse side panel"
+msgstr "Згорнути бічну панель"
+
+#: bookmarks/templates/settings/general.html:111
+msgid ""
+"When enabled, the tags side panel will be collapsed by default to give more "
+"space to the bookmark list. Instead, the tags are shown in an expandable "
+"drawer."
+msgstr ""
+"Якщо увімкнено, бічна панель тегів типово згорнута, щоб дати більше місця "
+"списку закладок. Натомість теги показуються у розгортаній шухляді."
+
+#: bookmarks/templates/settings/general.html:118
+msgid "Hide bundles"
+msgstr "Приховати набори"
+
+#: bookmarks/templates/settings/general.html:120
+msgid ""
+"Allows to hide the bundles in the side panel if you don't intend to use "
+"them."
+msgstr ""
+"Дозволяє приховати набори на бічній панелі, якщо ви не плануєте ними "
+"користуватися."
+
+#: bookmarks/templates/settings/general.html:124
+msgid "Tag search"
+msgstr "Пошук тегів"
+
+#: bookmarks/templates/settings/general.html:127
+msgid ""
+"In strict mode, tags must be prefixed with a hash character (#). In lax "
+"mode, tags can also be searched without the hash character. Note that tags "
+"without the hash character are indistinguishable from search terms, which "
+"means the search result will also include bookmarks where a search term "
+"matches otherwise."
+msgstr ""
+"У строгому режимі теги мають починатися з решітки (#). У нестрогому режимі "
+"теги можна шукати й без решітки. Зауважте, що теги без решітки не "
+"відрізняються від пошукових термінів, тому результат пошуку включатиме й "
+"закладки, де пошуковий термін збігається інакше."
+
+#: bookmarks/templates/settings/general.html:136
+msgid "Enable legacy search"
+msgstr "Увімкнути застарілий пошук"
+
+#: bookmarks/templates/settings/general.html:138
+msgid ""
+"Since version 1.44.0, linkding has a new search engine that supports logical"
+" expressions (and, or, not). If you run into any issues with the new search,"
+" you can enable this option to temporarily switch back to the old search. "
+"Please report any issues you encounter with the new search on <a "
+"href=\"https://github.com/sissbruecker/linkding/issues\" "
+"target=\"_blank\">GitHub</a> so they can be addressed. This option will be "
+"removed in a future version."
+msgstr ""
+"Починаючи з версії 1.44.0, linkding має новий пошуковий рушій із підтримкою "
+"логічних виразів (and, or, not). Якщо з новим пошуком виникають проблеми, "
+"можна увімкнути цей параметр, щоб тимчасово повернутися до старого пошуку. "
+"Повідомляйте про проблеми з новим пошуком на <a "
+"href=\"https://github.com/sissbruecker/linkding/issues\" "
+"target=\"_blank\">GitHub</a>, щоб їх можна було виправити. Цей параметр буде"
+" вилучено в майбутній версії."
+
+#: bookmarks/templates/settings/general.html:148
+msgid "Tag grouping"
+msgstr "Групування тегів"
+
+#: bookmarks/templates/settings/general.html:151
+msgid ""
+"In alphabetical mode, tags will be grouped by the first letter. If disabled,"
+" tags will not be grouped."
+msgstr ""
+"В алфавітному режимі теги групуються за першою літерою. Якщо вимкнено, теги "
+"не групуються."
+
+#: bookmarks/templates/settings/general.html:160
+#: bookmarks/templates/settings/general.html:163
+msgid "Auto Tagging"
+msgstr "Автоматичне тегування"
+
+#: bookmarks/templates/settings/general.html:167
+msgid ""
+"Automatically adds tags to bookmarks based on predefined rules. Each line is"
+" a single rule that maps a URL to one or more tags. For example:"
+msgstr ""
+"Автоматично додає теги до закладок за визначеними правилами. Кожен рядок — "
+"окреме правило, яке зіставляє URL-адресу з одним або кількома тегами. "
+"Наприклад:"
+
+#: bookmarks/templates/settings/general.html:176
+msgid "Enable Favicons"
+msgstr "Увімкнути favicon"
+
+#: bookmarks/templates/settings/general.html:178
+msgid ""
+"Automatically loads favicons for bookmarked websites and displays them next "
+"to each bookmark. Enabling this feature automatically downloads all missing "
+"favicons. By default, this feature uses a <b>Google service</b> to download "
+"favicons. If you don't want to use this service, check the <a "
+"href=\"https://linkding.link/options/#ld_favicon_provider\" "
+"target=\"_blank\">options documentation</a> on how to configure a custom "
+"favicon provider. Icons are downloaded in the background, and it may take a "
+"while for them to show up."
+msgstr ""
+"Автоматично завантажує favicon збережених вебсайтів і показує їх поруч із "
+"кожною закладкою. Увімкнення цієї функції автоматично завантажує всі "
+"відсутні favicon. Типово ця функція використовує <b>сервіс Google</b> для "
+"завантаження favicon. Якщо ви не хочете користуватися цим сервісом, "
+"перегляньте <a href=\"https://linkding.link/options/#ld_favicon_provider\" "
+"target=\"_blank\">документацію з параметрів</a>, щоб налаштувати власного "
+"постачальника favicon. Іконки завантажуються у фоновому режимі, і може "
+"минути деякий час, перш ніж вони з'являться."
+
+#: bookmarks/templates/settings/general.html:189
+msgid "Refresh Favicons"
+msgstr "Оновити favicon"
+
+#: bookmarks/templates/settings/general.html:193
+msgid "Enable Preview Images"
+msgstr "Увімкнути зображення попереднього перегляду"
+
+#: bookmarks/templates/settings/general.html:195
+msgid ""
+"Automatically loads preview images for bookmarked websites and displays them"
+" next to each bookmark. Enabling this feature automatically downloads all "
+"missing preview images."
+msgstr ""
+"Автоматично завантажує зображення попереднього перегляду збережених "
+"вебсайтів і показує їх поруч із кожною закладкою. Увімкнення цієї функції "
+"автоматично завантажує всі відсутні зображення."
+
+#: bookmarks/templates/settings/general.html:202
+msgid "Internet Archive integration"
+msgstr "Інтеграція з Internet Archive"
+
+#: bookmarks/templates/settings/general.html:205
+msgid ""
+"Enabling this feature will automatically create snapshots of bookmarked "
+"websites on the <a href=\"https://web.archive.org/\" target=\"_blank\" "
+"rel=\"noopener\">Internet Archive Wayback Machine</a>. This allows to "
+"preserve, and later access the website as it was at the point in time it was"
+" bookmarked, in case it goes offline or its content is modified. Please "
+"consider donating to the <a href=\"https://archive.org/donate\" "
+"target=\"_blank\" rel=\"noopener\">Internet Archive</a> if you make use of "
+"this feature."
+msgstr ""
+"Увімкнення цієї функції автоматично створює знімки збережених вебсайтів в <a"
+" href=\"https://web.archive.org/\" target=\"_blank\" "
+"rel=\"noopener\">Internet Archive Wayback Machine</a>. Це дозволяє зберегти "
+"вебсайт таким, яким він був на момент додавання закладки, і переглянути його"
+" пізніше, якщо він зникне або його вміст зміниться. Якщо ви користуєтеся "
+"цією функцією, подумайте про пожертву <a href=\"https://archive.org/donate\""
+" target=\"_blank\" rel=\"noopener\">Internet Archive</a>."
+
+#: bookmarks/templates/settings/general.html:215
+msgid "Enable bookmark sharing"
+msgstr "Увімкнути спільний доступ до закладок"
+
+#: bookmarks/templates/settings/general.html:217
+msgid ""
+"Allows to share bookmarks with other users, and to view shared bookmarks. "
+"Disabling this feature will hide all previously shared bookmarks from other "
+"users."
+msgstr ""
+"Дозволяє ділитися закладками з іншими користувачами та переглядати спільні "
+"закладки. Вимкнення цієї функції приховає від інших користувачів усі раніше "
+"спільні закладки."
+
+#: bookmarks/templates/settings/general.html:224
+msgid "Enable public bookmark sharing"
+msgstr "Увімкнути публічний спільний доступ до закладок"
+
+#: bookmarks/templates/settings/general.html:227
+#, python-format
+msgid ""
+"Makes shared bookmarks publicly accessible, without requiring a login. That "
+"means that anyone with a link to this instance can view shared bookmarks via"
+" the <a href=\"%(shared_bookmarks_url)s\">shared bookmarks page</a>."
+msgstr ""
+"Робить спільні закладки публічно доступними без входу. Це означає, що будь-"
+"хто з посиланням на цей екземпляр зможе переглядати спільні закладки на <a "
+"href=\"%(shared_bookmarks_url)s\">сторінці спільних закладок</a>."
+
+#: bookmarks/templates/settings/general.html:235
+msgid "Automatically create HTML snapshots"
+msgstr "Автоматично створювати HTML-знімки"
+
+#: bookmarks/templates/settings/general.html:237
+msgid ""
+"Automatically creates HTML snapshots when adding bookmarks. Alternatively, "
+"when disabled, snapshots can be created manually in the details view of a "
+"bookmark."
+msgstr ""
+"Автоматично створює HTML-знімки під час додавання закладок. Якщо вимкнено, "
+"знімки можна створювати вручну в детальному перегляді закладки."
+
+#: bookmarks/templates/settings/general.html:242
+msgid "Create missing HTML snapshots"
+msgstr "Створити відсутні HTML-знімки"
+
+#: bookmarks/templates/settings/general.html:246
+msgid "Create bookmarks as unread by default"
+msgstr "Створювати закладки типово як непрочитані"
+
+#: bookmarks/templates/settings/general.html:248
+msgid ""
+"Sets the default state for the \"Mark as unread\" option when creating a new"
+" bookmark. Setting this option will make all new bookmarks default to "
+"unread. This can be overridden when creating each new bookmark."
+msgstr ""
+"Задає типовий стан параметра «Позначити як непрочитане» під час створення "
+"нової закладки. З цим параметром усі нові закладки типово непрочитані. Це "
+"можна змінити для кожної нової закладки."
+
+#: bookmarks/templates/settings/general.html:256
+msgid "Create bookmarks as shared by default"
+msgstr "Створювати закладки типово як спільні"
+
+#: bookmarks/templates/settings/general.html:258
+msgid ""
+"Sets the default state for the \"Share\" option when creating a new "
+"bookmark. Setting this option will make all new bookmarks default to shared."
+" This can be overridden when creating each new bookmark."
+msgstr ""
+"Задає типовий стан параметра «Поділитися» під час створення нової закладки. "
+"З цим параметром усі нові закладки типово спільні. Це можна змінити для "
+"кожної нової закладки."
+
+#: bookmarks/templates/settings/general.html:268
+#: bookmarks/templates/settings/general.html:270
+msgid "Custom CSS"
+msgstr "Власний CSS"
+
+#: bookmarks/templates/settings/general.html:274
+msgid "Allows to add custom CSS to the page."
+msgstr "Дозволяє додати на сторінку власний CSS."
+
+#: bookmarks/templates/settings/general.html:288
+msgid "Global settings"
+msgstr "Глобальні налаштування"
+
+#: bookmarks/templates/settings/general.html:295
+msgid "Landing page"
+msgstr "Початкова сторінка"
+
+#: bookmarks/templates/settings/general.html:298
+msgid ""
+"The page that unauthenticated users are redirected to when accessing the "
+"root URL."
+msgstr ""
+"Сторінка, на яку перенаправляються неавторизовані користувачі під час "
+"доступу до кореневої URL-адреси."
+
+#: bookmarks/templates/settings/general.html:302
+msgid "Guest user profile"
+msgstr "Профіль гостя"
+
+#: bookmarks/templates/settings/general.html:305
+msgid ""
+"The user profile to use for users that are not logged in. This will affect "
+"how publicly shared bookmarks are displayed regarding theme, bookmark list "
+"settings, etc. You can either use your own profile or create a dedicated "
+"user for this purpose. By default, a standard profile with fixed settings is"
+" used."
+msgstr ""
+"Профіль користувача для тих, хто не увійшов. Він визначає, як показуються "
+"публічні спільні закладки: тема, налаштування списку закладок тощо. Можна "
+"використати власний профіль або створити окремого користувача для цього. "
+"Типово використовується стандартний профіль із фіксованими налаштуваннями."
+
+#: bookmarks/templates/settings/general.html:313
+msgid "Enable prefetching links on hover"
+msgstr "Увімкнути попереднє завантаження посилань при наведенні"
+
+#: bookmarks/templates/settings/general.html:315
+msgid ""
+"Prefetches internal links when hovering over them. This can improve the "
+"perceived performance when navigating application, but also increases the "
+"load on the server as well as bandwidth usage."
+msgstr ""
+"Попередньо завантажує внутрішні посилання при наведенні на них. Це може "
+"покращити відчутну швидкість навігації в застосунку, але також збільшує "
+"навантаження на сервер і використання трафіку."
+
+#: bookmarks/templates/settings/general.html:332
+msgid "Import"
+msgstr "Імпорт"
+
+#: bookmarks/templates/settings/general.html:334
+msgid ""
+"Import bookmarks and tags in the Netscape HTML format. This will execute a "
+"sync where new bookmarks are added and existing ones are updated."
+msgstr ""
+"Імпортувати закладки й теги у форматі Netscape HTML. Виконується "
+"синхронізація: нові закладки додаються, наявні оновлюються."
+
+#: bookmarks/templates/settings/general.html:349
+msgid "Import public bookmarks as shared"
+msgstr "Імпортувати публічні закладки як спільні"
+
+#: bookmarks/templates/settings/general.html:352
+msgid ""
+"When importing bookmarks from a service that supports marking bookmarks as "
+"public or private (using the <code>PRIVATE</code> attribute), enabling this "
+"option will import all bookmarks that are marked as not private as shared "
+"bookmarks. Otherwise, all bookmarks will be imported as private bookmarks."
+msgstr ""
+"Під час імпорту із сервісу, який підтримує позначення закладок як публічних "
+"або приватних (за допомогою атрибута <code>PRIVATE</code>), увімкнення цього"
+" параметра імпортує всі закладки, не позначені як приватні, як спільні. "
+"Інакше всі закладки імпортуються як приватні."
+
+#: bookmarks/templates/settings/general.html:365
+msgid "Upload"
+msgstr "Завантажити"
+
+#: bookmarks/templates/settings/general.html:372
+msgid "Export"
+msgstr "Експорт"
+
+#: bookmarks/templates/settings/general.html:373
+msgid "Export all bookmarks in Netscape HTML format."
+msgstr "Експортувати всі закладки у форматі Netscape HTML."
+
+#: bookmarks/templates/settings/general.html:376
+msgid "Download (.html)"
+msgstr "Завантажити (.html)"
+
+#: bookmarks/templates/settings/general.html:385
+msgid "About"
+msgstr "Про застосунок"
+
+#: bookmarks/templates/settings/general.html:389
+msgid "Version"
+msgstr "Версія"
+
+#: bookmarks/templates/settings/general.html:393
+msgid "Links"
+msgstr "Посилання"
+
+#: bookmarks/templates/settings/general.html:397
+msgid "Documentation"
+msgstr "Документація"
+
+#: bookmarks/templates/settings/general.html:399
+msgid "Changelog"
+msgstr "Журнал змін"
+
+#: bookmarks/templates/settings/integrations.html:4
+msgid "Integrations - Linkding"
+msgstr "Інтеграції - Linkding"
+
+#: bookmarks/templates/settings/integrations.html:8
+#: bookmarks/templates/shared/nav_menu.html:38
+#: bookmarks/templates/shared/nav_menu.html:98
+msgid "Integrations"
+msgstr "Інтеграції"
+
+#: bookmarks/templates/settings/integrations.html:10
+msgid "Browser Extension"
+msgstr "Розширення для браузера"
+
+#: bookmarks/templates/settings/integrations.html:12
+msgid ""
+"The browser extension allows you to quickly add new bookmarks without "
+"leaving the page that you are on. The extension is available in the official"
+" extension stores for:"
+msgstr ""
+"Розширення для браузера дозволяє швидко додавати нові закладки, не залишаючи"
+" поточну сторінку. Розширення доступне в офіційних магазинах розширень для:"
+
+#: bookmarks/templates/settings/integrations.html:28
+msgid ""
+"The extension is <a href=\"https://github.com/sissbruecker/linkding-"
+"extension\" target=\"_blank\">open source</a> as well, which enables you to "
+"build and manually load it into any browser that supports Chrome extensions."
+msgstr ""
+"Розширення також має <a href=\"https://github.com/sissbruecker/linkding-"
+"extension\" target=\"_blank\">відкритий код</a>, тож його можна зібрати й "
+"вручну завантажити в будь-який браузер, який підтримує розширення Chrome."
+
+#: bookmarks/templates/settings/integrations.html:34
+msgid "Bookmarklet"
+msgstr "Букмарклет"
+
+#: bookmarks/templates/settings/integrations.html:36
+msgid ""
+"The bookmarklet is an alternative, cross-browser way to quickly add new "
+"bookmarks without opening the linkding application first. Here's how it "
+"works:"
+msgstr ""
+"Букмарклет — альтернативний, кросбраузерний спосіб швидко додавати нові "
+"закладки, не відкриваючи спершу застосунок linkding. Ось як він працює:"
+
+#: bookmarks/templates/settings/integrations.html:43
+msgid ""
+"Choose your preferred method for detecting website titles and descriptions "
+"below (<a href=\"https://linkding.link/troubleshooting/#automatically-"
+"detected-title-and-description-are-incorrect\" target=\"_blank\">Help</a>)"
+msgstr ""
+"Виберіть нижче бажаний спосіб визначення назв і описів вебсайтів (<a "
+"href=\"https://linkding.link/troubleshooting/#automatically-detected-title-"
+"and-description-are-incorrect\" target=\"_blank\">Довідка</a>)"
+
+#: bookmarks/templates/settings/integrations.html:48
+msgid "Drag the bookmarklet below into your browser's bookmark bar / toolbar"
+msgstr ""
+"Перетягніть букмарклет нижче на панель закладок / панель інструментів вашого"
+" браузера"
+
+#: bookmarks/templates/settings/integrations.html:49
+msgid "Open the website that you want to bookmark"
+msgstr "Відкрийте вебсайт, який хочете додати в закладки"
+
+#: bookmarks/templates/settings/integrations.html:50
+msgid "Click the bookmarklet in your browser's toolbar"
+msgstr "Натисніть букмарклет на панелі інструментів браузера"
+
+#: bookmarks/templates/settings/integrations.html:51
+msgid ""
+"linkding opens in a new window or tab and allows you to add a bookmark for "
+"the site"
+msgstr ""
+"linkding відкривається в новому вікні або вкладці й дозволяє додати закладку"
+" для сайту"
+
+#: bookmarks/templates/settings/integrations.html:52
+msgid ""
+"After saving the bookmark, the linkding window closes, and you are back on "
+"your website"
+msgstr ""
+"Після збереження закладки вікно linkding закривається, і ви повертаєтеся на "
+"свій вебсайт"
+
+#: bookmarks/templates/settings/integrations.html:57
+msgid "Choose your preferred bookmarklet:"
+msgstr "Виберіть бажаний букмарклет:"
+
+#: bookmarks/templates/settings/integrations.html:65
+msgid "Detect title and description on the server"
+msgstr "Визначати назву й опис на сервері"
+
+#: bookmarks/templates/settings/integrations.html:73
+msgid "Detect title and description in the browser"
+msgstr "Визначати назву й опис у браузері"
+
+#: bookmarks/templates/settings/integrations.html:80
+#: bookmarks/templates/settings/integrations.html:85
+#: bookmarks/templates/shared/nav_menu.html:6
+#: bookmarks/templates/shared/nav_menu.html:58 bookmarks/views/manifest.py:58
+msgid "Add bookmark"
+msgstr "Додати закладку"
+
+#: bookmarks/templates/settings/integrations.html:114
+msgid "REST API"
+msgstr "REST API"
+
+#: bookmarks/templates/settings/integrations.html:119
+msgid "Copy this token now, it will only be shown once:"
+msgstr "Скопіюйте цей токен зараз, він буде показаний лише один раз:"
+
+#: bookmarks/templates/settings/integrations.html:121
+msgid "New token key"
+msgstr "Новий ключ токена"
+
+#: bookmarks/templates/settings/integrations.html:127
+#: bookmarks/templates/settings/integrations.html:177
+msgid "Copy"
+msgstr "Копіювати"
+
+#: bookmarks/templates/settings/integrations.html:132
+msgid ""
+"API tokens can be used to authenticate 3rd-party applications against the "
+"REST API. <strong>Please treat tokens as you would any other "
+"credential.</strong> Any party with access to a token can access and manage "
+"all your bookmarks."
+msgstr ""
+"Токени API можна використовувати для автентифікації сторонніх застосунків у "
+"REST API. <strong>Ставтеся до токенів як до будь-яких інших облікових "
+"даних.</strong> Будь-хто з доступом до токена може переглядати всі ваші "
+"закладки й керувати ними."
+
+#: bookmarks/templates/settings/integrations.html:146
+msgid "Created"
+msgstr "Створено"
+
+#: bookmarks/templates/settings/integrations.html:173
+msgid "Create API token"
+msgstr "Створити токен API"
+
+#: bookmarks/templates/settings/integrations.html:176
+msgid "Copied!"
+msgstr "Скопійовано!"
+
+#: bookmarks/templates/settings/integrations.html:200
+msgid "RSS Feeds"
+msgstr "RSS-стрічки"
+
+#: bookmarks/templates/settings/integrations.html:201
+msgid "The following URLs provide RSS feeds for your bookmarks:"
+msgstr "Наведені нижче URL-адреси надають RSS-стрічки для ваших закладок:"
+
+#: bookmarks/templates/settings/integrations.html:215
+msgid ""
+"The public shared feed does not contain an authentication token and can be "
+"shared with other people. Only shows shared bookmarks from users who have "
+"explicitly enabled public sharing."
+msgstr ""
+"Публічна спільна стрічка не містить токена автентифікації, і нею можна "
+"ділитися з іншими людьми. Показує лише спільні закладки користувачів, які "
+"явно увімкнули публічний спільний доступ."
+
+#: bookmarks/templates/settings/integrations.html:218
+msgid "Feed URLs support the following URL parameters:"
+msgstr "URL-адреси стрічок підтримують такі параметри:"
+
+#: bookmarks/templates/settings/integrations.html:221
+msgid ""
+"A <code>limit</code> parameter for specifying the maximum number of "
+"bookmarks to include in the feed. By default, only the latest 100 matching "
+"bookmarks are included."
+msgstr ""
+"Параметр <code>limit</code> для вказання максимальної кількості закладок у "
+"стрічці. Типово включаються лише останні 100 відповідних закладок."
+
+#: bookmarks/templates/settings/integrations.html:227
+msgid ""
+"A <code>q</code> URL parameter for specifying a search query. You can get an"
+" example by doing a search in the bookmarks view and then copying the "
+"parameter from the URL."
+msgstr ""
+"URL-параметр <code>q</code> для вказання пошукового запиту. Приклад можна "
+"отримати, виконавши пошук у поданні закладок і скопіювавши параметр з URL-"
+"адреси."
+
+#: bookmarks/templates/settings/integrations.html:233
+msgid ""
+"An <code>unread</code> parameter for filtering for unread or read bookmarks."
+" Use <code>yes</code> for unread bookmarks and <code>no</code> for read "
+"bookmarks."
+msgstr ""
+"Параметр <code>unread</code> для фільтрації непрочитаних або прочитаних "
+"закладок. Використовуйте <code>yes</code> для непрочитаних і <code>no</code>"
+" для прочитаних закладок."
+
+#: bookmarks/templates/settings/integrations.html:239
+msgid ""
+"A <code>shared</code> parameter for filtering for shared or unshared "
+"bookmarks. Use <code>yes</code> for shared bookmarks and <code>no</code> for"
+" unshared bookmarks."
+msgstr ""
+"Параметр <code>shared</code> для фільтрації спільних або не спільних "
+"закладок. Використовуйте <code>yes</code> для спільних і <code>no</code> для"
+" не спільних закладок."
+
+#: bookmarks/templates/settings/integrations.html:245
+msgid ""
+"A <code>user</code> parameter for filtering bookmarks by user name. Only "
+"applies to the shared bookmark feeds."
+msgstr ""
+"Параметр <code>user</code> для фільтрації закладок за ім'ям користувача. "
+"Застосовується лише до стрічок спільних закладок."
+
+#: bookmarks/templates/settings/integrations.html:252
+#, python-format
+msgid ""
+"<strong>Please note that these URLs include an authentication token that "
+"should be treated like any other credential.</strong> Any party with access "
+"to these URLs can read all your bookmarks. If you think that a URL was "
+"compromised you can delete the feed token for your user in the <a "
+"target=\"_blank\" href=\"%(feed_token_admin_url)s\">admin panel</a>. After "
+"deleting the feed token, new URLs will be generated when you reload this "
+"settings page."
+msgstr ""
+"<strong>Зауважте, що ці URL-адреси містять токен автентифікації, до якого "
+"слід ставитися як до будь-яких інших облікових даних.</strong> Будь-хто з "
+"доступом до цих URL-адрес може читати всі ваші закладки. Якщо ви вважаєте, "
+"що URL-адресу скомпрометовано, можна видалити токен стрічки для вашого "
+"користувача в <a target=\"_blank\" href=\"%(feed_token_admin_url)s\">панелі "
+"адміністратора</a>. Після видалення токена стрічки нові URL-адреси буде "
+"згенеровано при перезавантаженні цієї сторінки налаштувань."
+
+#: bookmarks/templates/shared/head.html:24 bookmarks/views/manifest.py:10
+msgid "Self-hosted bookmark service"
+msgstr "Сервіс закладок для самостійного розміщення"
+
+#: bookmarks/templates/shared/layout.html:7
+msgid "Are you sure?"
+msgstr "Ви впевнені?"
+
+#: bookmarks/templates/shared/layout.html:9
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#: bookmarks/templates/shared/layout.html:11
+#: bookmarks/templates/shared/modal_header.html:6
+msgid "Close dialog"
+msgstr "Закрити діалог"
+
+#: bookmarks/templates/shared/layout.html:38
+msgid "Application logo"
+msgstr "Логотип застосунку"
+
+#: bookmarks/templates/shared/nav_menu.html:11
+msgid "Active"
+msgstr "Активний"
+
+#: bookmarks/templates/shared/nav_menu.html:27
+#: bookmarks/templates/shared/nav_menu.html:91 bookmarks/views/manifest.py:70
+msgid "Untagged"
+msgstr "Без тегів"
+
+#: bookmarks/templates/shared/nav_menu.html:35
+msgid "General"
+msgstr "Загальні"
+
+#: bookmarks/templates/shared/nav_menu.html:42
+#: bookmarks/templates/shared/nav_menu.html:102
+msgid "Admin"
+msgstr "Адміністрування"
+
+#: bookmarks/templates/shared/nav_menu.html:52
+#: bookmarks/templates/shared/nav_menu.html:112
+msgid "Logout"
+msgstr "Вийти"
+
+#: bookmarks/templates/shared/nav_menu.html:66
+msgid "Navigation menu"
+msgstr "Меню навігації"
+
+#: bookmarks/templates/shared/nav_menu.html:78 bookmarks/views/contexts.py:277
+msgid "Archived bookmarks"
+msgstr "Архівовані закладки"
+
+#: bookmarks/templates/shared/pagination.html:7
+#: bookmarks/templates/shared/pagination.html:11
+msgid "Previous"
+msgstr "Назад"
+
+#: bookmarks/templates/shared/pagination.html:29
+#: bookmarks/templates/shared/pagination.html:33
+msgid "Next"
+msgstr "Далі"
+
+#: bookmarks/templates/tags/edit.html:13
+msgid "Edit Tag"
+msgstr "Редагувати тег"
+
+#: bookmarks/templates/tags/form.html:6
+msgid ""
+"Tag names are case-insensitive and cannot contain spaces (spaces will be "
+"replaced with hyphens)."
+msgstr ""
+"Назви тегів нечутливі до регістру й не можуть містити пробілів (пробіли "
+"замінюються дефісами)."
+
+#: bookmarks/templates/tags/index.html:4
+msgid "Tags - Linkding"
+msgstr "Теги - Linkding"
+
+#: bookmarks/templates/tags/index.html:15 bookmarks/templates/tags/new.html:13
+msgid "Create Tag"
+msgstr "Створити тег"
+
+#: bookmarks/templates/tags/index.html:18
+#: bookmarks/templates/tags/merge.html:13
+#: bookmarks/templates/tags/merge.html:48
+msgid "Merge Tags"
+msgstr "Об'єднати теги"
+
+#: bookmarks/templates/tags/index.html:27
+msgid "Search tags"
+msgstr "Пошук тегів"
+
+#: bookmarks/templates/tags/index.html:33
+msgid "Search tags..."
+msgstr "Пошук тегів..."
+
+#: bookmarks/templates/tags/index.html:47
+msgid "Name A-Z"
+msgstr "Назва А-Я"
+
+#: bookmarks/templates/tags/index.html:48
+msgid "Name Z-A"
+msgstr "Назва Я-А"
+
+#: bookmarks/templates/tags/index.html:49
+msgid "Fewest bookmarks"
+msgstr "Найменше закладок"
+
+#: bookmarks/templates/tags/index.html:50
+msgid "Most bookmarks"
+msgstr "Найбільше закладок"
+
+#: bookmarks/templates/tags/index.html:61
+msgid "Show only unused tags"
+msgstr "Показувати лише невикористані теги"
+
+#: bookmarks/templates/tags/index.html:69
+#, python-format
+msgid "Showing %(count)s of %(total_tags)s tags"
+msgstr "Показано %(count)s із %(total_tags)s тегів"
+
+#: bookmarks/templates/tags/index.html:73
+#, python-format
+msgid "%(total_tags)s tags total"
+msgstr "Усього тегів: %(total_tags)s"
+
+#: bookmarks/templates/tags/index.html:123
+msgid "No tags found"
+msgstr "Тегів не знайдено"
+
+#: bookmarks/templates/tags/index.html:124
+msgid "Try adjusting your search or filters"
+msgstr "Спробуйте змінити пошук або фільтри"
+
+#: bookmarks/templates/tags/index.html:126
+msgid "You have no tags yet"
+msgstr "У вас ще немає тегів"
+
+#: bookmarks/templates/tags/index.html:127
+msgid "Tags will appear here when you add bookmarks with tags"
+msgstr "Теги з'являться тут, коли ви додасте закладки з тегами"
+
+#: bookmarks/templates/tags/merge.html:17
+msgid "How to merge tags"
+msgstr "Як об'єднати теги"
+
+#: bookmarks/templates/tags/merge.html:20
+msgid "Enter the name of the tag you want to keep"
+msgstr "Введіть назву тегу, який хочете залишити"
+
+#: bookmarks/templates/tags/merge.html:21
+msgid "Enter the names of tags to merge into the target tag"
+msgstr "Введіть назви тегів, які потрібно об'єднати з цільовим тегом"
+
+#: bookmarks/templates/tags/merge.html:22
+msgid ""
+"The target tag is added to all bookmarks that have any of the merge tags"
+msgstr ""
+"Цільовий тег додається до всіх закладок, що мають будь-який із тегів для "
+"об'єднання"
+
+#: bookmarks/templates/tags/merge.html:23
+msgid "The merged tags are deleted"
+msgstr "Об'єднані теги видаляються"
+
+#: bookmarks/templates/tags/merge.html:27
+msgid "Target tag"
+msgstr "Цільовий тег"
+
+#: bookmarks/templates/tags/merge.html:30
+msgid ""
+"Enter the name of the tag you want to keep. The tags entered below will be "
+"merged into this one."
+msgstr ""
+"Введіть назву тегу, який хочете залишити. Теги, введені нижче, буде "
+"об'єднано з ним."
+
+#: bookmarks/templates/tags/merge.html:35
+msgid "Tags to merge"
+msgstr "Теги для об'єднання"
+
+#: bookmarks/templates/tags/merge.html:38
+msgid ""
+"Enter the names of tags to merge into the target tag, separated by spaces. "
+"These tags will be deleted after merging."
+msgstr ""
+"Введіть назви тегів для об'єднання з цільовим тегом через пробіл. Ці теги "
+"буде видалено після об'єднання."
+
+#: bookmarks/utils.py:26
+msgid "Monday"
+msgstr "Понеділок"
+
+#: bookmarks/utils.py:27
+msgid "Tuesday"
+msgstr "Вівторок"
+
+#: bookmarks/utils.py:28
+msgid "Wednesday"
+msgstr "Середа"
+
+#: bookmarks/utils.py:29
+msgid "Thursday"
+msgstr "Четвер"
+
+#: bookmarks/utils.py:30
+msgid "Friday"
+msgstr "П'ятниця"
+
+#: bookmarks/utils.py:31
+msgid "Saturday"
+msgstr "Субота"
+
+#: bookmarks/utils.py:32
+msgid "Sunday"
+msgstr "Неділя"
+
+#: bookmarks/utils.py:76 bookmarks/utils.py:105
+msgid "Today"
+msgstr "Сьогодні"
+
+#: bookmarks/utils.py:78 bookmarks/utils.py:107
+msgid "Yesterday"
+msgstr "Вчора"
+
+#: bookmarks/utils.py:91
+#, python-format
+msgid "%(count)d year ago"
+msgid_plural "%(count)d years ago"
+msgstr[0] "%(count)d рік тому"
+msgstr[1] "%(count)d роки тому"
+msgstr[2] "%(count)d років тому"
+
+#: bookmarks/utils.py:95
+#, python-format
+msgid "%(count)d month ago"
+msgid_plural "%(count)d months ago"
+msgstr[0] "%(count)d місяць тому"
+msgstr[1] "%(count)d місяці тому"
+msgstr[2] "%(count)d місяців тому"
+
+#: bookmarks/utils.py:99
+#, python-format
+msgid "%(count)d week ago"
+msgid_plural "%(count)d weeks ago"
+msgstr[0] "%(count)d тиждень тому"
+msgstr[1] "%(count)d тижні тому"
+msgstr[2] "%(count)d тижнів тому"
+
+#: bookmarks/views/bookmarks.py:61
+msgid "Bookmarks - Linkding"
+msgstr "Закладки - Linkding"
+
+#: bookmarks/views/bookmarks.py:100
+msgid "Archived bookmarks - Linkding"
+msgstr "Архівовані закладки - Linkding"
+
+#: bookmarks/views/bookmarks.py:137
+msgid "Shared bookmarks - Linkding"
+msgstr "Спільні закладки - Linkding"
+
+#: bookmarks/views/bookmarks.py:161
+msgid "Bookmark details - Linkding"
+msgstr "Деталі закладки - Linkding"
+
+#: bookmarks/views/bookmarks.py:290
+msgid "Asset upload is disabled"
+msgstr "Завантаження файлів вимкнено"
+
+#: bookmarks/views/bookmarks.py:295
+msgid "No file provided"
+msgstr "Файл не надано"
+
+#: bookmarks/views/bookmarks.py:350
+msgid "View does not support bulk actions"
+msgstr "Це подання не підтримує масові дії"
+
+#: bookmarks/views/bundles.py:32
+#, python-format
+msgid "Bundle '%(name)s' removed successfully."
+msgstr "Набір «%(name)s» успішно вилучено."
+
+#: bookmarks/views/bundles.py:68
+msgid "Bundle saved successfully."
+msgstr "Набір успішно збережено."
+
+#: bookmarks/views/contexts.py:156
+msgid "View latest snapshot"
+msgstr "Переглянути останній знімок"
+
+#: bookmarks/views/contexts.py:160
+msgid "View snapshot on the Internet Archive Wayback Machine"
+msgstr "Переглянути знімок в Internet Archive Wayback Machine"
+
+#: bookmarks/views/settings.py:77
+msgid "Global settings updated"
+msgstr "Глобальні налаштування оновлено"
+
+#: bookmarks/views/settings.py:83
+msgid "Scheduled favicon update. This may take a while..."
+msgstr "Оновлення favicon заплановано. Це може зайняти деякий час..."
+
+#: bookmarks/views/settings.py:91
+#, python-format
+msgid "Queued %(count)d missing snapshots. This may take a while..."
+msgstr ""
+"Поставлено в чергу відсутніх знімків: %(count)d. Це може зайняти деякий "
+"час..."
+
+#: bookmarks/views/settings.py:98
+msgid "No missing snapshots found."
+msgstr "Відсутніх знімків не знайдено."
+
+#: bookmarks/views/settings.py:113
+msgid "Profile updated"
+msgstr "Профіль оновлено"
+
+#: bookmarks/views/settings.py:125
+msgid "Profile update failed, check the form below for errors"
+msgstr "Не вдалося оновити профіль, перевірте помилки у формі нижче"
+
+#: bookmarks/views/settings.py:164
+#, python-format
+msgid "%(version)s (latest)"
+msgstr "%(version)s (найновіша)"
+
+#: bookmarks/views/settings.py:166
+#, python-format
+msgid "%(version)s (latest: %(latest_version)s)"
+msgstr "%(version)s (найновіша: %(latest_version)s)"
+
+#: bookmarks/views/settings.py:228
+#, python-format
+msgid "API token \"%(name)s\" created successfully"
+msgstr "Токен API «%(name)s» успішно створено"
+
+#: bookmarks/views/settings.py:246
+#, python-format
+msgid "API token \"%(name)s\" has been deleted."
+msgstr "Токен API «%(name)s» видалено."
+
+#: bookmarks/views/settings.py:262
+msgid "Please select a file to import."
+msgstr "Виберіть файл для імпорту."
+
+#: bookmarks/views/settings.py:269
+#, python-format
+msgid "%(count)s bookmarks were successfully imported."
+msgstr "Успішно імпортовано закладок: %(count)s."
+
+#: bookmarks/views/settings.py:275
+#, python-format
+msgid ""
+"%(count)s bookmarks could not be imported. Please check the logs for more "
+"details."
+msgstr ""
+"Не вдалося імпортувати закладок: %(count)s. Перевірте журнали для подробиць."
+
+#: bookmarks/views/settings.py:282
+msgid "An error occurred during bookmark import."
+msgstr "Під час імпорту закладок сталася помилка."
+
+#: bookmarks/views/settings.py:311
+msgid "An error occurred during bookmark export."
+msgstr "Під час експорту закладок сталася помилка."
+
+#: bookmarks/views/tags.py:75
+#, python-format
+msgid "Tag \"%(name)s\" created successfully."
+msgstr "Тег «%(name)s» успішно створено."
+
+#: bookmarks/views/tags.py:158
+#, python-format
+msgid "Successfully merged %(count)d tags (%(tags)s) into \"%(target)s\"."
+msgstr "Успішно об'єднано тегів: %(count)d (%(tags)s) у «%(target)s»."
