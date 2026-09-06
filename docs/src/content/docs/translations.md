@@ -9,12 +9,20 @@ The linkding user interface is written in English and can be translated into oth
 
 linkding picks the language from the `Accept-Language` header that the browser sends, so the user interface follows the language settings of your browser. There is no language switcher in the application.
 
-Only languages listed in the `LANGUAGES` setting are used. If the browser requests a language that is not available, or if a text has not been translated yet, linkding falls back to English.
+linkding uses the languages bundled with the application plus any translation found in the data folder (see below). If the browser requests a language that is not available, or if a text has not been translated yet, linkding falls back to English.
 
-Currently available languages:
+Currently bundled languages:
 
 - English
 - German
+
+## Adding your own translation
+
+You can add a language, or override texts of a bundled language, without rebuilding linkding. Put a message file at `data/locale/<language code>/LC_MESSAGES/django.po` in the data folder (the folder that is mounted as a volume when running with Docker) and restart linkding. The file is compiled at startup and the language becomes available, named after Django's built-in language names. For example, `data/locale/ja/LC_MESSAGES/django.po` adds Japanese.
+
+To create the file, follow the steps in [Contributing a translation](#contributing-a-translation) up to translating the `.po` file, or start from the `.po` file of a bundled language in `bookmarks/locale`. Files in the data folder take precedence over the bundled ones, so a `data/locale/de/LC_MESSAGES/django.po` replaces the bundled German texts.
+
+If a file can not be compiled, linkding logs a message at startup and ignores that language.
 
 ## Contributing a translation
 
