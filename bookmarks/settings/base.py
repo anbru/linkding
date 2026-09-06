@@ -64,6 +64,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "django.middleware.locale.LocaleMiddleware",
+    "bookmarks.middlewares.UserLanguageMiddleware",
 ]
 
 ROOT_URLCONF = "bookmarks.urls"
