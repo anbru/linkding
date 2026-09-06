@@ -1,7 +1,8 @@
 {% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
 <!DOCTYPE html>
 {# Use data attributes as storage for access in static scripts #}
-<html lang="en"
+<html lang="{{ LANGUAGE_CODE }}"
       data-api-base-url="{% url 'linkding:api-root' %}"
       data-i18n-are-you-sure="{% translate 'Are you sure?' %}"
       data-i18n-cancel="{% translate 'Cancel' %}"
