@@ -10,7 +10,7 @@ from requests import RequestException
 from bookmarks.models import GlobalSettings, UserProfile
 from bookmarks.services import tasks
 from bookmarks.tests.helpers import BookmarkFactoryMixin
-from bookmarks.views.settings import app_version, get_version_info
+from bookmarks.views.settings import app_version, get_latest_version, get_version_info
 
 
 class SettingsGeneralViewTestCase(TestCase, BookmarkFactoryMixin):
@@ -446,7 +446,7 @@ class SettingsGeneralViewTestCase(TestCase, BookmarkFactoryMixin):
             # Clear the lru_cache so the view recomputes the version info under
             # the mock instead of returning a value cached by an earlier test
             # that made a real (potentially rate-limited) network call.
-            get_version_info.cache_clear()
+            get_latest_version.cache_clear()
             response = self.client.get(reverse("linkding:settings.general"))
             html = response.content.decode()
 

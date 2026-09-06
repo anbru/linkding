@@ -9,7 +9,7 @@ from django.core.paginator import Paginator
 from django.db.models import Count, QuerySet
 from django.shortcuts import render
 from django.urls import path
-from django.utils.translation import gettext, ngettext
+from django.utils.translation import gettext, gettext_lazy, ngettext
 from huey.contrib.djhuey import HUEY as huey
 
 from bookmarks.models import (
@@ -75,8 +75,8 @@ def background_task_view(request):
 
 
 class LinkdingAdminSite(AdminSite):
-    site_header = "linkding administration"
-    site_title = "linkding Admin"
+    site_header = gettext_lazy("linkding administration")
+    site_title = gettext_lazy("linkding Admin")
 
     def get_urls(self):
         urls = super().get_urls()
@@ -98,7 +98,7 @@ class LinkdingAdminSite(AdminSite):
                 "app_label": "huey_app",
                 "models": [
                     {
-                        "name": "Queued tasks",
+                        "name": gettext("Queued tasks"),
                         "object_name": "background_tasks",
                         "admin_url": f"/{context_path}admin/tasks/",
                         "view_only": True,
@@ -142,6 +142,7 @@ class AdminBookmark(admin.ModelAdmin):
         del actions["delete_selected"]
         return actions
 
+    @admin.action(description=gettext_lazy("Delete selected bookmarks"))
     def delete_selected_bookmarks(self, request, queryset: QuerySet):
         bookmarks_count = queryset.count()
         for bookmark in queryset:
@@ -157,6 +158,7 @@ class AdminBookmark(admin.ModelAdmin):
             messages.SUCCESS,
         )
 
+    @admin.action(description=gettext_lazy("Archive selected bookmarks"))
     def archive_selected_bookmarks(self, request, queryset: QuerySet):
         for bookmark in queryset:
             archive_bookmark(bookmark)
@@ -172,6 +174,7 @@ class AdminBookmark(admin.ModelAdmin):
             messages.SUCCESS,
         )
 
+    @admin.action(description=gettext_lazy("Unarchive selected bookmarks"))
     def unarchive_selected_bookmarks(self, request, queryset: QuerySet):
         for bookmark in queryset:
             unarchive_bookmark(bookmark)
@@ -187,6 +190,7 @@ class AdminBookmark(admin.ModelAdmin):
             messages.SUCCESS,
         )
 
+    @admin.action(description=gettext_lazy("Mark as read"))
     def mark_as_read(self, request, queryset: QuerySet):
         bookmarks_count = queryset.count()
         queryset.update(unread=False)
@@ -201,6 +205,7 @@ class AdminBookmark(admin.ModelAdmin):
             messages.SUCCESS,
         )
 
+    @admin.action(description=gettext_lazy("Mark as unread"))
     def mark_as_unread(self, request, queryset: QuerySet):
         bookmarks_count = queryset.count()
         queryset.update(unread=True)
@@ -217,7 +222,7 @@ class AdminBookmark(admin.ModelAdmin):
 
 
 class AdminBookmarkAsset(admin.ModelAdmin):
-    @admin.display(description="Display Name")
+    @admin.display(description=gettext_lazy("Display Name"))
     def custom_display_name(self, obj):
         return str(obj)
 
@@ -246,6 +251,7 @@ class AdminTag(admin.ModelAdmin):
 
     bookmarks_count.admin_order_field = "bookmarks_count"
 
+    @admin.action(description=gettext_lazy("Delete unused tags"))
     def delete_unused_tags(self, request, queryset: QuerySet):
         unused_tags = queryset.filter(bookmark__isnull=True)
         unused_tags_count = unused_tags.count()
@@ -293,7 +299,7 @@ class AdminBookmarkBundle(admin.ModelAdmin):
 class AdminUserProfileInline(admin.StackedInline):
     model = UserProfile
     can_delete = False
-    verbose_name_plural = "Profile"
+    verbose_name_plural = gettext_lazy("Profile")
     fk_name = "user"
     readonly_fields = ("search_preferences",)
 

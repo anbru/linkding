@@ -141,7 +141,7 @@ def update_global_settings(request):
 
 # Cache API call response, for one hour when using get_ttl_hash with default params
 @lru_cache(maxsize=1)
-def get_version_info(ttl_hash=None):
+def get_latest_version(ttl_hash=None):
     latest_version = None
     try:
         latest_version_url = (
@@ -154,13 +154,20 @@ def get_version_info(ttl_hash=None):
     except requests.exceptions.RequestException:
         pass
 
-    latest_version_info = ""
-    if latest_version == app_version:
-        latest_version_info = " (latest)"
-    elif latest_version is not None:
-        latest_version_info = f" (latest: {latest_version})"
+    return latest_version
 
-    return f"{app_version}{latest_version_info}"
+
+def get_version_info(ttl_hash=None):
+    latest_version = get_latest_version(ttl_hash)
+
+    if latest_version == app_version:
+        return _("%(version)s (latest)") % {"version": app_version}
+    if latest_version is not None:
+        return _("%(version)s (latest: %(latest_version)s)") % {
+            "version": app_version,
+            "latest_version": latest_version,
+        }
+    return app_version
 
 
 def get_ttl_hash(seconds=3600):

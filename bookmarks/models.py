@@ -20,6 +20,10 @@ logger = logging.getLogger(__name__)
 
 
 class Tag(models.Model):
+    class Meta:
+        verbose_name = _("tag")
+        verbose_name_plural = _("tags")
+
     name = models.CharField(max_length=64)
     date_added = models.DateTimeField()
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
@@ -52,6 +56,10 @@ def build_tag_string(tag_names: list[str], delimiter: str = ","):
 
 
 class Bookmark(models.Model):
+    class Meta:
+        verbose_name = _("bookmark")
+        verbose_name_plural = _("bookmarks")
+
     url = models.CharField(max_length=2048, validators=[BookmarkURLValidator()])
     url_normalized = models.CharField(max_length=2048, blank=True, db_index=True)
     title = models.CharField(max_length=512, blank=True)
@@ -128,6 +136,10 @@ def bookmark_deleted(sender, instance, **kwargs):
 
 
 class BookmarkAsset(models.Model):
+    class Meta:
+        verbose_name = _("bookmark asset")
+        verbose_name_plural = _("bookmark assets")
+
     TYPE_SNAPSHOT = "snapshot"
     TYPE_UPLOAD = "upload"
 
@@ -182,6 +194,10 @@ def bookmark_asset_deleted(sender, instance, **kwargs):
 
 
 class BookmarkBundle(models.Model):
+    class Meta:
+        verbose_name = _("bundle")
+        verbose_name_plural = _("bundles")
+
     FILTER_STATE_OFF = "off"
     FILTER_STATE_YES = "yes"
     FILTER_STATE_NO = "no"
@@ -347,6 +363,10 @@ class BookmarkSearch:
 
 
 class UserProfile(models.Model):
+    class Meta:
+        verbose_name = _("user profile")
+        verbose_name_plural = _("user profiles")
+
     THEME_AUTO = "auto"
     THEME_LIGHT = "light"
     THEME_DARK = "dark"
@@ -486,6 +506,10 @@ def save_user_profile(sender, instance, **kwargs):
 
 
 class Toast(models.Model):
+    class Meta:
+        verbose_name = _("toast")
+        verbose_name_plural = _("toasts")
+
     key = models.CharField(max_length=50)
     message = models.TextField()
     acknowledged = models.BooleanField(default=False)
@@ -496,6 +520,10 @@ class FeedToken(models.Model):
     """
     Adapted from authtoken.models.Token
     """
+
+    class Meta:
+        verbose_name = _("feed token")
+        verbose_name_plural = _("feed tokens")
 
     key = models.CharField(max_length=40, primary_key=True)
     user = models.OneToOneField(
@@ -519,6 +547,10 @@ class FeedToken(models.Model):
 
 
 class ApiToken(models.Model):
+    class Meta:
+        verbose_name = _("API token")
+        verbose_name_plural = _("API tokens")
+
     key = models.CharField(max_length=40, unique=True)
     user = models.ForeignKey(
         User,
@@ -542,6 +574,10 @@ class ApiToken(models.Model):
 
 
 class GlobalSettings(models.Model):
+    class Meta:
+        verbose_name = _("global settings")
+        verbose_name_plural = _("global settings")
+
     LANDING_PAGE_LOGIN = "login"
     LANDING_PAGE_SHARED_BOOKMARKS = "shared_bookmarks"
     LANDING_PAGE_CHOICES = [

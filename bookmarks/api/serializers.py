@@ -1,5 +1,6 @@
 from django.db.models import prefetch_related_objects
 from django.templatetags.static import static
+from django.utils.translation import gettext_lazy as _
 from rest_framework import serializers
 from rest_framework.serializers import ListSerializer
 
@@ -172,7 +173,7 @@ class BookmarkSerializer(serializers.ModelSerializer):
             )
             if is_duplicate:
                 raise serializers.ValidationError(
-                    {"url": "A bookmark with this URL already exists."}
+                    {"url": _("A bookmark with this URL already exists.")}
                 )
 
         return attrs

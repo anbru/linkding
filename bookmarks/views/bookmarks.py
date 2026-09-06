@@ -287,12 +287,12 @@ def create_html_snapshot(request: HttpRequest, bookmark_id: int | str):
 
 def upload_asset(request: HttpRequest, bookmark_id: int | str):
     if settings.LD_DISABLE_ASSET_UPLOAD:
-        return HttpResponseForbidden("Asset upload is disabled")
+        return HttpResponseForbidden(_("Asset upload is disabled"))
 
     bookmark = access.bookmark_write(request, bookmark_id)
     file = request.FILES.get("upload_asset_file")
     if not file:
-        return HttpResponseBadRequest("No file provided")
+        return HttpResponseBadRequest(_("No file provided"))
 
     asset_actions.upload_asset(bookmark, file)
 
@@ -347,7 +347,7 @@ def archived_action(request: HttpRequest):
 @login_required
 def shared_action(request: HttpRequest):
     if "bulk_execute" in request.POST:
-        return HttpResponseBadRequest("View does not support bulk actions")
+        return HttpResponseBadRequest(_("View does not support bulk actions"))
 
     response = handle_action(request)
     if response:
