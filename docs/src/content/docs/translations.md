@@ -24,6 +24,8 @@ To create the file, follow the steps in [Contributing a translation](#contributi
 
 If a file can not be compiled, linkding logs a message at startup and ignores that language.
 
+Treat translation files like code: texts from a catalog are rendered as part of the page, and some of them contain HTML on purpose. Only install catalogs from sources you trust.
+
 ## Contributing a translation
 
 Translations live in `bookmarks/locale/<language code>/LC_MESSAGES/django.po`. To add a new language, or to update an existing one, set up the [development environment](https://github.com/sissbruecker/linkding#development) first, then:
