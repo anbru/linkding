@@ -1,0 +1,1783 @@
+# Japanese translation for linkding.
+msgid ""
+msgstr ""
+"Project-Id-Version: linkding\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-05 18:50+0000\n"
+"PO-Revision-Date: 2026-09-27 00:00+0000\n"
+"Last-Translator: rurutheGeek <126381911+rurutheGeek@users.noreply.github.com>\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: bookmarks/admin.py:152
+#, python-format
+msgid "%d bookmark was successfully deleted."
+msgid_plural "%d bookmarks were successfully deleted."
+msgstr[0] "%d件のブックマークを削除しました。"
+
+#: bookmarks/admin.py:167
+#, python-format
+msgid "%d bookmark was successfully archived."
+msgid_plural "%d bookmarks were successfully archived."
+msgstr[0] "%d件のブックマークをアーカイブしました。"
+
+#: bookmarks/admin.py:182
+#, python-format
+msgid "%d bookmark was successfully unarchived."
+msgid_plural "%d bookmarks were successfully unarchived."
+msgstr[0] "%d件のブックマークのアーカイブを解除しました。"
+
+#: bookmarks/admin.py:196
+#, python-format
+msgid "%d bookmark marked as read."
+msgid_plural "%d bookmarks marked as read."
+msgstr[0] "%d件のブックマークを既読にしました。"
+
+#: bookmarks/admin.py:210
+#, python-format
+msgid "%d bookmark marked as unread."
+msgid_plural "%d bookmarks marked as unread."
+msgstr[0] "%d件のブックマークを未読にしました。"
+
+#: bookmarks/admin.py:259
+#, python-format
+msgid "%d unused tag was successfully deleted."
+msgid_plural "%d unused tags were successfully deleted."
+msgstr[0] "%d件の未使用タグを削除しました。"
+
+#: bookmarks/admin.py:270
+msgid "There were no unused tags in the selection"
+msgstr "選択範囲に未使用のタグがありません"
+
+#: bookmarks/api/auth.py:24
+msgid "Invalid token header. No credentials provided."
+msgstr "無効なトークンヘッダー。認証情報が指定されていません。"
+
+#: bookmarks/api/auth.py:27
+msgid "Invalid token header. Token string should not contain spaces."
+msgstr "無効なトークンヘッダー。トークン文字列にスペースを含めることはできません。"
+
+#: bookmarks/api/auth.py:34
+msgid ""
+"Invalid token header. Token string should not contain invalid characters."
+msgstr "無効なトークンヘッダー。トークン文字列に無効な文字を含めることはできません。"
+
+#: bookmarks/feeds.py:80 bookmarks/feeds.py:81
+#: bookmarks/templates/settings/integrations.html:204
+msgid "All bookmarks"
+msgstr "すべてのブックマーク"
+
+#: bookmarks/feeds.py:91 bookmarks/templates/settings/integrations.html:207
+msgid "Unread bookmarks"
+msgstr "未読のブックマーク"
+
+#: bookmarks/feeds.py:92
+msgid "All unread bookmarks"
+msgstr "すべての未読ブックマーク"
+
+#: bookmarks/feeds.py:104 bookmarks/templates/settings/integrations.html:210
+#: bookmarks/templates/shared/nav_menu.html:82 bookmarks/views/contexts.py:285
+msgid "Shared bookmarks"
+msgstr "共有ブックマーク"
+
+#: bookmarks/feeds.py:105
+msgid "All shared bookmarks"
+msgstr "すべての共有ブックマーク"
+
+#: bookmarks/feeds.py:120 bookmarks/templates/settings/integrations.html:213
+msgid "Public shared bookmarks"
+msgstr "公開共有ブックマーク"
+
+#: bookmarks/feeds.py:121
+msgid "All public shared bookmarks"
+msgstr "すべての公開共有ブックマーク"
+
+#: bookmarks/forms.py:115
+msgid "A bookmark with this URL already exists."
+msgstr "このURLのブックマークはすでに存在します。"
+
+#: bookmarks/forms.py:149
+#, python-format
+msgid "Tag \"%(name)s\" already exists."
+msgstr "タグ「%(name)s」はすでに存在します。"
+
+#: bookmarks/forms.py:180
+msgid "Please enter only one tag name for the target tag."
+msgstr "統合先のタグにはタグ名を1つだけ入力してください。"
+
+#: bookmarks/forms.py:189 bookmarks/forms.py:208
+#, python-format
+msgid "Tag \"%(name)s\" does not exist."
+msgstr "タグ「%(name)s」は存在しません。"
+
+#: bookmarks/forms.py:199
+msgid "Please enter at least one tag to merge."
+msgstr "統合するタグを少なくとも1つ入力してください。"
+
+#: bookmarks/forms.py:214
+msgid "The target tag cannot be selected for merging."
+msgstr "統合先のタグは統合対象に選択できません。"
+
+#: bookmarks/forms.py:255
+msgid "Added ↑"
+msgstr "追加日 ↑"
+
+#: bookmarks/forms.py:256
+msgid "Added ↓"
+msgstr "追加日 ↓"
+
+#: bookmarks/forms.py:257
+msgid "Modified ↑"
+msgstr "更新日 ↑"
+
+#: bookmarks/forms.py:258
+msgid "Modified ↓"
+msgstr "更新日 ↓"
+
+#: bookmarks/forms.py:259
+msgid "Title ↑"
+msgstr "タイトル ↑"
+
+#: bookmarks/forms.py:260
+msgid "Title ↓"
+msgstr "タイトル ↓"
+
+#: bookmarks/forms.py:263 bookmarks/forms.py:268
+msgid "Off"
+msgstr "オフ"
+
+#: bookmarks/forms.py:264 bookmarks/models.py:195
+#: bookmarks/templates/bookmarks/bookmark_list.html:143
+#: bookmarks/templates/bookmarks/details/form.html:84
+#: bookmarks/templates/shared/nav_menu.html:18 bookmarks/views/manifest.py:74
+msgid "Shared"
+msgstr "共有"
+
+#: bookmarks/forms.py:265 bookmarks/models.py:196
+msgid "Unshared"
+msgstr "非共有"
+
+#: bookmarks/forms.py:269 bookmarks/models.py:190
+#: bookmarks/templates/bookmarks/bookmark_list.html:130
+#: bookmarks/templates/bookmarks/details/form.html:74
+#: bookmarks/templates/shared/nav_menu.html:23
+#: bookmarks/templates/shared/nav_menu.html:87 bookmarks/views/manifest.py:66
+msgid "Unread"
+msgstr "未読"
+
+#: bookmarks/forms.py:270 bookmarks/models.py:191
+msgid "Read"
+msgstr "既読"
+
+#: bookmarks/forms.py:295
+msgid "Everyone"
+msgstr "全員"
+
+#: bookmarks/forms.py:390
+msgid "Standard profile"
+msgstr "標準プロフィール"
+
+#: bookmarks/models.py:189 bookmarks/models.py:194
+msgid "All"
+msgstr "すべて"
+
+#: bookmarks/models.py:354
+msgid "Auto"
+msgstr "自動"
+
+#: bookmarks/models.py:355
+msgid "Light"
+msgstr "ライト"
+
+#: bookmarks/models.py:356
+msgid "Dark"
+msgstr "ダーク"
+
+#: bookmarks/models.py:362
+msgid "Relative"
+msgstr "相対"
+
+#: bookmarks/models.py:363
+msgid "Absolute"
+msgstr "絶対"
+
+#: bookmarks/models.py:364
+msgid "Hidden"
+msgstr "非表示"
+
+#: bookmarks/models.py:369
+msgid "Inline"
+msgstr "インライン"
+
+#: bookmarks/models.py:370
+msgid "Separate"
+msgstr "個別"
+
+#: bookmarks/models.py:375
+msgid "New page"
+msgstr "新しいページ"
+
+#: bookmarks/models.py:376
+msgid "Same page"
+msgstr "同じページ"
+
+#: bookmarks/models.py:381 bookmarks/models.py:394
+msgid "Disabled"
+msgstr "無効"
+
+#: bookmarks/models.py:382
+msgid "Enabled"
+msgstr "有効"
+
+#: bookmarks/models.py:387
+msgid "Strict"
+msgstr "厳密"
+
+#: bookmarks/models.py:388
+msgid "Lax"
+msgstr "緩和"
+
+#: bookmarks/models.py:393
+msgid "Alphabetical"
+msgstr "アルファベット順"
+
+#: bookmarks/models.py:546 bookmarks/templates/registration/login.html:10
+#: bookmarks/templates/registration/login.html:27
+#: bookmarks/templates/shared/layout.html:46
+msgid "Login"
+msgstr "ログイン"
+
+#: bookmarks/models.py:547
+msgid "Shared Bookmarks"
+msgstr "共有ブックマーク"
+
+#: bookmarks/templates/admin/background_tasks.html:7
+msgid "ID"
+msgstr "ID"
+
+#: bookmarks/templates/admin/background_tasks.html:8
+#: bookmarks/templates/bundles/form.html:3
+#: bookmarks/templates/bundles/index.html:19
+#: bookmarks/templates/settings/integrations.html:145
+#: bookmarks/templates/tags/form.html:3 bookmarks/templates/tags/index.html:86
+msgid "Name"
+msgstr "名前"
+
+#: bookmarks/templates/admin/background_tasks.html:9
+msgid "Args"
+msgstr "引数"
+
+#: bookmarks/templates/admin/background_tasks.html:10
+msgid "Retries"
+msgstr "再試行回数"
+
+#: bookmarks/templates/admin/background_tasks.html:37
+#, python-format
+msgid "%(counter)s task"
+msgid_plural "%(counter)s tasks"
+msgstr[0] "%(counter)s件のタスク"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:5
+msgid "Bookmark list"
+msgstr "ブックマークリスト"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:81
+#: bookmarks/templates/bookmarks/details/assets.html:24
+#: bookmarks/templates/settings/general.html:71
+msgid "View"
+msgstr "表示"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:86
+#: bookmarks/templates/bookmarks/details/modal.html:17
+#: bookmarks/templates/bundles/index.html:38
+#: bookmarks/templates/settings/general.html:72
+#: bookmarks/templates/tags/index.html:107
+msgid "Edit"
+msgstr "編集"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:93
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:13
+msgid "Unarchive"
+msgstr "アーカイブ解除"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:98
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:10
+#: bookmarks/templates/settings/general.html:73
+msgid "Archive"
+msgstr "アーカイブ"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:106
+#: bookmarks/templates/bookmarks/details/assets.html:31
+#: bookmarks/templates/bundles/index.html:43
+#: bookmarks/templates/settings/general.html:74
+#: bookmarks/templates/tags/index.html:112
+msgid "Remove"
+msgstr "削除"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:112
+#, python-format
+msgid "Shared by <a href=\"?%(owner_query)s\">%(username)s</a>"
+msgstr "<a href=\"?%(owner_query)s\">%(username)s</a>が共有"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:126
+msgid "Mark as read?"
+msgstr "既読にしますか？"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:139
+msgid "Unshare?"
+msgstr "共有を解除しますか？"
+
+#: bookmarks/templates/bookmarks/bookmark_list.html:151
+#: bookmarks/templates/bookmarks/details/form.html:119
+#: bookmarks/templates/bookmarks/form.html:58
+#: bookmarks/templates/bookmarks/form.html:60
+msgid "Notes"
+msgstr "メモ"
+
+#: bookmarks/templates/bookmarks/bookmark_page.html:14
+msgid "Bulk edit"
+msgstr "一括編集"
+
+#: bookmarks/templates/bookmarks/bookmark_page.html:21
+#: bookmarks/templates/shared/layout.html:9
+msgid "Filters"
+msgstr "フィルター"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:15
+#: bookmarks/templates/bookmarks/details/modal.html:29
+#: bookmarks/templates/settings/integrations.html:163
+msgid "Delete"
+msgstr "削除"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:16
+msgid "Add tags"
+msgstr "タグを追加"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:17
+msgid "Remove tags"
+msgstr "タグを削除"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:18
+msgid "Mark as read"
+msgstr "既読にする"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:19
+#: bookmarks/templates/bookmarks/form.html:68
+msgid "Mark as unread"
+msgstr "未読にする"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:21
+#: bookmarks/templates/bookmarks/form.html:75
+msgid "Share"
+msgstr "共有"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:22
+msgid "Unshare"
+msgstr "共有解除"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:24
+#: bookmarks/templates/bookmarks/form.html:37
+msgid "Refresh from website"
+msgstr "ウェブサイトから更新"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:26
+#: bookmarks/templates/bookmarks/details/assets.html:45
+msgid "Create HTML snapshot"
+msgstr "HTMLスナップショットを作成"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:30
+msgid "Tag names..."
+msgstr "タグ名..."
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:37
+msgid "Execute"
+msgstr "実行"
+
+#: bookmarks/templates/bookmarks/bulk_edit_bar.html:42
+#, python-format
+msgid "All <span class=\"total\">%(total)s</span> bookmarks"
+msgstr "全<span class=\"total\">%(total)s</span>件のブックマーク"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:5
+#: bookmarks/templates/bundles/index.html:9
+msgid "Bundles"
+msgstr "バンドル"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:8
+msgid "Bundles menu"
+msgstr "バンドルメニュー"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:15
+msgid "Manage bundles"
+msgstr "バンドルを管理"
+
+#: bookmarks/templates/bookmarks/bundle_section.html:20
+msgid "Create bundle from search"
+msgstr "検索からバンドルを作成"
+
+#: bookmarks/templates/bookmarks/close.html:7
+msgid "You can now close this window."
+msgstr "このウィンドウを閉じてかまいません。"
+
+#: bookmarks/templates/bookmarks/details/assets.html:12
+msgid "(queued)"
+msgstr "(待機中)"
+
+#: bookmarks/templates/bookmarks/details/assets.html:15
+msgid "(failed)"
+msgstr "(失敗)"
+
+#: bookmarks/templates/bookmarks/details/assets.html:53
+msgid "Upload file"
+msgstr "ファイルをアップロード"
+
+#: bookmarks/templates/bookmarks/details/form.html:31
+msgid "Reader mode"
+msgstr "リーダーモード"
+
+#: bookmarks/templates/bookmarks/details/form.html:57
+msgid "Status"
+msgstr "ステータス"
+
+#: bookmarks/templates/bookmarks/details/form.html:65
+#: bookmarks/templates/shared/nav_menu.html:14 bookmarks/views/manifest.py:62
+msgid "Archived"
+msgstr "アーカイブ済み"
+
+#: bookmarks/templates/bookmarks/details/form.html:92
+msgid "Files"
+msgstr "ファイル"
+
+#: bookmarks/templates/bookmarks/details/form.html:97
+#: bookmarks/templates/bookmarks/form.html:22
+#: bookmarks/templates/bookmarks/tag_section.html:4
+#: bookmarks/templates/bundles/form.html:16
+#: bookmarks/templates/tags/index.html:11
+msgid "Tags"
+msgstr "タグ"
+
+#: bookmarks/templates/bookmarks/details/form.html:106
+msgid "Date added"
+msgstr "追加日"
+
+#: bookmarks/templates/bookmarks/details/form.html:113
+#: bookmarks/templates/bookmarks/form.html:48
+msgid "Description"
+msgstr "説明"
+
+#: bookmarks/templates/bookmarks/edit.html:4
+msgid "Edit bookmark - Linkding"
+msgstr "ブックマークを編集 - Linkding"
+
+#: bookmarks/templates/bookmarks/edit.html:10
+msgid "Edit bookmark"
+msgstr "ブックマークを編集"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:4
+msgid "Invalid search query"
+msgstr "無効な検索クエリ"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:6
+#, python-format
+msgid ""
+"The search query you entered is not valid. Common reasons are unclosed "
+"parentheses or a logical operator (AND, OR, NOT) without operands. The error"
+" message from the parser is: \"%(error_message)s\"."
+msgstr ""
+"入力した検索クエリが無効です。一般的な原因は、閉じられていない括弧、またはオペランドのない論理演算子（AND、OR、NOT）です。パーサーからのエラーメッセージ:"
+" 「%(error_message)s」"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:12
+msgid "You have no bookmarks yet"
+msgstr "ブックマークがまだありません"
+
+#: bookmarks/templates/bookmarks/empty_bookmarks.html:17
+#, python-format
+msgid ""
+"You can get started by <a href=\"%(new_url)s\">adding</a> bookmarks, <a "
+"href=\"%(settings_url)s\">importing</a> your existing bookmarks or "
+"configuring the <a href=\"%(integrations_url)s\">browser extension</a> or "
+"the <a href=\"%(integrations_url)s\">bookmarklet</a>."
+msgstr ""
+"ブックマークを<a href=\"%(new_url)s\">追加</a>するか、既存のブックマークを<a "
+"href=\"%(settings_url)s\">インポート</a>するか、<a "
+"href=\"%(integrations_url)s\">ブラウザ拡張機能</a>または<a "
+"href=\"%(integrations_url)s\">ブックマークレット</a>を設定して始められます。"
+
+#: bookmarks/templates/bookmarks/form.html:8
+msgid "URL"
+msgstr "URL"
+
+#: bookmarks/templates/bookmarks/form.html:15
+msgid ""
+"This URL is already bookmarked. The form has been pre-filled with the "
+"existing bookmark, and saving the form will update the existing bookmark."
+msgstr "このURLはすでにブックマークされています。フォームには既存のブックマークが入力済みです。保存すると既存のブックマークが更新されます。"
+
+#: bookmarks/templates/bookmarks/form.html:25
+msgid ""
+"Enter any number of tags separated by space and <strong>without</strong> the"
+" hash (#). If a tag does not exist it will be automatically created."
+msgstr ""
+"任意の数のタグをスペース区切りで入力してください。ハッシュ（#）は<strong>不要</strong>です。存在しないタグは自動的に作成されます。"
+
+#: bookmarks/templates/bookmarks/form.html:34
+msgid "Title"
+msgstr "タイトル"
+
+#: bookmarks/templates/bookmarks/form.html:40
+#: bookmarks/templates/bookmarks/form.html:50
+msgid "Clear"
+msgstr "クリア"
+
+#: bookmarks/templates/bookmarks/form.html:63
+msgid "Additional notes, supports Markdown."
+msgstr "追加メモ。Markdownに対応しています。"
+
+#: bookmarks/templates/bookmarks/form.html:70
+msgid ""
+"Unread bookmarks can be filtered for, and marked as read after you had a "
+"chance to look at them."
+msgstr "未読のブックマークを絞り込んだり、確認後に既読にしたりできます。"
+
+#: bookmarks/templates/bookmarks/form.html:78
+msgid "Share this bookmark with other registered users and anonymous users."
+msgstr "このブックマークを他の登録ユーザーと匿名ユーザーに共有します。"
+
+#: bookmarks/templates/bookmarks/form.html:80
+msgid "Share this bookmark with other registered users."
+msgstr "このブックマークを他の登録ユーザーに共有します。"
+
+#: bookmarks/templates/bookmarks/form.html:89
+msgid "Save and close"
+msgstr "保存して閉じる"
+
+#: bookmarks/templates/bookmarks/form.html:93
+#: bookmarks/templates/bundles/form.html:53
+#: bookmarks/templates/settings/general.html:273
+#: bookmarks/templates/settings/general.html:317
+#: bookmarks/templates/tags/edit.html:17 bookmarks/templates/tags/new.html:17
+msgid "Save"
+msgstr "保存"
+
+#: bookmarks/templates/bookmarks/form.html:96
+#: bookmarks/templates/bundles/form.html:56
+#: bookmarks/templates/settings/create_api_token_modal.html:27
+#: bookmarks/templates/shared/layout.html:7
+#: bookmarks/templates/tags/edit.html:16
+#: bookmarks/templates/tags/merge.html:47 bookmarks/templates/tags/new.html:16
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: bookmarks/templates/bookmarks/form.html:98
+msgid "Auto tags:"
+msgstr "自動タグ:"
+
+#: bookmarks/templates/bookmarks/new.html:4
+msgid "New bookmark - Linkding"
+msgstr "新しいブックマーク - Linkding"
+
+#: bookmarks/templates/bookmarks/new.html:10
+msgid "New bookmark"
+msgstr "新しいブックマーク"
+
+#: bookmarks/templates/bookmarks/read.html:6
+msgid "Reader view"
+msgstr "リーダービュー"
+
+#: bookmarks/templates/bookmarks/read.html:47
+msgid "minutes"
+msgstr "分"
+
+#: bookmarks/templates/bookmarks/search.html:5
+msgid "Search for words or #tags"
+msgstr "単語または#タグを検索"
+
+#: bookmarks/templates/bookmarks/search.html:13
+#: bookmarks/templates/tags/index.html:35
+msgid "Search"
+msgstr "検索"
+
+#: bookmarks/templates/bookmarks/search.html:18
+msgid "Search preferences"
+msgstr "検索設定"
+
+#: bookmarks/templates/bookmarks/search.html:31
+#: bookmarks/templates/tags/index.html:39
+msgid "Sort by"
+msgstr "並び替え"
+
+#: bookmarks/templates/bookmarks/search.html:42
+msgid "Shared filter"
+msgstr "共有フィルター"
+
+#: bookmarks/templates/bookmarks/search.html:59
+msgid "Unread filter"
+msgstr "未読フィルター"
+
+#: bookmarks/templates/bookmarks/search.html:71
+#: bookmarks/templates/bookmarks/user_section.html:14
+msgid "Apply"
+msgstr "適用"
+
+#: bookmarks/templates/bookmarks/search.html:73
+msgid "Save as default"
+msgstr "デフォルトとして保存"
+
+#: bookmarks/templates/bookmarks/tag_section.html:8
+msgid "Tags menu"
+msgstr "タグメニュー"
+
+#: bookmarks/templates/bookmarks/tag_section.html:15
+msgid "Manage tags"
+msgstr "タグを管理"
+
+#: bookmarks/templates/bookmarks/user_section.html:4
+msgid "User"
+msgstr "ユーザー"
+
+#: bookmarks/templates/bundles/edit.html:4
+msgid "Edit bundle - Linkding"
+msgstr "バンドルを編集 - Linkding"
+
+#: bookmarks/templates/bundles/edit.html:10
+msgid "Edit bundle"
+msgstr "バンドルを編集"
+
+#: bookmarks/templates/bundles/edit.html:23
+#: bookmarks/templates/bundles/new.html:23
+msgid "Preview"
+msgstr "プレビュー"
+
+#: bookmarks/templates/bundles/form.html:8
+msgid "Search terms"
+msgstr "検索語"
+
+#: bookmarks/templates/bundles/form.html:12
+msgid "All of these search terms must be present in a bookmark to match."
+msgstr "一致するには、これらの検索語がすべてブックマークに含まれている必要があります。"
+
+#: bookmarks/templates/bundles/form.html:19
+msgid "At least one of these tags must be present in a bookmark to match."
+msgstr "一致するには、これらのタグのうち少なくとも1つがブックマークに含まれている必要があります。"
+
+#: bookmarks/templates/bundles/form.html:23
+msgid "Required tags"
+msgstr "必須タグ"
+
+#: bookmarks/templates/bundles/form.html:26
+msgid "All of these tags must be present in a bookmark to match."
+msgstr "一致するには、これらのタグがすべてブックマークに含まれている必要があります。"
+
+#: bookmarks/templates/bundles/form.html:30
+msgid "Excluded tags"
+msgstr "除外タグ"
+
+#: bookmarks/templates/bundles/form.html:33
+msgid "None of these tags must be present in a bookmark to match."
+msgstr "一致するには、これらのタグがブックマークに含まれていない必要があります。"
+
+#: bookmarks/templates/bundles/form.html:37
+msgid "Reading State"
+msgstr "閲覧状態"
+
+#: bookmarks/templates/bundles/form.html:40
+msgid "Limit matches to unread or read bookmarks."
+msgstr "一致対象を未読または既読のブックマークに限定します。"
+
+#: bookmarks/templates/bundles/form.html:44
+msgid "Sharing State"
+msgstr "共有状態"
+
+#: bookmarks/templates/bundles/form.html:47
+msgid "Limit matches to shared or unshared bookmarks."
+msgstr "一致対象を共有または非共有のブックマークに限定します。"
+
+#: bookmarks/templates/bundles/index.html:4
+msgid "Bundles - Linkding"
+msgstr "バンドル - Linkding"
+
+#: bookmarks/templates/bundles/index.html:10
+msgid "Add bundle"
+msgstr "バンドルを追加"
+
+#: bookmarks/templates/bundles/index.html:21
+#: bookmarks/templates/settings/integrations.html:148
+#: bookmarks/templates/tags/index.html:89
+msgid "Actions"
+msgstr "操作"
+
+#: bookmarks/templates/bundles/index.html:54
+msgid "You have no bundles yet"
+msgstr "バンドルがまだありません"
+
+#: bookmarks/templates/bundles/index.html:55
+msgid "Create your first bundle to get started"
+msgstr "最初のバンドルを作成して始めましょう"
+
+#: bookmarks/templates/bundles/new.html:4
+msgid "New bundle - Linkding"
+msgstr "新しいバンドル - Linkding"
+
+#: bookmarks/templates/bundles/new.html:10
+msgid "New bundle"
+msgstr "新しいバンドル"
+
+#: bookmarks/templates/bundles/preview.html:4
+msgid "No bookmarks match the current bundle."
+msgstr "現在のバンドルに一致するブックマークがありません。"
+
+#: bookmarks/templates/bundles/preview.html:7
+#, python-format
+msgid "Found %(total)s bookmarks matching this bundle."
+msgstr "このバンドルに一致するブックマークが%(total)s件見つかりました。"
+
+#: bookmarks/templates/registration/login.html:5
+msgid "Login - Linkding"
+msgstr "ログイン - Linkding"
+
+#: bookmarks/templates/registration/login.html:16
+msgid "Your username and password didn't match. Please try again."
+msgstr "ユーザー名またはパスワードが一致しません。もう一度お試しください。"
+
+#: bookmarks/templates/registration/login.html:19
+msgid "Username"
+msgstr "ユーザー名"
+
+#: bookmarks/templates/registration/login.html:23
+msgid "Password"
+msgstr "パスワード"
+
+#: bookmarks/templates/registration/login.html:35
+msgid "Login with OIDC"
+msgstr "OIDCでログイン"
+
+#: bookmarks/templates/registration/password_change_done.html:4
+msgid "Password changed - Linkding"
+msgstr "パスワード変更完了 - Linkding"
+
+#: bookmarks/templates/registration/password_change_done.html:9
+msgid "Password Changed"
+msgstr "パスワードを変更しました"
+
+#: bookmarks/templates/registration/password_change_done.html:11
+msgid "Your password was changed successfully."
+msgstr "パスワードが正常に変更されました。"
+
+#: bookmarks/templates/registration/password_change_form.html:5
+msgid "Change password - Linkding"
+msgstr "パスワードを変更 - Linkding"
+
+#: bookmarks/templates/registration/password_change_form.html:10
+#: bookmarks/templates/registration/password_change_form.html:30
+msgid "Change Password"
+msgstr "パスワードを変更"
+
+#: bookmarks/templates/registration/password_change_form.html:15
+msgid "Old password"
+msgstr "現在のパスワード"
+
+#: bookmarks/templates/registration/password_change_form.html:20
+msgid "New password"
+msgstr "新しいパスワード"
+
+#: bookmarks/templates/registration/password_change_form.html:25
+msgid "Confirm new password"
+msgstr "新しいパスワード（確認）"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:12
+msgid "Create API Token"
+msgstr "APIトークンを作成"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:15
+msgid "Token name"
+msgstr "トークン名"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:20
+msgid "e.g., Browser Extension, Mobile App"
+msgstr "例: ブラウザ拡張機能、モバイルアプリ"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:21
+msgid "API Token"
+msgstr "APIトークン"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:23
+msgid "A descriptive name to identify the purpose of the token"
+msgstr "トークンの用途が分かる名前"
+
+#: bookmarks/templates/settings/create_api_token_modal.html:28
+msgid "Create Token"
+msgstr "トークンを作成"
+
+#: bookmarks/templates/settings/general.html:5
+msgid "Settings - Linkding"
+msgstr "設定 - Linkding"
+
+#: bookmarks/templates/settings/general.html:9
+#: bookmarks/templates/shared/nav_menu.html:32
+#: bookmarks/templates/shared/nav_menu.html:95
+msgid "Settings"
+msgstr "設定"
+
+#: bookmarks/templates/settings/general.html:14
+msgid "Profile"
+msgstr "プロフィール"
+
+#: bookmarks/templates/settings/general.html:16
+msgid "Change password"
+msgstr "パスワードを変更"
+
+#: bookmarks/templates/settings/general.html:24
+msgid "Theme"
+msgstr "テーマ"
+
+#: bookmarks/templates/settings/general.html:27
+msgid ""
+"Whether to use a light or dark theme, or automatically adjust the theme "
+"based on your system's settings."
+msgstr "ライトテーマかダークテーマを使用するか、システム設定に基づいてテーマを自動調整するかを選択します。"
+
+#: bookmarks/templates/settings/general.html:31
+msgid "Bookmark date format"
+msgstr "ブックマークの日付形式"
+
+#: bookmarks/templates/settings/general.html:34
+msgid ""
+"Whether to show bookmark dates as relative (how long ago), or as absolute "
+"dates. Alternatively the date can be hidden."
+msgstr "ブックマークの日付を相対表示（どれくらい前か）または絶対日付で表示するかを選択します。日付を非表示にすることもできます。"
+
+#: bookmarks/templates/settings/general.html:41
+msgid "Bookmark description"
+msgstr "ブックマークの説明"
+
+#: bookmarks/templates/settings/general.html:44
+msgid ""
+"Whether to show bookmark descriptions and tags in the same line, or as "
+"separate blocks."
+msgstr "ブックマークの説明とタグを同じ行に表示するか、別々のブロックに分けて表示するかを選べます。"
+
+#: bookmarks/templates/settings/general.html:48
+msgid "Bookmark description max lines"
+msgstr "ブックマークの説明の最大行数"
+
+#: bookmarks/templates/settings/general.html:51
+msgid ""
+"Limits the number of lines that are displayed for the bookmark description."
+msgstr "ブックマークの説明に表示する最大行数を制限します。"
+
+#: bookmarks/templates/settings/general.html:55
+msgid "Show bookmark URL"
+msgstr "ブックマークのURLを表示"
+
+#: bookmarks/templates/settings/general.html:57
+msgid "When enabled, this setting displays the bookmark URL below the title."
+msgstr "有効にすると、ブックマークのURLがタイトルの下に表示されます。"
+
+#: bookmarks/templates/settings/general.html:61
+msgid "Show notes permanently"
+msgstr "メモを常に表示"
+
+#: bookmarks/templates/settings/general.html:63
+msgid ""
+"Whether to show bookmark notes permanently, without having to toggle them "
+"individually. Alternatively the keyboard shortcut <code>e</code> can be used"
+" to temporarily show all notes."
+msgstr ""
+"ブックマークのメモを個別に切り替えずに常に表示するかを選べます。代わりにキーボードショートカット<code>e</code>で一時的にすべてのメモを表示できます。"
+
+#: bookmarks/templates/settings/general.html:70
+msgid "Bookmark actions"
+msgstr "ブックマークの操作"
+
+#: bookmarks/templates/settings/general.html:75
+msgid "Which actions to display for each bookmark."
+msgstr "各ブックマークに表示する操作。"
+
+#: bookmarks/templates/settings/general.html:78
+msgid "Open bookmarks in"
+msgstr "ブックマークを開く場所"
+
+#: bookmarks/templates/settings/general.html:81
+msgid "Whether to open bookmarks a new page or in the same page."
+msgstr "ブックマークを新しいページで開くか、同じページで開くかを選べます。"
+
+#: bookmarks/templates/settings/general.html:85
+msgid "Items per page"
+msgstr "ページあたりの項目数"
+
+#: bookmarks/templates/settings/general.html:89
+msgid "The number of bookmarks to display per page."
+msgstr "1ページに表示するブックマーク数。"
+
+#: bookmarks/templates/settings/general.html:93
+msgid "Sticky pagination"
+msgstr "ページネーションを固定"
+
+#: bookmarks/templates/settings/general.html:95
+msgid ""
+"When enabled, the pagination controls will stick to the bottom of the "
+"screen, so that they are always visible without having to scroll to the end "
+"of the page first."
+msgstr "有効にすると、ページネーションの操作が画面下部に固定され、ページの最後までスクロールしなくても常に表示されます。"
+
+#: bookmarks/templates/settings/general.html:102
+msgid "Collapse side panel"
+msgstr "サイドパネルを折りたたむ"
+
+#: bookmarks/templates/settings/general.html:104
+msgid ""
+"When enabled, the tags side panel will be collapsed by default to give more "
+"space to the bookmark list. Instead, the tags are shown in an expandable "
+"drawer."
+msgstr ""
+"有効にすると、タグのサイドパネルがデフォルトで折りたたまれ、ブックマークリストのスペースが広がります。代わりにタグは展開可能なドロワーに表示されます。"
+
+#: bookmarks/templates/settings/general.html:111
+msgid "Hide bundles"
+msgstr "バンドルを非表示"
+
+#: bookmarks/templates/settings/general.html:113
+msgid ""
+"Allows to hide the bundles in the side panel if you don't intend to use "
+"them."
+msgstr "使用する予定がない場合に、サイドパネルのバンドルを非表示にできます。"
+
+#: bookmarks/templates/settings/general.html:117
+msgid "Tag search"
+msgstr "タグ検索"
+
+#: bookmarks/templates/settings/general.html:120
+msgid ""
+"In strict mode, tags must be prefixed with a hash character (#). In lax "
+"mode, tags can also be searched without the hash character. Note that tags "
+"without the hash character are indistinguishable from search terms, which "
+"means the search result will also include bookmarks where a search term "
+"matches otherwise."
+msgstr ""
+"厳密モードでは、タグの先頭にハッシュ記号（#）を付ける必要があります。緩和モードでは、ハッシュ記号なしでもタグを検索できます。ハッシュ記号のないタグは検索語と区別できないため、検索結果には検索語が一致する他のブックマークも含まれる点に注意してください。"
+
+#: bookmarks/templates/settings/general.html:129
+msgid "Enable legacy search"
+msgstr "旧検索を有効にする"
+
+#: bookmarks/templates/settings/general.html:131
+msgid ""
+"Since version 1.44.0, linkding has a new search engine that supports logical"
+" expressions (and, or, not). If you run into any issues with the new search,"
+" you can enable this option to temporarily switch back to the old search. "
+"Please report any issues you encounter with the new search on <a "
+"href=\"https://github.com/sissbruecker/linkding/issues\" "
+"target=\"_blank\">GitHub</a> so they can be addressed. This option will be "
+"removed in a future version."
+msgstr ""
+"バージョン1.44.0以降、linkdingには論理式（and、or、not）をサポートする新しい検索エンジンがあります。新しい検索で問題が発生した場合は、このオプションを有効にして一時的に旧検索に切り替えられます。新しい検索で発生した問題は<a"
+" href=\"https://github.com/sissbruecker/linkding/issues\" "
+"target=\"_blank\">GitHub</a>で報告してください。このオプションは将来のバージョンで削除される予定です。"
+
+#: bookmarks/templates/settings/general.html:141
+msgid "Tag grouping"
+msgstr "タグのグループ化"
+
+#: bookmarks/templates/settings/general.html:144
+msgid ""
+"In alphabetical mode, tags will be grouped by the first letter. If disabled,"
+" tags will not be grouped."
+msgstr "アルファベット順モードでは、タグは最初の文字でグループ化されます。無効にすると、タグはグループ化されません。"
+
+#: bookmarks/templates/settings/general.html:153
+#: bookmarks/templates/settings/general.html:156
+msgid "Auto Tagging"
+msgstr "自動タグ付け"
+
+#: bookmarks/templates/settings/general.html:160
+msgid ""
+"Automatically adds tags to bookmarks based on predefined rules. Each line is"
+" a single rule that maps a URL to one or more tags. For example:"
+msgstr "定義済みのルールに基づいてブックマークにタグを自動追加します。各行が1つのルールで、URLを1つ以上のタグにマッピングします。例："
+
+#: bookmarks/templates/settings/general.html:169
+msgid "Enable Favicons"
+msgstr "ファビコンを有効にする"
+
+#: bookmarks/templates/settings/general.html:171
+msgid ""
+"Automatically loads favicons for bookmarked websites and displays them next "
+"to each bookmark. Enabling this feature automatically downloads all missing "
+"favicons. By default, this feature uses a <b>Google service</b> to download "
+"favicons. If you don't want to use this service, check the <a "
+"href=\"https://linkding.link/options/#ld_favicon_provider\" "
+"target=\"_blank\">options documentation</a> on how to configure a custom "
+"favicon provider. Icons are downloaded in the background, and it may take a "
+"while for them to show up."
+msgstr ""
+"ブックマークしたウェブサイトのファビコンを自動的に読み込み、各ブックマークの横に表示します。この機能を有効にすると、不足しているすべてのファビコンが自動的にダウンロードされます。デフォルトでは、ファビコンのダウンロードに<b>Googleのサービス</b>を使用します。このサービスを使用したくない場合は、カスタムファビコンプロバイダーの設定方法について<a"
+" href=\"https://linkding.link/options/#ld_favicon_provider\" "
+"target=\"_blank\">オプションのドキュメント</a>を参照してください。アイコンはバックグラウンドでダウンロードされるため、表示されるまでに時間がかかることがあります。"
+
+#: bookmarks/templates/settings/general.html:182
+msgid "Refresh Favicons"
+msgstr "ファビコンを更新"
+
+#: bookmarks/templates/settings/general.html:186
+msgid "Enable Preview Images"
+msgstr "プレビュー画像を有効にする"
+
+#: bookmarks/templates/settings/general.html:188
+msgid ""
+"Automatically loads preview images for bookmarked websites and displays them"
+" next to each bookmark. Enabling this feature automatically downloads all "
+"missing preview images."
+msgstr ""
+"ブックマークしたウェブサイトのプレビュー画像を自動的に読み込み、各ブックマークの横に表示します。この機能を有効にすると、不足しているすべてのプレビュー画像が自動的にダウンロードされます。"
+
+#: bookmarks/templates/settings/general.html:195
+msgid "Internet Archive integration"
+msgstr "Internet Archive連携"
+
+#: bookmarks/templates/settings/general.html:198
+msgid ""
+"Enabling this feature will automatically create snapshots of bookmarked "
+"websites on the <a href=\"https://web.archive.org/\" target=\"_blank\" "
+"rel=\"noopener\">Internet Archive Wayback Machine</a>. This allows to "
+"preserve, and later access the website as it was at the point in time it was"
+" bookmarked, in case it goes offline or its content is modified. Please "
+"consider donating to the <a href=\"https://archive.org/donate\" "
+"target=\"_blank\" rel=\"noopener\">Internet Archive</a> if you make use of "
+"this feature."
+msgstr ""
+"この機能を有効にすると、ブックマークしたウェブサイトのスナップショットが<a href=\"https://web.archive.org/\" "
+"target=\"_blank\" rel=\"noopener\">Internet Archive Wayback "
+"Machine</a>に自動的に作成されます。これにより、サイトがオフラインになったり内容が変更された場合でも、ブックマークした時点の状態を保存し、後からアクセスできます。この機能を利用する場合は、<a"
+" href=\"https://archive.org/donate\" target=\"_blank\" "
+"rel=\"noopener\">Internet Archive</a>への寄付をご検討ください。"
+
+#: bookmarks/templates/settings/general.html:208
+msgid "Enable bookmark sharing"
+msgstr "ブックマークの共有を有効にする"
+
+#: bookmarks/templates/settings/general.html:210
+msgid ""
+"Allows to share bookmarks with other users, and to view shared bookmarks. "
+"Disabling this feature will hide all previously shared bookmarks from other "
+"users."
+msgstr ""
+"他のユーザーとブックマークを共有したり、共有されたブックマークを表示できます。この機能を無効にすると、以前に共有したすべてのブックマークが他のユーザーから見えなくなります。"
+
+#: bookmarks/templates/settings/general.html:217
+msgid "Enable public bookmark sharing"
+msgstr "ブックマークの公開共有を有効にする"
+
+#: bookmarks/templates/settings/general.html:220
+#, python-format
+msgid ""
+"Makes shared bookmarks publicly accessible, without requiring a login. That "
+"means that anyone with a link to this instance can view shared bookmarks via"
+" the <a href=\"%(shared_bookmarks_url)s\">shared bookmarks page</a>."
+msgstr ""
+"ログインなしで共有ブックマークに公開アクセスできるようにします。つまり、このインスタンスへのリンクを知っている人は誰でも<a "
+"href=\"%(shared_bookmarks_url)s\">共有ブックマークページ</a>から共有ブックマークを閲覧できます。"
+
+#: bookmarks/templates/settings/general.html:228
+msgid "Automatically create HTML snapshots"
+msgstr "HTMLスナップショットを自動的に作成"
+
+#: bookmarks/templates/settings/general.html:230
+msgid ""
+"Automatically creates HTML snapshots when adding bookmarks. Alternatively, "
+"when disabled, snapshots can be created manually in the details view of a "
+"bookmark."
+msgstr ""
+"ブックマークの追加時にHTMLスナップショットを自動的に作成します。無効にした場合は、ブックマークの詳細ビューで手動でスナップショットを作成できます。"
+
+#: bookmarks/templates/settings/general.html:235
+msgid "Create missing HTML snapshots"
+msgstr "不足しているHTMLスナップショットを作成"
+
+#: bookmarks/templates/settings/general.html:239
+msgid "Create bookmarks as unread by default"
+msgstr "ブックマークをデフォルトで未読として作成"
+
+#: bookmarks/templates/settings/general.html:241
+msgid ""
+"Sets the default state for the \"Mark as unread\" option when creating a new"
+" bookmark. Setting this option will make all new bookmarks default to "
+"unread. This can be overridden when creating each new bookmark."
+msgstr ""
+"新しいブックマークを作成するときの「未読にする」オプションのデフォルト状態を設定します。このオプションを設定すると、すべての新しいブックマークがデフォルトで未読になります。各ブックマークの作成時に上書きできます。"
+
+#: bookmarks/templates/settings/general.html:249
+msgid "Create bookmarks as shared by default"
+msgstr "ブックマークをデフォルトで共有として作成"
+
+#: bookmarks/templates/settings/general.html:251
+msgid ""
+"Sets the default state for the \"Share\" option when creating a new "
+"bookmark. Setting this option will make all new bookmarks default to shared."
+" This can be overridden when creating each new bookmark."
+msgstr ""
+"新しいブックマークを作成するときの「共有」オプションのデフォルト状態を設定します。このオプションを設定すると、すべての新しいブックマークがデフォルトで共有になります。各ブックマークの作成時に上書きできます。"
+
+#: bookmarks/templates/settings/general.html:261
+#: bookmarks/templates/settings/general.html:263
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#: bookmarks/templates/settings/general.html:267
+msgid "Allows to add custom CSS to the page."
+msgstr "ページにカスタムCSSを追加できます。"
+
+#: bookmarks/templates/settings/general.html:281
+msgid "Global settings"
+msgstr "グローバル設定"
+
+#: bookmarks/templates/settings/general.html:288
+msgid "Landing page"
+msgstr "ランディングページ"
+
+#: bookmarks/templates/settings/general.html:291
+msgid ""
+"The page that unauthenticated users are redirected to when accessing the "
+"root URL."
+msgstr "未認証のユーザーがルートURLにアクセスしたときにリダイレクトされるページ。"
+
+#: bookmarks/templates/settings/general.html:295
+msgid "Guest user profile"
+msgstr "ゲストユーザープロフィール"
+
+#: bookmarks/templates/settings/general.html:298
+msgid ""
+"The user profile to use for users that are not logged in. This will affect "
+"how publicly shared bookmarks are displayed regarding theme, bookmark list "
+"settings, etc. You can either use your own profile or create a dedicated "
+"user for this purpose. By default, a standard profile with fixed settings is"
+" used."
+msgstr ""
+"ログインしていないユーザーに使用するユーザープロフィールです。公開共有ブックマークの表示（テーマ、ブックマークリスト設定など）に影響します。自分のプロフィールを使用するか、この目的専用のユーザーを作成できます。デフォルトでは、固定設定の標準プロフィールが使用されます。"
+
+#: bookmarks/templates/settings/general.html:306
+msgid "Enable prefetching links on hover"
+msgstr "ホバー時のリンク先読みを有効にする"
+
+#: bookmarks/templates/settings/general.html:308
+msgid ""
+"Prefetches internal links when hovering over them. This can improve the "
+"perceived performance when navigating application, but also increases the "
+"load on the server as well as bandwidth usage."
+msgstr ""
+"内部リンクにホバーするとリンク先を先読みします。アプリ内の移動時の体感パフォーマンスが向上しますが、サーバーの負荷と帯域幅の使用量も増加します。"
+
+#: bookmarks/templates/settings/general.html:325
+msgid "Import"
+msgstr "インポート"
+
+#: bookmarks/templates/settings/general.html:327
+msgid ""
+"Import bookmarks and tags in the Netscape HTML format. This will execute a "
+"sync where new bookmarks are added and existing ones are updated."
+msgstr ""
+"Netscape HTML形式でブックマークとタグをインポートします。新しいブックマークが追加され、既存のものが更新される同期が実行されます。"
+
+#: bookmarks/templates/settings/general.html:342
+msgid "Import public bookmarks as shared"
+msgstr "公開ブックマークを共有としてインポート"
+
+#: bookmarks/templates/settings/general.html:345
+msgid ""
+"When importing bookmarks from a service that supports marking bookmarks as "
+"public or private (using the <code>PRIVATE</code> attribute), enabling this "
+"option will import all bookmarks that are marked as not private as shared "
+"bookmarks. Otherwise, all bookmarks will be imported as private bookmarks."
+msgstr ""
+"ブックマークを公開または非公開としてマークできるサービス（<code>PRIVATE</code>属性を使用）からインポートする場合、このオプションを有効にすると、非公開としてマークされていないすべてのブックマークが共有ブックマークとしてインポートされます。それ以外の場合は、すべてのブックマークが非公開ブックマークとしてインポートされます。"
+
+#: bookmarks/templates/settings/general.html:358
+msgid "Upload"
+msgstr "アップロード"
+
+#: bookmarks/templates/settings/general.html:365
+msgid "Export"
+msgstr "エクスポート"
+
+#: bookmarks/templates/settings/general.html:366
+msgid "Export all bookmarks in Netscape HTML format."
+msgstr "すべてのブックマークをNetscape HTML形式でエクスポートします。"
+
+#: bookmarks/templates/settings/general.html:369
+msgid "Download (.html)"
+msgstr "ダウンロード（.html）"
+
+#: bookmarks/templates/settings/general.html:378
+msgid "About"
+msgstr "このアプリについて"
+
+#: bookmarks/templates/settings/general.html:382
+msgid "Version"
+msgstr "バージョン"
+
+#: bookmarks/templates/settings/general.html:386
+msgid "Links"
+msgstr "リンク"
+
+#: bookmarks/templates/settings/general.html:390
+msgid "Documentation"
+msgstr "ドキュメント"
+
+#: bookmarks/templates/settings/general.html:392
+msgid "Changelog"
+msgstr "変更履歴"
+
+#: bookmarks/templates/settings/integrations.html:4
+msgid "Integrations - Linkding"
+msgstr "連携 - Linkding"
+
+#: bookmarks/templates/settings/integrations.html:8
+#: bookmarks/templates/shared/nav_menu.html:38
+#: bookmarks/templates/shared/nav_menu.html:98
+msgid "Integrations"
+msgstr "連携"
+
+#: bookmarks/templates/settings/integrations.html:10
+msgid "Browser Extension"
+msgstr "ブラウザ拡張機能"
+
+#: bookmarks/templates/settings/integrations.html:12
+msgid ""
+"The browser extension allows you to quickly add new bookmarks without "
+"leaving the page that you are on. The extension is available in the official"
+" extension stores for:"
+msgstr ""
+"ブラウザ拡張機能を使用すると、現在のページを離れることなく新しいブックマークをすばやく追加できます。拡張機能は以下の公式ストアで入手できます："
+
+#: bookmarks/templates/settings/integrations.html:28
+msgid ""
+"The extension is <a href=\"https://github.com/sissbruecker/linkding-"
+"extension\" target=\"_blank\">open source</a> as well, which enables you to "
+"build and manually load it into any browser that supports Chrome extensions."
+msgstr ""
+"拡張機能は<a href=\"https://github.com/sissbruecker/linkding-extension\" "
+"target=\"_blank\">オープンソース</a>でもあるため、Chrome拡張機能をサポートする任意のブラウザにビルドして手動で読み込むこともできます。"
+
+#: bookmarks/templates/settings/integrations.html:34
+msgid "Bookmarklet"
+msgstr "ブックマークレット"
+
+#: bookmarks/templates/settings/integrations.html:36
+msgid ""
+"The bookmarklet is an alternative, cross-browser way to quickly add new "
+"bookmarks without opening the linkding application first. Here's how it "
+"works:"
+msgstr ""
+"ブックマークレットは、linkdingアプリを先に開かずに新しいブックマークをすばやく追加できる、クロスブラウザ対応の代替手段です。使い方は以下のとおりです："
+
+#: bookmarks/templates/settings/integrations.html:43
+msgid ""
+"Choose your preferred method for detecting website titles and descriptions "
+"below (<a href=\"https://linkding.link/troubleshooting/#automatically-"
+"detected-title-and-description-are-incorrect\" target=\"_blank\">Help</a>)"
+msgstr ""
+"以下からウェブサイトのタイトルと説明を検出する方法を選択してください（<a "
+"href=\"https://linkding.link/troubleshooting/#automatically-detected-title-"
+"and-description-are-incorrect\" target=\"_blank\">ヘルプ</a>）"
+
+#: bookmarks/templates/settings/integrations.html:48
+msgid "Drag the bookmarklet below into your browser's bookmark bar / toolbar"
+msgstr "以下のブックマークレットをブラウザのブックマークバー／ツールバーにドラッグします"
+
+#: bookmarks/templates/settings/integrations.html:49
+msgid "Open the website that you want to bookmark"
+msgstr "ブックマークしたいウェブサイトを開きます"
+
+#: bookmarks/templates/settings/integrations.html:50
+msgid "Click the bookmarklet in your browser's toolbar"
+msgstr "ブラウザのツールバーのブックマークレットをクリックします"
+
+#: bookmarks/templates/settings/integrations.html:51
+msgid ""
+"linkding opens in a new window or tab and allows you to add a bookmark for "
+"the site"
+msgstr "linkdingが新しいウィンドウまたはタブで開き、サイトのブックマークを追加できます"
+
+#: bookmarks/templates/settings/integrations.html:52
+msgid ""
+"After saving the bookmark, the linkding window closes, and you are back on "
+"your website"
+msgstr "ブックマークを保存するとlinkdingのウィンドウが閉じ、元のウェブサイトに戻ります"
+
+#: bookmarks/templates/settings/integrations.html:57
+msgid "Choose your preferred bookmarklet:"
+msgstr "使用するブックマークレットを選択："
+
+#: bookmarks/templates/settings/integrations.html:65
+msgid "Detect title and description on the server"
+msgstr "サーバーでタイトルと説明を検出"
+
+#: bookmarks/templates/settings/integrations.html:73
+msgid "Detect title and description in the browser"
+msgstr "ブラウザでタイトルと説明を検出"
+
+#: bookmarks/templates/settings/integrations.html:80
+#: bookmarks/templates/settings/integrations.html:85
+#: bookmarks/templates/shared/nav_menu.html:6
+#: bookmarks/templates/shared/nav_menu.html:58 bookmarks/views/manifest.py:58
+msgid "Add bookmark"
+msgstr "ブックマークを追加"
+
+#: bookmarks/templates/settings/integrations.html:114
+msgid "REST API"
+msgstr "REST API"
+
+#: bookmarks/templates/settings/integrations.html:119
+msgid "Copy this token now, it will only be shown once:"
+msgstr "このトークンは一度しか表示されないため、今すぐコピーしてください："
+
+#: bookmarks/templates/settings/integrations.html:121
+msgid "New token key"
+msgstr "新しいトークンキー"
+
+#: bookmarks/templates/settings/integrations.html:127
+#: bookmarks/templates/settings/integrations.html:177
+msgid "Copy"
+msgstr "コピー"
+
+#: bookmarks/templates/settings/integrations.html:132
+msgid ""
+"API tokens can be used to authenticate 3rd-party applications against the "
+"REST API. <strong>Please treat tokens as you would any other "
+"credential.</strong> Any party with access to a token can access and manage "
+"all your bookmarks."
+msgstr ""
+"APIトークンは、サードパーティアプリケーションをREST "
+"APIに対して認証するために使用できます。<strong>トークンは他の認証情報と同様に扱ってください。</strong>トークンにアクセスできる者は誰でも、すべてのブックマークにアクセスして管理できます。"
+
+#: bookmarks/templates/settings/integrations.html:146
+msgid "Created"
+msgstr "作成日"
+
+#: bookmarks/templates/settings/integrations.html:173
+msgid "Create API token"
+msgstr "APIトークンを作成"
+
+#: bookmarks/templates/settings/integrations.html:176
+msgid "Copied!"
+msgstr "コピーしました"
+
+#: bookmarks/templates/settings/integrations.html:200
+msgid "RSS Feeds"
+msgstr "RSSフィード"
+
+#: bookmarks/templates/settings/integrations.html:201
+msgid "The following URLs provide RSS feeds for your bookmarks:"
+msgstr "以下のURLでブックマークのRSSフィードを取得できます："
+
+#: bookmarks/templates/settings/integrations.html:215
+msgid ""
+"The public shared feed does not contain an authentication token and can be "
+"shared with other people. Only shows shared bookmarks from users who have "
+"explicitly enabled public sharing."
+msgstr ""
+"公開共有フィードには認証トークンが含まれないため、他の人と共有できます。公開共有を明示的に有効にしたユーザーの共有ブックマークのみが表示されます。"
+
+#: bookmarks/templates/settings/integrations.html:218
+msgid "Feed URLs support the following URL parameters:"
+msgstr "フィードURLは以下のURLパラメータに対応しています："
+
+#: bookmarks/templates/settings/integrations.html:221
+msgid ""
+"A <code>limit</code> parameter for specifying the maximum number of "
+"bookmarks to include in the feed. By default, only the latest 100 matching "
+"bookmarks are included."
+msgstr ""
+"フィードに含めるブックマークの最大数を指定する<code>limit</code>パラメータ。デフォルトでは最新の一致するブックマーク100件のみが含まれます。"
+
+#: bookmarks/templates/settings/integrations.html:227
+msgid ""
+"A <code>q</code> URL parameter for specifying a search query. You can get an"
+" example by doing a search in the bookmarks view and then copying the "
+"parameter from the URL."
+msgstr ""
+"検索クエリを指定する<code>q</code>URLパラメータ。ブックマークビューで検索してからURLのパラメータをコピーすると例が得られます。"
+
+#: bookmarks/templates/settings/integrations.html:233
+msgid ""
+"An <code>unread</code> parameter for filtering for unread or read bookmarks."
+" Use <code>yes</code> for unread bookmarks and <code>no</code> for read "
+"bookmarks."
+msgstr ""
+"未読または既読のブックマークを絞り込む<code>unread</code>パラメータ。未読には<code>yes</code>、既読には<code>no</code>を使用します。"
+
+#: bookmarks/templates/settings/integrations.html:239
+msgid ""
+"A <code>shared</code> parameter for filtering for shared or unshared "
+"bookmarks. Use <code>yes</code> for shared bookmarks and <code>no</code> for"
+" unshared bookmarks."
+msgstr ""
+"共有または非共有のブックマークを絞り込む<code>shared</code>パラメータ。共有には<code>yes</code>、非共有には<code>no</code>を使用します。"
+
+#: bookmarks/templates/settings/integrations.html:245
+msgid ""
+"A <code>user</code> parameter for filtering bookmarks by user name. Only "
+"applies to the shared bookmark feeds."
+msgstr "ユーザー名でブックマークを絞り込む<code>user</code>パラメータ。共有ブックマークフィードにのみ適用されます。"
+
+#: bookmarks/templates/settings/integrations.html:252
+#, python-format
+msgid ""
+"<strong>Please note that these URLs include an authentication token that "
+"should be treated like any other credential.</strong> Any party with access "
+"to these URLs can read all your bookmarks. If you think that a URL was "
+"compromised you can delete the feed token for your user in the <a "
+"target=\"_blank\" href=\"%(feed_token_admin_url)s\">admin panel</a>. After "
+"deleting the feed token, new URLs will be generated when you reload this "
+"settings page."
+msgstr ""
+"<strong>これらのURLには認証トークンが含まれるため、他の認証情報と同様に扱ってください。</strong>これらのURLにアクセスできる人は誰でもすべてのブックマークを閲覧できます。URLが漏洩したと思われる場合は、<a"
+" target=\"_blank\" "
+"href=\"%(feed_token_admin_url)s\">管理パネル</a>で自分のユーザーのフィードトークンを削除できます。フィードトークンを削除すると、この設定ページを再読み込みしたときに新しいURLが生成されます。"
+
+#: bookmarks/templates/shared/head.html:24 bookmarks/views/manifest.py:10
+msgid "Self-hosted bookmark service"
+msgstr "セルフホスト型ブックマークサービス"
+
+#: bookmarks/templates/shared/layout.html:6
+msgid "Are you sure?"
+msgstr "本当に実行しますか？"
+
+#: bookmarks/templates/shared/layout.html:8
+msgid "Confirm"
+msgstr "確認"
+
+#: bookmarks/templates/shared/layout.html:10
+#: bookmarks/templates/shared/modal_header.html:6
+msgid "Close dialog"
+msgstr "ダイアログを閉じる"
+
+#: bookmarks/templates/shared/layout.html:37
+msgid "Application logo"
+msgstr "アプリケーションロゴ"
+
+#: bookmarks/templates/shared/nav_menu.html:8
+#: bookmarks/templates/shared/nav_menu.html:75
+#: bookmarks/templates/tags/index.html:87 bookmarks/views/contexts.py:269
+msgid "Bookmarks"
+msgstr "ブックマーク"
+
+#: bookmarks/templates/shared/nav_menu.html:11
+msgid "Active"
+msgstr "アクティブ"
+
+#: bookmarks/templates/shared/nav_menu.html:27
+#: bookmarks/templates/shared/nav_menu.html:91 bookmarks/views/manifest.py:70
+msgid "Untagged"
+msgstr "タグなし"
+
+#: bookmarks/templates/shared/nav_menu.html:35
+msgid "General"
+msgstr "一般"
+
+#: bookmarks/templates/shared/nav_menu.html:42
+#: bookmarks/templates/shared/nav_menu.html:102
+msgid "Admin"
+msgstr "管理"
+
+#: bookmarks/templates/shared/nav_menu.html:52
+#: bookmarks/templates/shared/nav_menu.html:112
+msgid "Logout"
+msgstr "ログアウト"
+
+#: bookmarks/templates/shared/nav_menu.html:66
+msgid "Navigation menu"
+msgstr "ナビゲーションメニュー"
+
+#: bookmarks/templates/shared/nav_menu.html:78 bookmarks/views/contexts.py:277
+msgid "Archived bookmarks"
+msgstr "アーカイブ済みブックマーク"
+
+#: bookmarks/templates/shared/pagination.html:7
+#: bookmarks/templates/shared/pagination.html:11
+msgid "Previous"
+msgstr "前へ"
+
+#: bookmarks/templates/shared/pagination.html:29
+#: bookmarks/templates/shared/pagination.html:33
+msgid "Next"
+msgstr "次へ"
+
+#: bookmarks/templates/tags/edit.html:13
+msgid "Edit Tag"
+msgstr "タグを編集"
+
+#: bookmarks/templates/tags/form.html:6
+msgid ""
+"Tag names are case-insensitive and cannot contain spaces (spaces will be "
+"replaced with hyphens)."
+msgstr "タグ名は大文字と小文字を区別せず、スペースを含めることはできません（スペースはハイフンに置き換えられます）。"
+
+#: bookmarks/templates/tags/index.html:4
+msgid "Tags - Linkding"
+msgstr "タグ - Linkding"
+
+#: bookmarks/templates/tags/index.html:15 bookmarks/templates/tags/new.html:13
+msgid "Create Tag"
+msgstr "タグを作成"
+
+#: bookmarks/templates/tags/index.html:18
+#: bookmarks/templates/tags/merge.html:13
+#: bookmarks/templates/tags/merge.html:48
+msgid "Merge Tags"
+msgstr "タグを統合"
+
+#: bookmarks/templates/tags/index.html:27
+msgid "Search tags"
+msgstr "タグを検索"
+
+#: bookmarks/templates/tags/index.html:33
+msgid "Search tags..."
+msgstr "タグを検索..."
+
+#: bookmarks/templates/tags/index.html:47
+msgid "Name A-Z"
+msgstr "名前 A-Z"
+
+#: bookmarks/templates/tags/index.html:48
+msgid "Name Z-A"
+msgstr "名前 Z-A"
+
+#: bookmarks/templates/tags/index.html:49
+msgid "Fewest bookmarks"
+msgstr "ブックマークが少ない順"
+
+#: bookmarks/templates/tags/index.html:50
+msgid "Most bookmarks"
+msgstr "ブックマークが多い順"
+
+#: bookmarks/templates/tags/index.html:61
+msgid "Show only unused tags"
+msgstr "未使用のタグのみ表示"
+
+#: bookmarks/templates/tags/index.html:69
+#, python-format
+msgid "Showing %(count)s of %(total_tags)s tags"
+msgstr "%(total_tags)s件中%(count)s件のタグを表示"
+
+#: bookmarks/templates/tags/index.html:73
+#, python-format
+msgid "%(total_tags)s tags total"
+msgstr "タグ合計%(total_tags)s件"
+
+#: bookmarks/templates/tags/index.html:123
+msgid "No tags found"
+msgstr "タグが見つかりません"
+
+#: bookmarks/templates/tags/index.html:124
+msgid "Try adjusting your search or filters"
+msgstr "検索条件やフィルターを調整してみてください"
+
+#: bookmarks/templates/tags/index.html:126
+msgid "You have no tags yet"
+msgstr "タグがまだありません"
+
+#: bookmarks/templates/tags/index.html:127
+msgid "Tags will appear here when you add bookmarks with tags"
+msgstr "タグ付きのブックマークを追加すると、ここにタグが表示されます"
+
+#: bookmarks/templates/tags/merge.html:17
+msgid "How to merge tags"
+msgstr "タグの統合方法"
+
+#: bookmarks/templates/tags/merge.html:20
+msgid "Enter the name of the tag you want to keep"
+msgstr "残したいタグの名前を入力"
+
+#: bookmarks/templates/tags/merge.html:21
+msgid "Enter the names of tags to merge into the target tag"
+msgstr "統合先のタグに統合するタグの名前を入力"
+
+#: bookmarks/templates/tags/merge.html:22
+msgid ""
+"The target tag is added to all bookmarks that have any of the merge tags"
+msgstr "統合対象タグのいずれかを持つすべてのブックマークに、統合先のタグが追加されます"
+
+#: bookmarks/templates/tags/merge.html:23
+msgid "The merged tags are deleted"
+msgstr "統合されたタグは削除されます"
+
+#: bookmarks/templates/tags/merge.html:27
+msgid "Target tag"
+msgstr "統合先タグ"
+
+#: bookmarks/templates/tags/merge.html:30
+msgid ""
+"Enter the name of the tag you want to keep. The tags entered below will be "
+"merged into this one."
+msgstr "残したいタグの名前を入力します。以下で入力したタグはこのタグに統合されます。"
+
+#: bookmarks/templates/tags/merge.html:35
+msgid "Tags to merge"
+msgstr "統合するタグ"
+
+#: bookmarks/templates/tags/merge.html:38
+msgid ""
+"Enter the names of tags to merge into the target tag, separated by spaces. "
+"These tags will be deleted after merging."
+msgstr "統合先のタグに統合するタグの名前をスペース区切りで入力します。これらのタグは統合後に削除されます。"
+
+#: bookmarks/utils.py:26
+msgid "Monday"
+msgstr "月曜日"
+
+#: bookmarks/utils.py:27
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: bookmarks/utils.py:28
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: bookmarks/utils.py:29
+msgid "Thursday"
+msgstr "木曜日"
+
+#: bookmarks/utils.py:30
+msgid "Friday"
+msgstr "金曜日"
+
+#: bookmarks/utils.py:31
+msgid "Saturday"
+msgstr "土曜日"
+
+#: bookmarks/utils.py:32
+msgid "Sunday"
+msgstr "日曜日"
+
+#: bookmarks/utils.py:76 bookmarks/utils.py:105
+msgid "Today"
+msgstr "今日"
+
+#: bookmarks/utils.py:78 bookmarks/utils.py:107
+msgid "Yesterday"
+msgstr "昨日"
+
+#: bookmarks/utils.py:91
+#, python-format
+msgid "%(count)d year ago"
+msgid_plural "%(count)d years ago"
+msgstr[0] "%(count)d年前"
+
+#: bookmarks/utils.py:95
+#, python-format
+msgid "%(count)d month ago"
+msgid_plural "%(count)d months ago"
+msgstr[0] "%(count)dヶ月前"
+
+#: bookmarks/utils.py:99
+#, python-format
+msgid "%(count)d week ago"
+msgid_plural "%(count)d weeks ago"
+msgstr[0] "%(count)d週間前"
+
+#: bookmarks/views/bookmarks.py:61
+msgid "Bookmarks - Linkding"
+msgstr "ブックマーク - Linkding"
+
+#: bookmarks/views/bookmarks.py:100
+msgid "Archived bookmarks - Linkding"
+msgstr "アーカイブ済みブックマーク - Linkding"
+
+#: bookmarks/views/bookmarks.py:137
+msgid "Shared bookmarks - Linkding"
+msgstr "共有ブックマーク - Linkding"
+
+#: bookmarks/views/bookmarks.py:161
+msgid "Bookmark details - Linkding"
+msgstr "ブックマークの詳細 - Linkding"
+
+#: bookmarks/views/bundles.py:32
+#, python-format
+msgid "Bundle '%(name)s' removed successfully."
+msgstr "バンドル「%(name)s」を削除しました。"
+
+#: bookmarks/views/bundles.py:68
+msgid "Bundle saved successfully."
+msgstr "バンドルを保存しました。"
+
+#: bookmarks/views/contexts.py:156
+msgid "View latest snapshot"
+msgstr "最新のスナップショットを表示"
+
+#: bookmarks/views/contexts.py:160
+msgid "View snapshot on the Internet Archive Wayback Machine"
+msgstr "Internet Archive Wayback Machineでスナップショットを表示"
+
+#: bookmarks/views/settings.py:77
+msgid "Global settings updated"
+msgstr "グローバル設定を更新しました"
+
+#: bookmarks/views/settings.py:83
+msgid "Scheduled favicon update. This may take a while..."
+msgstr "ファビコンの更新をスケジュールしました。しばらく時間がかかる場合があります..."
+
+#: bookmarks/views/settings.py:91
+#, python-format
+msgid "Queued %(count)d missing snapshots. This may take a while..."
+msgstr "不足しているスナップショット%(count)d件をキューに追加しました。しばらく時間がかかる場合があります..."
+
+#: bookmarks/views/settings.py:98
+msgid "No missing snapshots found."
+msgstr "不足しているスナップショットは見つかりませんでした。"
+
+#: bookmarks/views/settings.py:113
+msgid "Profile updated"
+msgstr "プロフィールを更新しました"
+
+#: bookmarks/views/settings.py:125
+msgid "Profile update failed, check the form below for errors"
+msgstr "プロフィールの更新に失敗しました。以下のフォームでエラーを確認してください"
+
+#: bookmarks/views/settings.py:221
+#, python-format
+msgid "API token \"%(name)s\" created successfully"
+msgstr "APIトークン「%(name)s」を作成しました"
+
+#: bookmarks/views/settings.py:239
+#, python-format
+msgid "API token \"%(name)s\" has been deleted."
+msgstr "APIトークン「%(name)s」を削除しました。"
+
+#: bookmarks/views/settings.py:255
+msgid "Please select a file to import."
+msgstr "インポートするファイルを選択してください。"
+
+#: bookmarks/views/settings.py:262
+#, python-format
+msgid "%(count)s bookmarks were successfully imported."
+msgstr "ブックマーク%(count)s件をインポートしました。"
+
+#: bookmarks/views/settings.py:268
+#, python-format
+msgid ""
+"%(count)s bookmarks could not be imported. Please check the logs for more "
+"details."
+msgstr "ブックマーク%(count)s件をインポートできませんでした。詳細はログを確認してください。"
+
+#: bookmarks/views/settings.py:275
+msgid "An error occurred during bookmark import."
+msgstr "ブックマークのインポート中にエラーが発生しました。"
+
+#: bookmarks/views/settings.py:304
+msgid "An error occurred during bookmark export."
+msgstr "ブックマークのエクスポート中にエラーが発生しました。"
+
+#: bookmarks/views/tags.py:75
+#, python-format
+msgid "Tag \"%(name)s\" created successfully."
+msgstr "タグ「%(name)s」を作成しました。"
+
+#: bookmarks/views/tags.py:158
+#, python-format
+msgid "Successfully merged %(count)d tags (%(tags)s) into \"%(target)s\"."
+msgstr "%(count)d件のタグ（%(tags)s）を「%(target)s」に統合しました。"
